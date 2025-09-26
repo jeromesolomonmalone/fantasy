@@ -1,1 +1,1 @@
-https://jeromesolomonmalone.github.io/nba-draft/
+# slam-gallery
