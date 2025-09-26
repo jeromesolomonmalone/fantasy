@@ -4,259 +4,152 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light dark" />
-    <title>NBA Draft</title>
+    <title>SLAM</title>
     <meta
       name="description"
-      content="Draft player ratings and statistics for last season"
+      content="SLAM's has been the Holy Grail for basketball players since '94. Scroll through here for everyone of covers, or use the search bar or filter tool to find specific."
     />
     <meta
       property="og:url"
-      content="https://jeromesolomonmalone.github.io/nba-draft/"
+      content="https://jeromesolomonmalone.github.io/slam-gallery/"
     />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="NBA Draft" />
+    <meta property="og:title" content="SLAM" />
     <meta
       property="og:description"
-      content="Draft player ratings and statistics for last season"
+      content="SLAM's has been the Holy Grail for basketball players since '94. Scroll through here for everyone of covers, or use the search bar or filter tool to find specific."
     />
     <meta
       property="og:image"
-      content="https://jeromesolomonmalone.github.io/nba-draft/images/twitter-image.jpg"
+      content="https://jeromesolomonmalone.github.io/slam-gallery/images/twitter-image.jpg"
     />
     <meta
       property="og:image:secure_url"
-      content="https://jeromesolomonmalone.github.io/nba-draft/images/twitter-image.jpg"
+      content="https://jeromesolomonmalone.github.io/slam-gallery/images/twitter-image.jpg"
     />
-    <meta property="og:site_name" content="NBA Draft" />
+    <meta property="og:site_name" content="SLAM" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="NBA Draft" />
+    <meta name="twitter:title" content="SLAM" />
     <meta
       name="twitter:description"
-      content="Draft player ratings and statistics for last season"
+      content="SLAM's has been the Holy Grail for basketball players since '94. Scroll through here for everyone of covers, or use the search bar or filter tool to find specific."
     />
     <meta
       name="twitter:image"
-      content="https://jeromesolomonmalone.github.io/nba-draft/images/twitter-image.jpg"
+      content="https://jeromesolomonmalone.github.io/slam-gallery/images/twitter-image.jpg"
     />
     <link rel="icon" href="./images/favicon.png" sizes="any" />
     <link rel="apple-touch-icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
     <header class="header">
-      <h1 class="title">Draft</h1>
-      <div class="filters">
-        <div class="search">
-          <svg
-            class="search_icon"
-            width="16"
-            height="16"
-            data-icon="search"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M9 3a6 6 0 1 0 0 12A6 6 0 0 0 9 3m13.713 19.713a.992.992 0 0 1-1.404 0l-7.404-7.404A7.959 7.959 0 0 1 9 17a8 8 0 1 1 8-8c0 1.85-.634 3.55-1.69 4.905l7.403 7.404a.987.987 0 0 1 0 1.403"
-            />
-          </svg>
-          <input class="search_input" id="input" type="text" />
-          <button class="search_clear">
-            <svg
-              width="16"
-              height="16"
-              data-icon="decline-fill"
-              viewBox="0 0 48 48"
-            >
-              <path
-                d="M24 1C11.3 1 1 11.3 1 24s10.3 23 23 23 23-10.3 23-23S36.7 1 24 1zm9.8 32.8c-.9.9-2.2.9-3.1 0L24 27l-6.8 6.8c-.9.9-2.2.9-3.1 0s-.9-2.2 0-3.1l6.8-6.8-6.7-6.7c-.9-.9-.9-2.2 0-3.1.9-.9 2.2-.9 3.1 0l6.7 6.7 6.7-6.7c.9-.9 2.2-.9 3.1 0 .9.9.9 2.2 0 3.1l-6.7 6.7 6.7 6.8c.9.9.9 2.3 0 3.1z"
-              />
-            </svg>
-          </button>
-        </div>
-        <div class="filter_teams filter">
-          <div class="filter_header">
-            <p class="filter_title"></p>
-            <svg
-              width="20"
-              height="20"
-              data-icon="caret-down"
-              viewBox="0 0 48 48"
-            >
-              <path
-                d="m24.21 33.173 12.727-12.728c.78-.78.78-2.048 0-2.828a2.001 2.001 0 0 0-2.828 0l-9.9 9.9-9.9-9.9a2 2 0 0 0-2.827 2.828L24.21 33.173z"
-              />
-            </svg>
-          </div>
-          <select class="select_teams select">
-            <option value="NBA" selected>NBA</option>
-          </select>
-        </div>
-        <div class="filter_positions filter">
-          <div class="filter_header">
-            <p class="filter_title"></p>
-            <svg
-              width="20"
-              height="20"
-              data-icon="caret-down"
-              viewBox="0 0 48 48"
-            >
-              <path
-                d="m24.21 33.173 12.727-12.728c.78-.78.78-2.048 0-2.828a2.001 2.001 0 0 0-2.828 0l-9.9 9.9-9.9-9.9a2 2 0 0 0-2.827 2.828L24.21 33.173z"
-              />
-            </svg>
-          </div>
-          <select class="select_positions select">
-            <option value="ALL" selected>ALL</option>
-          </select>
+      <div class="animation_wrapper">
+        <div class="animation_list"></div>
+        <div class="animation_title">
+          <h1><span class="">Slam</span>Gallery</h1>
+          <p>
+            SLAM's has been the Holy Grail for basketball players since '94.
+            Scroll through here for everyone of covers, or use the search bar or
+            filter tool to find specific.
+          </p>
+          <img
+            src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60e41260242bc454c9d86589_arrow-down.svg"
+            alt
+          />
         </div>
       </div>
     </header>
     <main class="main">
-      <table class="table">
-        <thead>
-          <tr>
-            <th colspan="2">Fantasy</th>
-            <th colspan="2">Games</th>
-            <th colspan="2">Field Goals & FT</th>
-            <th colspan="2">Three Points</th>
-            <th colspan="8">Misc</th>
-          </tr>
-          <tr class="second_line">
-            <th title="Player">Player</th>
-          </tr>
-        </thead>
-        <tbody class="table_body">
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td colspan="16">
-              <div></div>
-            </td>
-          </tr>
-          <tr class="loading-row">
-            <td class="last-loader-td" colspan="16">
-              <div></div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <p class="counting_rows"></p>
-    </main>
-    <footer></footer>
-    <template id="table_header">
-      <th class="table_header_row has-button">
-        <div class="table_header_wrapper">
-          <button class="table_header_button"></button>
-        </div>
-      </th>
-    </template>
-    <template id="player_row">
-      <tr class="table_row">
-        <td>
-          <div class="player_head">
-            <div class="player_photo_wrapper">
-              <img class="player_photo" src="" alt="" />
-            </div>
-            <div class="player_head_right">
-              <p class="player_name"></p>
-              <p class="player_head_down">
-                <span class="player_club"></span>
-                <span> - </span>
-                <span class="player_position"></span>
-              </p>
-            </div>
+      <div class="navigation">
+        <button class="home_button">
+          <img
+            class=""
+            src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60c7fd29ddb4c2ef6a9b2f97_slam.svg"
+            alt="Логотип SLAM"
+          />
+        </button>
+        <div class="search-filter">
+          <div class="search_wrapper">
+            <input class="search" id="input" type="text" maxlength="256" />
+            <img
+              class="search_img"
+              src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60c7fd29ddb4c284ae9b2f98_search.svg"
+              alt
+            />
           </div>
-        </td>
-        <td class="player_rank"></td>
-        <td class="player_games"></td>
-        <td class="player_minutes"></td>
-        <td class="player_fg"></td>
-        <td class="player_ft"></td>
-        <td class="player_3pm"></td>
-        <td class="player_3p"></td>
-        <td class="player_pts"></td>
-        <td class="player_reb"></td>
-        <td class="player_ast"></td>
-        <td class="player_stl"></td>
-        <td class="player_blk"></td>
-        <td class="player_to"></td>
-        <td class="player_dd"></td>
-        <td class="player_td"></td>
-      </tr>
+          <div class="filter">
+            <p>Show Filter</p>
+            <img
+              class="filter_img"
+              src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60cbf535baeefb2431aec1c6_filter.svg"
+              alt
+            />
+          </div>
+        </div>
+      </div>
+      <div class="main_container">
+        <div class="main_wrapper">
+          <div class="covers_list"></div>
+          <div class="empty-message">
+            <img
+              src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60cd1223a37da5db12d94460_unhappy-emoji.svg"
+              alt
+            />
+            <p>Oops! Nothing matched your query<br />Please try again.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <img
+        class="footer_img"
+        src="https://slamonline.com/wp-content/uploads/2025/09/SLAM-covers.jpg"
+        alt="Footer Background Image"
+      />
+      <div class="footer_main">
+        <img
+          class="footer_logo"
+          src="https://slamonline.com/wp-content/uploads/2023/03/SLAM_Logo_White_RGB-scaled.png"
+          alt="Footer Logo"
+        />
+      </div>
+    </footer>
+    <div class="popup navigation-popup">
+      <div class="popup-content">
+        <div class="close">
+          <img
+            src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60d0e346f3c868c00e0fc6b4_lb-close.svg"
+            alt
+          />
+        </div>
+        <div class="checkbox-containers"></div>
+      </div>
+    </div>
+    <div class="popup gallery-popup">
+      <div class="popup-content">
+        <p class="close">← Back</p>
+        <div class="gallery"></div>
+      </div>
+    </div>
+    <div class="popup slide-popup">
+      <p class="controls_button close"></p>
+      <p class="controls_button prev"></p>
+      <p class="controls_button next"></p>
+      <div class="popup-content">
+        <div class="slide_wrapper"></div>
+      </div>
+    </div>
+    <template id="cover-template">
+      <div class="covers_item">
+        <img class="cover_img" src="" alt="" />
+        <div class="cover_information">
+          <p class="cover_number"></p>
+          <p class="cover_title"></p>
+        </div>
+      </div>
     </template>
 
     <script src="./scripts/script.js"></script>

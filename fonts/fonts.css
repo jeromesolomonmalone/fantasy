@@ -1,32 +1,40 @@
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url(./HelveticaNeue-Roman.woff2) format("woff2"),
-    url(./HelveticaNeue-Roman.woff) format("woff"),
-    url(./HelveticaNeue-Roman.ttf) format("truetype"),
-    url(./HelveticaNeue-Roman.otf) format("opentype"),
-    url(./HelveticaNeue-Roman.eot) format("embedded-opentype");
+  font-family: "span";
+  src: url(./span.otf) format("opentype");
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url(./HelveticaNeue-Medium.woff2) format("woff2"),
-    url(./HelveticaNeue-Medium.woff) format("woff"),
-    url(./HelveticaNeue-Medium.ttf) format("truetype"),
-    url(./HelveticaNeue-Medium.otf) format("opentype"),
-    url(./HelveticaNeue-Medium.eot) format("embedded-opentype");
-  font-weight: 500;
+  font-family: "span";
+  src: url(./span-bold.otf) format("opentype");
+  font-weight: 700;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url(./HelveticaNeue-Bold.woff2) format("woff2"),
-    url(./HelveticaNeue-Bold.woff) format("woff"),
-    url(./HelveticaNeue-Bold.ttf) format("truetype"),
-    url(./HelveticaNeue-Bold.otf) format("opentype"),
-    url(./HelveticaNeue-Bold.eot) format("embedded-opentype");
+  font-family: "Bodytextlarge";
+  src: url(./Bodytextlarge.ttf) format("truetype");
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "europa";
+  src: url(./europa.woff2) format("woff2"), url(./europa.woff) format("woff"),
+    url(./europa.ttf) format("truetype"), url(./europa.otf) format("opentype"),
+    url(./europa.eot) format("embedded-opentype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Univers LT Std 63 Bold Extended";
+  src: url(./Univers-LT-Std-63-Bold-Extended.woff2) format("woff2"),
+    url(./Univers-LT-Std-63-Bold-Extended.woff) format("woff"),
+    url(./Univers-LT-Std-63-Bold-Extended.ttf) format("truetype"),
+    url(./Univers-LT-Std-63-Bold-Extended.otf) format("opentype"),
+    url(./Univers-LT-Std-63-Bold-Extended.eot) format("embedded-opentype");
   font-weight: 700;
   font-display: swap;
 }

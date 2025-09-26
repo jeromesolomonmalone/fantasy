@@ -1,938 +1,2558 @@
-const players = {
-  PG: {
-    "Shai Gilgeous-Alexander": {
-      name: "Shai Gilgeous-Alexander",
-      team: "Oklahoma City Thunder",
-      positions: "PG",
-      number: 2,
-      Rank: 5,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/NM9YlVt2szZ37mdvRAbu.g--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/6022.png",
-      lastSeasonStats: {
-        G: 76,
-        Min: "34:11",
-        "FG%": 51.9,
-        "FT%": 89.8,
-        "3PM": 163,
-        "3P%": 37.5,
-        Pts: 2484,
-        Reb: 379,
-        Ast: 486,
-        Stl: 131,
-        Blk: 77,
-        TO: 183,
-        DD: 6,
-        TD: 0,
+const covers = {
+  JalenWilliams: {
+    title: "Jalen Williams",
+    number: 258,
+    league: "NBA",
+    team: "Oklahoma City Thunder",
+    players: ["Jalen Williams"],
+    photos: {
+      main: {
+        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca928e40397736b149c7b2_SLAM-258-JALEN-WILLIAMS-COVER-1-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca928e40397736b149c7b2_SLAM-258-JALEN-WILLIAMS-COVER-1-scaled-p-500.avif",
       },
+      gallery: [
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca96bb8c6b5e4df8b1fd66_Slam_Jalen%20Williams_%20429.jpg",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca995d150c88395c483568_64.jpg",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca995d150c88395c483568_64-p-500.jpg",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99672155f1a5d04bff6f_97.jpg",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99672155f1a5d04bff6f_97-p-500.jpg",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99831c5fe3d29e640a6e_550.jpg",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99831c5fe3d29e640a6e_550-p-500.jpg",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a7d8c6b5e4df8b38fd3_376.jpg",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a7d8c6b5e4df8b38fd3_376-p-500.jpg",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a5c7c9198be34758121_364.jpg",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a5c7c9198be34758121_364-p-500.jpg",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9d5c3146a060d4c21701_198%20(1).jpg",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9d5c3146a060d4c21701_198%20(1)-p-500.jpg",
+        },
+        {
+          full: "https://sun9-20.userapi.com/s/v1/ig2/FbMQXXF-CqgnTuN2CTEEPAW2yW7kuuAqMDXHS9jEd-1tbWtIYO0QNjA7F_XXNeeO3QWG5hhyOooCCSgA9tFDaNE3.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350,1280x1600,1440x1800,2048x2560&from=bu&cs=2048x0",
+        },
+      ],
     },
-    "Cade Cunningham": {
-      name: "Cade Cunningham",
-      team: "Detroit Pistons",
-      positions: "PG, SG",
-      number: 2,
-      Rank: 7,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/exAtCyzmoTXFCkxoXiQ3Nw--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10282024/6512.png",
-      lastSeasonStats: {
-        G: 70,
-        Min: "35:02",
-        "FG%": 46.9,
-        "FT%": 84.6,
-        "3PM": 149,
-        "3P%": 35.6,
-        Pts: 1830,
-        Reb: 425,
-        Ast: 638,
-        Stl: 71,
-        Blk: 53,
-        TO: 309,
-        DD: 31,
-        TD: 9,
+  },
+  CooperFlagg: {
+    title: "Cooper Flagg",
+    number: 258,
+    league: "NBA",
+    team: "Dallas Mavericks",
+    players: ["Cooper Flagg"],
+    photos: {
+      main: {
+        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada4d00c6f84c1d0b8dea4_SLAM-258-COOPER-scaled.avif",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc462958d615bd50bea25_SLAM-258-COOPER-scaled-p-500.jpg",
       },
+      gallery: [
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada32c1c3be164da5cc813_Flagg-BG2-scaled.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5d1cd1cce8916b4bbb2_slam%20258%20cooper%20flagg4.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5d1cd1cce8916b4bbb2_slam%20258%20cooper%20flagg4-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5da32c909752298954b_slam%20258%20cooper%20flagg3.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5da32c909752298954b_slam%20258%20cooper%20flagg3-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6af3aa37359d7bd6af7_slam%20258%20cooper%20flagg6.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6af3aa37359d7bd6af7_slam%20258%20cooper%20flagg6-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada1d9b5cbcd93e1ba9abe_Flagg-BG-scaled.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada1d9b5cbcd93e1ba9abe_Flagg-BG-scaled-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68adab18c2b51d5e48ffdadf_slam%20258%20cooper%20flagg8.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68adab18c2b51d5e48ffdadf_slam%20258%20cooper%20flagg8-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6fbca8e93c67da482d8_slam%20258%20cooper%20flagg10.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6fbca8e93c67da482d8_slam%20258%20cooper%20flagg10-p-500.avif",
+        },
+      ],
     },
-    "Trae Young": {
-      name: "Trae Young",
-      team: "Atlanta Hawks",
-      positions: "PG, SG",
-      number: 11,
-      Rank: 11,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/39sAIkEEf6btOFqqQg5CGg--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10212024/6016.png",
-      lastSeasonStats: {
-        G: 76,
-        Min: "36:02",
-        "FG%": 41.1,
-        "FT%": 87.5,
-        "3PM": 218,
-        "3P%": 34.0,
-        Pts: 1841,
-        Reb: 236,
-        Ast: 880,
-        Stl: 91,
-        Blk: 12,
-        TO: 355,
-        DD: 51,
-        TD: 0,
+  },
+  KaylaThorntonTiffanyHayes: {
+    title: "Kayla Thornton & Tiffany Hayes",
+    number: 258,
+    league: "WNBA",
+    team: "Golden State Valkyries",
+    players: ["Kayla Thornton", "Tiffany Hayes"],
+    photos: {
+      main: {
+        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6896a03c36919faea4a8b4cf_WSLAM-Valkyries-1350-KP.avif",
+        thumb:
+          "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6896a03c36919faea4a8b4cf_WSLAM-Valkyries-1350-KP-p-500.avif",
       },
+      gallery: [
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895e6469d1f96a983d7716b_SLAM_Valkyries_JULY10202528620-scaled.jpg",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f086554bf9dd34ccd52e_gsv%20wslam7.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f086554bf9dd34ccd52e_gsv%20wslam7-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f091e77db277b0fb33c9_gsv%20wslam3.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f091e77db277b0fb33c9_gsv%20wslam3-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f0e34874a63d6e55c381_gsv%20wslam9.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f0e34874a63d6e55c381_gsv%20wslam9-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895eb49e0cffd29d1791c43_SLAM_Valkyries_JULY10202528686-scaled.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895eb49e0cffd29d1791c43_SLAM_Valkyries_JULY10202528686-scaled-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f061d8f9fdc10b7c9fb4_gsv%20wslam6.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f061d8f9fdc10b7c9fb4_gsv%20wslam6-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f0fc9dbfb4fddeea8545_gsv%20wslam2.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f0fc9dbfb4fddeea8545_gsv%20wslam2-p-500.avif",
+        },
+      ],
     },
-    "Jalen Brunson": {
-      name: "Jalen Brunson",
-      team: "New York Knicks",
-      positions: "PG",
-      number: 11,
-      Rank: 25,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/A75UGH33dHn5gDCCE6FcPQ--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/6044.png",
-      lastSeasonStats: {
-        G: 65,
-        Min: "35:24",
-        "FG%": 48.8,
-        "FT%": 82.1,
-        "3PM": 152,
-        "3P%": 38.3,
-        Pts: 1690,
-        Reb: 187,
-        Ast: 475,
-        Stl: 60,
-        Blk: 8,
-        TO: 164,
-        DD: 14,
-        TD: 0,
+  },
+  TyranStokes: {
+    title: "Tyran Stokes",
+    number: 258,
+    league: "College",
+    team: "Notre Dame",
+    players: ["Tyran Stokes"],
+    photos: {
+      main: {
+        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b2e39c1dfc1ba0827964_SLAM%20HS-STOKES-scaled.avif",
+        thumb:
+          "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b2e39c1dfc1ba0827964_SLAM%20HS-STOKES-scaled-p-500.avif",
       },
+      gallery: [
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b0552ce5211911a966c8_MUL_7573.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b52492aabedfae0174b3_ts%20digi%20cover10.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b52492aabedfae0174b3_ts%20digi%20cover10-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b52eb9efd80f80dece91_ts%20digi%20cover6.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b52eb9efd80f80dece91_ts%20digi%20cover6-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890bf8c24a7dba39715c630_ts%20digi%20cover11.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890bf8c24a7dba39715c630_ts%20digi%20cover11-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890bf1aec05e56f45273026_MUL_7744.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890bf546f0efc84d0176c14_ts%20digi%20cover18.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890bf546f0efc84d0176c14_ts%20digi%20cover18-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b56755b644223e84db52_ts%20digi%20cover17.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b56755b644223e84db52_ts%20digi%20cover17-p-500.avif",
+        },
+      ],
     },
-    "Stephen Curry": {
-      name: "Stephen Curry",
-      team: "Golden State Warriors",
-      positions: "PG",
-      number: 30,
-      Rank: 27,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/HrOwm_ISkIIGHo7ZycOR.g--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/4612.png",
-      lastSeasonStats: {
-        G: 70,
-        Min: "32:10",
-        "FG%": 44.8,
-        "FT%": 93.3,
-        "3PM": 311,
-        "3P%": 39.7,
-        Pts: 1718,
-        Reb: 310,
-        Ast: 421,
-        Stl: 80,
-        Blk: 30,
-        TO: 200,
-        DD: 9,
-        TD: 0,
+  },
+  AusarThompsonAmenThompson: {
+    title: "Ausar Thompson & Amen Thompson",
+    number: 257,
+    league: "NBA",
+    team: "Houston Rockets",
+    players: ["Amen Thompson", "Ausar Thompson"],
+    photos: {
+      main: {
+        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb0dff314abba5a908009_SLAM-257-THOMPSON-TWINS-scaled.avif",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc1c6e650d5fc1bfb1f03_SLAM-257-THOMPSON-TWINS-scaled-p-500.jpg",
       },
+      gallery: [
+        {
+          full: "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc37754c1137305eb3032_SLAM-257-AMEN-THOMPSON-scaled.jpg",
+          thumb:
+            "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc37754c1137305eb3032_SLAM-257-AMEN-THOMPSON-scaled-p-500.jpg",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc327ecb89de7bfe9a263_SLAM-257-AUSAR-THOMPSON-scaled.jpg",
+          thumb:
+            "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc327ecb89de7bfe9a263_SLAM-257-AUSAR-THOMPSON-scaled-p-500.jpg",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687f903b44a4fb9e6ec23009_Slam_Thompson%20Twins_Gym_%2019-scaled.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5c2a43a6c3432d76417_thompson%20twins%20slam%20cover6.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5c2a43a6c3432d76417_thompson%20twins%20slam%20cover6-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5cb4112c38ac3a8d937_thompson%20twins%20slam%20cover.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5cb4112c38ac3a8d937_thompson%20twins%20slam%20cover-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687f86b11aebc3a1012610f6_thompson%20twins%20slam%20cover12.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687f86b11aebc3a1012610f6_thompson%20twins%20slam%20cover12-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5f717d9d7dccec1a915_thompson%20twins%20slam%20cover13%20(1).avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5f717d9d7dccec1a915_thompson%20twins%20slam%20cover13%20(1)-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb62ca0ce2e0465d0ba86_thompson%20twins%20slam%20cover16.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb62ca0ce2e0465d0ba86_thompson%20twins%20slam%20cover16-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb66e098bc5ee955993f8_thompson%20twins%20slam%20cover7.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb66e098bc5ee955993f8_thompson%20twins%20slam%20cover7-p-500.avif",
+        },
+        {
+          full: "https://sun9-79.userapi.com/s/v1/ig2/KvOf2D9gjMszDt24sZvqxSjAACNFvbudDk4BNNHWbbvPzZ3YCWpPFT3UHbX2CMsbBqcaG0NHV9YL49zovLU1lbod.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
+        },
+      ],
     },
-    "Josh Giddey": {
-      name: "Josh Giddey",
-      team: "Chicago Bulls",
-      positions: "PG, SG",
-      number: 3,
-      Rank: 35,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/zGB0bnlJASY8MHH.3VhYkg--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10242024/6548.png",
-      lastSeasonStats: {
-        G: 70,
-        Min: "30:15",
-        "FG%": 46.5,
-        "FT%": 78.1,
-        "3PM": 105,
-        "3P%": 37.8,
-        Pts: 1022,
-        Reb: 566,
-        Ast: 503,
-        Stl: 84,
-        Blk: 45,
-        TO: 202,
-        DD: 30,
-        TD: 7,
+  },
+  NapheesaCollier: {
+    title: "Napheesa Collier",
+    number: 257,
+    league: "WNBA",
+    team: "Minnesota Lynx",
+    players: ["Napheesa Collier"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2025/06/SLAM-257-NAPHEESA-scaled-1-1638x2048.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc0e6edaee360c919620a_SLAM-257-NAPHEESA-scaled-p-500.jpg",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/06/phee8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/06/phee8-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/06/phee15.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/06/phee15-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/06/phee9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/06/phee9-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/06/phee5.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/06/phee5-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/06/phee.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/06/phee-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/06/phee3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/06/phee3-600x750.jpg",
+        },
+      ],
+    },
+  },
+  CameronCaydenBoozer: {
+    title: "Cameron & Cayden Boozer",
+    number: 257,
+    league: "College",
+    team: "Duke",
+    players: ["Cameron Boozer", "Cayden Boozer"],
+    photos: {
+      main: {
+        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6849fa9b265d13a0170273d7_DUKE-BOOZER-DIGITAL%20COVER-FINAL-scaled.avif",
+        thumb:
+          "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6849fa9b265d13a0170273d7_DUKE-BOOZER-DIGITAL%20COVER-FINAL-scaled-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6849dd0cfe52abeeff1b9182_20250513-SLAM-Boozer-1002%20copy.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6849dd0cfe52abeeff1b9182_20250513-SLAM-Boozer-1002%20copy-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0ae1baed6b2090b61d14_boozer%20twins%20slam%20u11.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0ae1baed6b2090b61d14_boozer%20twins%20slam%20u11-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0af6b1c48d2ac0854ca5_boozer%20twins%20slam%20u9.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0af6b1c48d2ac0854ca5_boozer%20twins%20slam%20u9-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0c215876cc9b4f02e1c6_boozer%20twins%20slam%20u5.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0c215876cc9b4f02e1c6_boozer%20twins%20slam%20u5-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0c94c95d72af5be85f8c_boozer%20twins%20slam%20u8.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0c94c95d72af5be85f8c_boozer%20twins%20slam%20u8-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0cbfe9432f8b903144cb_boozer%20twins%20slam%20u13.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0cbfe9432f8b903144cb_boozer%20twins%20slam%20u13-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0cdc10d307677ef52a37_boozer%20twins%20slam%20u7.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0cdc10d307677ef52a37_boozer%20twins%20slam%20u7-p-500.avif",
+        },
+      ],
+    },
+  },
+  NatashaCloud: {
+    title: "Natasha Cloud",
+    number: 256,
+    league: "WNBA",
+    team: "New York Liberty",
+    players: ["Natasha Cloud"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-NATASHA-CLOUD-scaled-1.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6840cc63c1a1dcdc782d7a31_SLAM-256-NATASHA-CLOUD-scaled-p-500.jpg",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud2-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud6.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud6-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud14.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud14-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud25.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud25-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud33.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud33-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud3-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud10.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud10-600x750.jpg",
+        },
+      ],
+    },
+  },
+  LosAngelesSparks: {
+    title: "Los Angeles Sparks",
+    number: 256,
+    league: "WNBA",
+    team: "Los Angeles Sparks",
+    players: [
+      "Kelsey Plum",
+      "Dearica Hamby",
+      "Cameron Brink",
+      "Rickea Jackson",
+    ],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-SPARKS-scaled-1.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6840cc21b6b9c1c2352b5e13_SLAM-256-SPARKS-scaled-p-500.jpg",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks17.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks17-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks14.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks14-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks12.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks12-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks10-2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks10-2-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks27.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks27-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks4-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks29.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks29-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks20.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks20-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks15.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks15-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks31.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks31-600x750.jpg",
+        },
+      ],
+    },
+  },
+  CaitlinClark: {
+    title: "Caitlin Clark",
+    number: 256,
+    league: "WNBA",
+    team: "Indiana Fever",
+    players: ["Caitlin Clark"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-CAITLIN-scaled-1.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6840cb3f767eccb269655a36_SLAM-256-CAITLIN-scaled-p-500.jpg",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark3-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark4-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark-600x750.jpg",
+        },
+      ],
+    },
+  },
+  DallasWings: {
+    title: "Dallas Wings",
+    number: 256,
+    league: "WNBA",
+    team: "Dallas Wings",
+    players: ["Paige Bueckers", "DiJonai Carrington", "Arike Ogunbowale"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-WINGS-scaled-1.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6840b57216bd50df109b4f98_SLAM-256-WINGS-scaled-p-500.jpg",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings4-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings11.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings11-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings15.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings15-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings16.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings16-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings12.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings12-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings13.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings13-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings6-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings6-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings5.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings5-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings3-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings9-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings8-600x750.jpg",
+        },
+      ],
+    },
+  },
+  PhoenixMercury: {
+    title: "Phoenix Mercury",
+    number: 256,
+    league: "WNBA",
+    team: "Phoenix Mercury",
+    players: ["Kahleah Copper", "Satou Sabally", "Alyssa Thomas"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-MERCURY-scaled-1.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6840b4e1cff1d004e357b74c_SLAM-256-MERCURY-scaled-p-500.jpg",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury18.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury18-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury23.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury23-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury10.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury10-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury8-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury4-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury3-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury2-600x750.jpg",
+        },
+      ],
+    },
+  },
+  StephenCurry: {
+    title: "Stephen Curry",
+    number: 256,
+    league: "NBA",
+    team: "Golden State Warriors",
+    players: ["Stephen Curry"],
+    photos: {
+      main: {
+        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acb49fbb0d4ee9f959e373_SLAM-2025ASW-CURRY%20(1).avif",
+        thumb:
+          "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acb49fbb0d4ee9f959e373_SLAM-2025ASW-CURRY%20(1)-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaa5df7b405b2eab8f377_Artboard3.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaa8d1e44e5b3cf5c9127_SC%202025%20ASW3.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaa8d1e44e5b3cf5c9127_SC%202025%20ASW3-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaaa04a2b083a37a88625_SC%202025%20ASW14.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaa8d1e44e5b3cf5c9127_SC%202025%20ASW3-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaaf6ed90830ff1c60692_SC%202025%20ASW23.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaaf6ed90830ff1c60692_SC%202025%20ASW23-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acab18adc7c6ad8b03fcd1_SC%202025%20ASW25.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acab18adc7c6ad8b03fcd1_SC%202025%20ASW25-p-500.avif",
+        },
+      ],
+    },
+  },
+  CadeCunningham: {
+    title: "Cade Cunningham",
+    number: 255,
+    league: "NBA",
+    team: "Detroit Pistons",
+    players: ["Cade Cunningham"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2025/04/SLAM-255-CADE-scaled-1.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/683dce9d3a93d1eb9ee2bc59_SLAM-255-CADE-1-scaled-p-500.jpg",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits4-extended.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits4-extended-768x512.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits10.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits10-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits3-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits14.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits14-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits6.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits6-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/04/SLAM-255-CADE-1-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/04/SLAM-255-CADE-1-scaled-1-600x750.jpg",
+        },
+      ],
+    },
+  },
+  DariusGarlandDonovanMitchell: {
+    title: "Darius Garland & Donovan Mitchell",
+    number: 255,
+    league: "NBA",
+    team: "Cleveland Cavaliers",
+    players: ["Darius Garland", "Donovan Mitchell"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2025/03/SLAM-255-CAVS-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/67e2fe006d80384d00323228_SLAM-255-CAVS-scaled.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/IMG_5037.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/IMG_5037-768x512.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs3-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs9-600x750.jpg",
+        },
+      ],
+    },
+  },
+  JarenJacksonJr: {
+    title: "Jaren Jackson Jr.",
+    number: 255,
+    league: "NBA",
+    team: "Memphis Grizzlies",
+    players: ["Jaren Jackson Jr."],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2025/03/SLAM-255-JAREN-JACKSON-JR-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/67e2fdbfbc64231a183d4446_SLAM-255-JAREN-JACKSON-JR-scaled-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/SLAM_JAREN_JACKSON_0469-2-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/SLAM_JAREN_JACKSON_0469-2-scaled-1-768x512.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip17.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip17-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip8-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip9-600x750.jpg",
+        },
+        {
+          full: "https://sun9-11.userapi.com/s/v1/ig2/sgt9FIKiCpHDLmTnym7ScBkZKcRsaZk5JaYgsDUyqmXl9UwPV-ZR0_z-n26EjF4ldNu9Gd7DzHSKr9JvR85iNiOO.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
+          thumb:
+            "https://sun9-11.userapi.com/s/v1/ig2/sgt9FIKiCpHDLmTnym7ScBkZKcRsaZk5JaYgsDUyqmXl9UwPV-ZR0_z-n26EjF4ldNu9Gd7DzHSKr9JvR85iNiOO.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&u=BlT2SW_sZ8t0D7_l0b-F8nnjptaeASQe796U7wWycfA&cs=640x0",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip5.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip5-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip11.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip11-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip19.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip19-600x750.jpg",
+        },
+      ],
+    },
+  },
+  KarlAnthonyTowns: {
+    title: "Karl-Anthony Towns",
+    number: 254,
+    league: "NBA",
+    team: "New York Knicks",
+    players: ["Karl-Anthony Towns"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2025/01/SLAM-254-KAT-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/67ffbc2ce84f001fd8553c70_SLAM-254-KAT-scaled-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-10.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-10-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-4-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-2-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-5.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-5-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-9-600x750.jpg",
+        },
+      ],
+    },
+  },
+  ShaiGilgeousAlexander: {
+    title: "Shai Gilgeous-Alexander",
+    number: 254,
+    league: "NBA",
+    team: "Oklahoma City Thunder",
+    players: ["Shai Gilgeous-Alexander"],
+    photos: {
+      main: {
+        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae750825e9902a431aa898_SLAM-254-SHAI%20(1).avif",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/67e2fb7c1527df9b89d1aeec_67ae750825e9902a431aa898_SLAM-254-SHAI%20(1)-p-1600-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae7a374b3300dee8148f7d_shai%20254%20(1).avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67af5e333bf63953bed95c9e_DSC00347-2%20final-WM.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67af5e333bf63953bed95c9e_DSC00347-2%20final-WM-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae74425aa408cbf36f5f1d_shai%20254%203.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae74425aa408cbf36f5f1d_shai%20254%203-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae742d41878a8f73219304_shai%20254%204.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae742d41878a8f73219304_shai%20254%204-p-500.avif",
+        },
+      ],
+    },
+  },
+  HoustonRockets: {
+    title: "Houston Rockets",
+    number: 254,
+    league: "NBA",
+    team: "Houston Rockets",
+    players: [
+      "Alperen Sengun",
+      "Dillon Brooks",
+      "Fred VanVleet",
+      "Jalen Green",
+    ],
+    photos: {
+      main: {
+        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a281276f82247f2bc587c0_SLAM-254-ROCKETS.avif",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/67ffbcdcaef0c8f094e3de33_SLAM-254-ROCKETS-scaled-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a2593b72f9783534d4461d_Artboard%201.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a38d6ef9c36079b4008f17_slam%20254%20rockets16.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a38d6ef9c36079b4008f17_slam%20254%20rockets16-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a2714b74fccd366424150a_slam%20254%20rockets2.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a2714b74fccd366424150a_slam%20254%20rockets2-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a25abf9307f776c5316967_slam%20254%20rockets11.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a25abf9307f776c5316967_slam%20254%20rockets11-p-500.avif",
+        },
+        {
+          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a25b42e02d4df777a0d242_slam%20254%20rockets4.avif",
+          thumb:
+            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a25b42e02d4df777a0d242_slam%20254%20rockets4-p-500.avif",
+        },
+      ],
+    },
+  },
+  AceBaileyDylanHarper: {
+    title: "Ace Bailey & Dylan Harper",
+    number: 253,
+    league: "College",
+    team: "Rutgers",
+    players: ["Dylan Harper", "Ace Bailey"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/10/SLAM-253-RUTGERS-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/679ac776d844b5ffb22b08c5_Screenshot%202025-01-29%20at%207.26.25%E2%80%AFPM.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_0643.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/10/MS1_0643-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_1091.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/10/MS1_1091-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_0575.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/10/MS1_0575-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_1174.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/10/MS1_1174-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_1241.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/10/MS1_1241-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_1269.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/10/MS1_1269-600x750.jpg",
+        },
+      ],
+    },
+  },
+  DamianLillard: {
+    title: "Damian Lillard",
+    number: 252,
+    league: "NBA",
+    team: "Milwaukee Bucks",
+    players: ["Damian Lillard"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/09/SLAM-252-DAME-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/670863d7e3a7a31d4dcddcfc_SLAM-252-DAME%20(1)-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-4-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-6.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-6-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-10.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-10-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/09/DAME-252.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-600x750.jpg",
+        },
+      ],
+    },
+  },
+  DerrickWhiteJrueHoliday: {
+    title: "Derrick White & Jrue Holiday",
+    number: 252,
+    league: "NBA",
+    team: "Boston Celtic",
+    players: ["Derrick White", "Jrue Holiday"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/09/SLAM-252-WHITE-HOLIDAY-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6708638f9f30ed350815706c_SLAM-252-WHITE-HOLIDAY%20(1)-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick7.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick7-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick10.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick10-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick11.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick11-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick6.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick6-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick-600x750.jpg",
+        },
+      ],
+    },
+  },
+  AlyssaThomasDeWannaBonner: {
+    title: "Alyssa Thomas & DeWanna Bonner",
+    number: 251,
+    league: "WNBA",
+    team: "Connecticut Sun",
+    players: ["Alyssa Thomas", "DeWanna Bonner"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/07/SLAM-251-CONNECTICUT-SUN-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/66e30febf8563392c6853001_SLAM-251-CONNECTICUT-SUN_optimized_300-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-2-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-9-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-14.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-14-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-3-600x750.jpg",
+        },
+      ],
+    },
+  },
+  NazReid: {
+    title: "Naz Reid",
+    number: 251,
+    league: "NBA",
+    team: "Minnesota Timberwolves",
+    players: ["Naz Reid"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/08/SLAM-251-NAZ-1-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/66e30f6b71354e1b7a0c09d9_SLAM-251-NAZ_2_optimized_300-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-13.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-13-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-11.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-11-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-10.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-10-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-8-600x750.jpg",
+        },
+      ],
+    },
+  },
+  DawnStaley: {
+    title: "Dawn Staley",
+    number: 250,
+    league: "College",
+    team: "South Carolina",
+    players: ["Dawn Staley"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/05/SLAM-250-DAWN-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/66981f8409d0cf5797a7d7d9_imresizer-1721245383222-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/05/Dawn-1920x1280-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/05/Dawn-1920x1280-1-768x512.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/05/dawn6.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/05/dawn6-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/05/dawn24.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/05/dawn24-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/05/dawn3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/05/dawn3-600x750.jpg",
+        },
+      ],
+    },
+  },
+  StephonCastleDonovanClingan: {
+    title: "Stephon Castle & Donovan Clingan",
+    number: 250,
+    league: "College",
+    team: "UConn",
+    players: ["Stephon Castle", "Donovan Clingan"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/06/SLAM-250-UCONN-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/66981f01b29e36bb907ecc29_imresizer-1721245359833-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/06/uconn3-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn14.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/06/uconn14-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn15.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/06/uconn15-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn11.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/06/uconn11-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn9-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/06/uconn9-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/06/uconn4-600x750.jpg",
+        },
+      ],
+    },
+  },
+  JimmyButler: {
+    title: "Jimmy Butler",
+    number: 249,
+    league: "NBA",
+    team: "Miami Heat",
+    players: ["Jimmy Butler"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/04/SLAM-249-JIMMY-BUTLER-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/664cdad57cc794c9db33ceda_SLAM-249-JIMMY%20BUTLER%20cover%20gallery%20-p-500.avif",
+        gallery: [
+          {
+            full: "https://slamonline.com/wp-content/uploads/2024/04/butler21-1.jpg",
+            thumb:
+              "https://slamonline.com/wp-content/uploads/2024/04/butler21-1-600x750.jpg",
+          },
+          {
+            full: "https://slamonline.com/wp-content/uploads/2024/04/butler17.jpg",
+            thumb:
+              "https://slamonline.com/wp-content/uploads/2024/04/butler17-600x750.jpg",
+          },
+          {
+            full: "https://slamonline.com/wp-content/uploads/2024/04/butler24.jpg",
+            thumb:
+              "https://slamonline.com/wp-content/uploads/2024/04/butler24-600x750.jpg",
+          },
+          {
+            full: "https://slamonline.com/wp-content/uploads/2024/04/butler26.jpg",
+            thumb:
+              "https://slamonline.com/wp-content/uploads/2024/04/butler26-600x750.jpg",
+          },
+          {
+            full: "https://slamonline.com/wp-content/uploads/2024/04/butler10.jpg",
+            thumb:
+              "https://slamonline.com/wp-content/uploads/2024/04/butler10-600x750.jpg",
+          },
+          {
+            full: "https://slamonline.com/wp-content/uploads/2024/04/butler12.jpg",
+            thumb:
+              "https://slamonline.com/wp-content/uploads/2024/04/butler12-600x750.jpg",
+          },
+        ],
       },
     },
   },
-  SG: {
-    "Scottie Barnes": {
-      name: "Scottie Barnes",
-      team: "Toronto Raptors",
-      positions: "SG, SF, PF",
-      number: 4,
-      Rank: 19,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/SQbMp42NjKLeekaJjS.TIw--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/6515.png",
-      lastSeasonStats: {
-        G: 65,
-        Min: "32:50",
-        "FG%": 44.6,
-        "FT%": 75.5,
-        "3PM": 76,
-        "3P%": 27.1,
-        Pts: 1252,
-        Reb: 502,
-        Ast: 378,
-        Stl: 93,
-        Blk: 63,
-        TO: 185,
-        DD: 26,
-        TD: 1,
+  NewYorkKnicks: {
+    title: "New York Knicks",
+    number: 249,
+    league: "NBA",
+    team: "New York Knicks",
+    players: ["Jalen Brunson", "Josh Hart", "Donte DiVincenzo"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/04/SLAM-249-KNICKS-1-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/664cd9a9c7256eb55d067947_SLAM-249-KNICKS-1-cover-gallery-p-500.avif",
       },
-    },
-    "Tyler Herro": {
-      name: "Tyler Herro",
-      team: "Miami Heat",
-      positions: "PG, SG",
-      number: 14,
-      Rank: 43,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/4kMyFhAuc6.Sz6aisM.Vew--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/6175.png",
-      lastSeasonStats: {
-        G: 77,
-        Min: "35:23",
-        "FG%": 47.2,
-        "FT%": 87.8,
-        "3PM": 251,
-        "3P%": 37.5,
-        Pts: 1840,
-        Reb: 399,
-        Ast: 424,
-        Stl: 69,
-        Blk: 17,
-        TO: 198,
-        DD: 9,
-        TD: 0,
-      },
-    },
-    "Josh Hart": {
-      name: "Josh Hart",
-      team: "New York Knicks",
-      positions: "SG, SF, PF",
-      number: 3,
-      Rank: 45,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/rMMVYwF1ZFwLST0GfCx4Hw--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/5843.png",
-      lastSeasonStats: {
-        G: 77,
-        Min: "37:37",
-        "FG%": 52.5,
-        "FT%": 77.6,
-        "3PM": 84,
-        "3P%": 33.3,
-        Pts: 1051,
-        Reb: 737,
-        Ast: 453,
-        Stl: 119,
-        Blk: 27,
-        TO: 158,
-        DD: 34,
-        TD: 9,
-      },
-    },
-    "Derrick White": {
-      name: "Derrick White",
-      team: "Boston Celtics",
-      positions: "PG, SG",
-      number: 9,
-      Rank: 46,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/LN7xD44IeskEp7FECXKtvw--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10222024/5842.png",
-      lastSeasonStats: {
-        G: 76,
-        Min: "33:52",
-        "FG%": 44.2,
-        "FT%": 83.9,
-        "3PM": 265,
-        "3P%": 38.4,
-        Pts: 1248,
-        Reb: 341,
-        Ast: 361,
-        Stl: 72,
-        Blk: 80,
-        TO: 131,
-        DD: 4,
-        TD: 0,
-      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/04/KNICKS-WEB-2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/04/KNICKS-WEB-2-768x512.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/04/jh4-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/04/jh4-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/04/jh2-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/04/jh2-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/04/dd1-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/04/dd1-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/04/nyk6-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/04/nyk6-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/04/jb3-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/04/jb3-1-600x750.jpg",
+        },
+      ],
     },
   },
-  PF: {
-    "Giannis Antetokounmpo": {
-      name: "Giannis Antetokounmpo",
-      team: "Milwaukee Bucks",
-      positions: "PF, C",
-      number: 34,
-      Rank: 2,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/GEry1pkEEtsfXbDZJNDINw--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10282024/5185.png",
-      lastSeasonStats: {
-        G: 67,
-        Min: "34:10",
-        "FG%": 60.1,
-        "FT%": 61.7,
-        "3PM": 14,
-        "3P%": 22.2,
-        Pts: 2036,
-        Reb: 798,
-        Ast: 433,
-        Stl: 58,
-        Blk: 78,
-        TO: 206,
-        DD: 55,
-        TD: 11,
+  CaitlinClark2: {
+    title: "Caitlin Clark",
+    number: 249,
+    league: "College",
+    team: "Iowa",
+    players: ["Caitlin Clark"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/03/SLAM-249-CAITLIN-CLARK-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/660c657c1e588809a62b79d6_SLAM-249-CAITLIN-CLARK-web.avif",
       },
-    },
-    "Anthony Davis": {
-      name: "Anthony Davis",
-      team: "Dallas Mavericks",
-      positions: "PF, C",
-      number: 3,
-      Rank: 8,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/uj2ZGXaqXotMWbUpAzMLvQ--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/02032025/5007.png",
-      lastSeasonStats: {
-        G: 51,
-        Min: "33:27",
-        "FG%": 51.6,
-        "FT%": 77.5,
-        "3PM": 35,
-        "3P%": 28.2,
-        Pts: 1261,
-        Reb: 590,
-        Ast: 181,
-        Stl: 59,
-        Blk: 110,
-        TO: 113,
-        DD: 36,
-        TD: 1,
-      },
-    },
-    "Paolo Banchero": {
-      name: "Paolo Banchero",
-      team: "Orlando Magic",
-      positions: "PF, C",
-      number: 5,
-      Rank: 13,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/0mjMfHmGz5Ta64xNrDe_NA--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/6691.png",
-      lastSeasonStats: {
-        G: 46,
-        Min: "34:23",
-        "FG%": 45.2,
-        "FT%": 72.7,
-        "3PM": 87,
-        "3P%": 32.0,
-        Pts: 1191,
-        Reb: 345,
-        Ast: 219,
-        Stl: 36,
-        Blk: 28,
-        TO: 136,
-        DD: 11,
-        TD: 0,
-      },
-    },
-    "Pascal Siakam": {
-      name: "Pascal Siakam",
-      team: "Indiana Pacers",
-      positions: "PF, C",
-      number: 43,
-      Rank: 24,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/Sb6fQJKv7sNcTFtNWFTHZA--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/5658.png",
-      lastSeasonStats: {
-        G: 78,
-        Min: "32:40",
-        "FG%": 51.9,
-        "FT%": 73.4,
-        "3PM": 126,
-        "3P%": 38.9,
-        Pts: 1578,
-        Reb: 540,
-        Ast: 263,
-        Stl: 70,
-        Blk: 42,
-        TO: 109,
-        DD: 11,
-        TD: 0,
-      },
-    },
-    "Chet Holmgren": {
-      name: "Chet Holmgren",
-      team: "Oklahoma City Thunder",
-      positions: "PF, C",
-      number: 7,
-      Rank: 32,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/UQ.v8bynxoNsY3dnkKe0Ng--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/6692.png",
-      lastSeasonStats: {
-        G: 32,
-        Min: "27:24",
-        "FG%": 49.0,
-        "FT%": 75.4,
-        "3PM": 44,
-        "3P%": 37.9,
-        Pts: 479,
-        Reb: 257,
-        Ast: 63,
-        Stl: 23,
-        Blk: 71,
-        TO: 56,
-        DD: 11,
-        TD: 0,
-      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/03/CC1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/03/CC1-768x512.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/03/trio.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/03/trio-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/03/17.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/03/17-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/03/14.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/03/14-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/03/11.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/03/11-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/03/10.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/03/10-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/03/1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/03/1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/03/6.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/03/6-600x750.jpg",
+        },
+      ],
     },
   },
-  SF: {
-    "Jalen Williams": {
-      name: "Jalen Williams",
-      team: "Oklahoma City Thunder",
-      positions: "SF, PF",
-      number: 8,
-      Rank: 18,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/Gp6ak2G9mybSaicZPwRu3Q--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/6702.png",
-      lastSeasonStats: {
-        G: 69,
-        Min: "32:25",
-        "FG%": 48.4,
-        "FT%": 78.9,
-        "3PM": 124,
-        "3P%": 36.5,
-        Pts: 1490,
-        Reb: 369,
-        Ast: 354,
-        Stl: 111,
-        Blk: 46,
-        TO: 150,
-        DD: 3,
-        TD: 0,
+  ChetHolmgren: {
+    title: "Chet Holmgren",
+    number: 248,
+    league: "NBA",
+    team: "Oklahoma City Thunder",
+    players: ["Chet Holmgren"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/02/SLAM-248-CHET-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/660c653455a9214965ad52ef_SLAM-248-CHET%20web-p-500.avif",
       },
-    },
-    "Jalen Johnson": {
-      name: "Jalen Johnson",
-      team: "Atlanta Hawks",
-      positions: "SF, PF",
-      number: 1,
-      Rank: 22,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/DRqFlXQxP7y_eeAOlhseBw--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10212024/6562.png",
-      lastSeasonStats: {
-        G: 36,
-        Min: "35:40",
-        "FG%": 50.0,
-        "FT%": 74.6,
-        "3PM": 44,
-        "3P%": 31.2,
-        Pts: 680,
-        Reb: 359,
-        Ast: 181,
-        Stl: 56,
-        Blk: 36,
-        TO: 106,
-        DD: 20,
-        TD: 1,
-      },
-    },
-    "Amen Thompson": {
-      name: "Amen Thompson",
-      team: "Houston Rockets",
-      positions: "PG, SG, SF",
-      number: 1,
-      Rank: 38,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/evY6JhVg8UTUX6XOwwQ_VQ--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/10108.png",
-      lastSeasonStats: {
-        G: 69,
-        Min: "32:15",
-        "FG%": 55.7,
-        "FT%": 68.4,
-        "3PM": 25,
-        "3P%": 27.5,
-        Pts: 970,
-        Reb: 564,
-        Ast: 265,
-        Stl: 97,
-        Blk: 89,
-        TO: 138,
-        DD: 21,
-        TD: 3,
-      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/Chat-5.png",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/Chat-5-768x512.png",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/chet12.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/chet12-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/chet4-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/chet4-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/chet8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/chet8-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/chet17.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/chet17-600x750.jpg",
+        },
+      ],
     },
   },
-  C: {
-    "Nikola Jokić": {
-      name: "Nikola Jokić",
-      team: "Denver Nuggets",
-      positions: "C",
-      number: 15,
-      Rank: 1,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/gABJ8fcfs1PsbnMXySaAsQ--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10282024/5352.png",
-      lastSeasonStats: {
-        G: 70,
-        Min: "34:11",
-        "FG%": 57.6,
-        "FT%": 80.0,
-        "3PM": 138,
-        "3P%": 41.7,
-        Pts: 2071,
-        Reb: 892,
-        Ast: 716,
-        Stl: 127,
-        Blk: 45,
-        TO: 230,
-        DD: 59,
-        TD: 34,
+  JujuWatkins: {
+    title: "Juju Watkins",
+    number: 248,
+    league: "College",
+    team: "USC",
+    players: ["Juju Watkins"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/02/SLAM-248-JUJU-resized.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/660c64db000fe829b7aee595_SLAM-248-JUJU-resized%20web.avif",
       },
-    },
-    "Victor Wembanyama": {
-      name: "Victor Wembanyama",
-      team: "San Antonio Spurs",
-      positions: "C",
-      number: 1,
-      Rank: 3,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/jXu6hmjcQJj7_1FzBVVZ8g--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/10094.png",
-      lastSeasonStats: {
-        G: 46,
-        Min: "33:12",
-        "FG%": 47.6,
-        "FT%": 83.6,
-        "3PM": 142,
-        "3P%": 35.2,
-        Pts: 1116,
-        Reb: 506,
-        Ast: 168,
-        Stl: 52,
-        Blk: 176,
-        TO: 149,
-        DD: 28,
-        TD: 1,
-      },
-    },
-    "Alperen Sengun": {
-      name: "Alperen Sengun",
-      team: "Houston Rockets",
-      positions: "C",
-      number: 28,
-      Rank: 16,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/9k68bOcTWDdOpUeZrbnIdA--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/6558.png",
-      lastSeasonStats: {
-        G: 76,
-        Min: "31:31",
-        "FG%": 49.6,
-        "FT%": 69.2,
-        "3PM": 21,
-        "3P%": 23.3,
-        Pts: 1451,
-        Reb: 786,
-        Ast: 372,
-        Stl: 84,
-        Blk: 61,
-        TO: 194,
-        DD: 45,
-        TD: 4,
-      },
-    },
-    "Ivica Zubac": {
-      name: "Ivica Zubac",
-      team: "LA Clippers",
-      positions: "C",
-      number: 40,
-      Rank: 30,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/sTVWTobjinRQlvx.aNi4zQ--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10222024/5663.png",
-      lastSeasonStats: {
-        G: 80,
-        Min: "32:48",
-        "FG%": 62.8,
-        "FT%": 66.1,
-        "3PM": 0,
-        "3P%": 0,
-        Pts: 1340,
-        Reb: 1010,
-        Ast: 214,
-        Stl: 55,
-        Blk: 90,
-        TO: 127,
-        DD: 59,
-        TD: 1,
-      },
-    },
-    "Bam Adebayo": {
-      name: "Bam Adebayo",
-      team: "Miami Heat",
-      positions: "PF, C",
-      number: 13,
-      Rank: 40,
-      photo:
-        "https://s.yimg.com/iu/api/res/1.2/aLLZVC9sYWprB9tFeRKbBA--~B/YXBwaWQ9c2hhcmVkO2ZpPWZpbGw7cT0xMDA7aD0xNjA7dz0xNjA-/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10292024/5827.png",
-      lastSeasonStats: {
-        G: 78,
-        Min: "34:17",
-        "FG%": 48.5,
-        "FT%": 76.5,
-        "3PM": 79,
-        "3P%": 35.7,
-        Pts: 1410,
-        Reb: 749,
-        Ast: 337,
-        Stl: 98,
-        Blk: 53,
-        TO: 161,
-        DD: 38,
-        TD: 1,
-      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/JUJU-WEB-2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/JUJU-WEB-2-768x512.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-3-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-2-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-7.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-7-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-11.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-11-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-14.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-14-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-15.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-15-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-16.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-16-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-18.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-18-600x750.jpg",
+        },
+      ],
     },
   },
-}; // Данные игроков
-const statisticTitles = {
-  Rank: "Rank",
-  G: "Games Played",
-  Min: "Minutes Played",
-  "FG%": "Field Goal Percentage",
-  "FT%": "Free Throw Percentage",
-  "3PM": "Three-Points Made",
-  "3P%": "Three-Point Percentage",
-  Pts: "Points Scored",
-  Reb: "Total Rebounds",
-  Ast: "Assists",
-  Stl: "Steals",
-  Blk: "Blocked Shots",
-  TO: "Turnovers",
-  DD: "Double-doubles",
-  TD: "Triple-doubles",
-}; // Полные наименования аббревиатур статистики
-const clubAbbreviations = {
-  "Atlanta Hawks": "ATL",
-  "Boston Celtics": "BOS",
-  "Chicago Bulls": "CHI",
-  "Dallas Mavericks": "DAL",
-  "Denver Nuggets": "DEN",
-  "Detroit Pistons": "DET",
-  "Golden State Warriors": "GSW",
-  "Houston Rockets": "HOU",
-  "Indiana Pacers": "IND",
-  "LA Clippers": "LAC",
-  "Miami Heat": "MIA",
-  "Milwaukee Bucks": "MIL",
-  "New York Knicks": "NYK",
-  "Oklahoma City Thunder": "OKC",
-  "Orlando Magic": "ORL",
-  "San Antonio Spurs": "SAS",
-  "Toronto Raptors": "TOR",
-}; // Аббревиатуры клубов
+  TyreseMaxey: {
+    title: "Tyrese Maxey",
+    number: 248,
+    league: "NBA",
+    team: "Philadelphia 76ers",
+    players: ["Tyrese Maxey"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2024/01/SLAM-248-MAXEY-scaled.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/660c64792cd531f37c81c141_SLAM-248-MAXEY%20web-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/01/WEB-3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/01/WEB-3-768x512.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/01/WATERMARK-2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/01/WATERMARK-2-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-2.jpg",
 
-let isUpdating = false; // Флаг обновления
-let playersCount = 0; // Счетчик игроков
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-2-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-8-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-8-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-9-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-19.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-19-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-22.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-22-600x750.jpg",
+        },
+      ],
+    },
+  },
+  CooperFlagg2: {
+    title: "Cooper Flagg",
+    number: 247,
+    league: "College",
+    team: "Duke",
+    players: ["Cooper Flagg"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/10/SLAM-247-COOPER-FLAGG-V2-scaled-1.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/654684b8cc3e0304f971be40_SLAM-247-COOPER-FLAGG-V2-resized-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-7.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-7-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-8-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-3-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-3-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-4-600x750.jpg",
+        },
+      ],
+    },
+  },
+  OklahomaCityThunder: {
+    title: "Oklahoma City Thunder",
+    number: 247,
+    league: "NBA",
+    team: "Oklahoma City Thunder",
+    players: [
+      "Shai Gilgeous-Alexander",
+      "Lu Dort",
+      "Chet Holmgren",
+      "Josh Giddey",
+      "Jalen Williams",
+    ],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/10/SLM-247-OKC-resized.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/653c25ccf0630a0479875d46_SLM-247-OKC-resized-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/19-3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/19-3-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/7-7.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/7-7-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/6-8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/6-8-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/7-8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/7-8-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/2-8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/2-8-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/1-9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/1-9-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/3-8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/3-8-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/12-6.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/12-6-600x750.jpg",
+        },
+        {
+          full: "https://sun9-33.userapi.com/s/v1/ig2/kya0QudIfmLDufVub5SQlEYUWmi0zIFJ9rHkYz1zq4SdcVRuFR_7HaR2uXzq78n6pyz-rX3MyPyLHzx-6L-gZ-W7.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
+          thumb:
+            "https://sun9-33.userapi.com/s/v1/ig2/kya0QudIfmLDufVub5SQlEYUWmi0zIFJ9rHkYz1zq4SdcVRuFR_7HaR2uXzq78n6pyz-rX3MyPyLHzx-6L-gZ-W7.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&u=QycNJ5ixVstI0iRGl2qWlAs5Uua4cGucscPiTLm44uo&cs=640x0",
+        },
+        {
+          full: "https://sun9-30.userapi.com/s/v1/ig2/dWjZR5Sy95dbX8IWQ2y6scXljWLYItZTXYlrA_9n29lngJ1gbhC4_nm9a4xENTvIsuMolHPip9ZICFfT4eaWjnPA.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
+          thumb:
+            "https://sun9-30.userapi.com/s/v1/ig2/dWjZR5Sy95dbX8IWQ2y6scXljWLYItZTXYlrA_9n29lngJ1gbhC4_nm9a4xENTvIsuMolHPip9ZICFfT4eaWjnPA.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&u=Krng3bisi_NRwA4jX1O4AJb-W2zS83w4QkDSwOhmc74&cs=640x0",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/3-9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/3-9-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/3-7.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/3-7-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/5-9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/5-9-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/2-9.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/2-9-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/10/2-7.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/10/2-7-600x750.jpg",
+        },
+      ],
+    },
+  },
+  PaulGeorge: {
+    title: "Paul George",
+    number: 246,
+    league: "NBA",
+    team: "Los Angeles Clippers",
+    players: ["Paul George"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/09/SLAM-246-PAUL-GEORGE-scaled-1.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/653c2582b96cbc80c8ebd248_SLAM-246-PAUL-GEORGE-scaled-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/6-6.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/6-6-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/14-5.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/14-5-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/21-2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/21-2-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/9-5.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/9-5-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/4-9-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/4-9-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/1-7-2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/1-7-2-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/12-5.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/12-5-600x750.jpg",
+        },
+      ],
+    },
+  },
+  NewYorkLiberty: {
+    title: "New York Liberty",
+    number: 246,
+    league: "WNBA",
+    team: "New York Liberty",
+    players: [
+      "Breanna Stewart",
+      "Jonquel Jones",
+      "Sabrina Ionescu",
+      "Betnijah Laney",
+      "Courtney Vandersloot",
+    ],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/09/SLAM-246-LIBERTY.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/653c250bcf684417a4e2644b_SLAM-246-LIBERTY-2-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/WEB-STORY.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/WEB-STORY-768x432.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-37-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-37-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-26-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-26-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-40-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-40-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photos_8.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/film_photos_8-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-94-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-94-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photos_10.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/film_photos_10-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-82-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-82-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photo_7.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/film_photo_7-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photo_4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/film_photo_4-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-62-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-62-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-57-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-57-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-64-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-64-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photo_3.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/film_photo_3-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-69-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-69-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photo_1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/film_photo_1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-45-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-45-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-29-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-29-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-73-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-73-scaled-1-600x750.jpg",
+        },
+      ],
+    },
+  },
+  BradleyBeal: {
+    title: "Bradley Beal",
+    number: 245,
+    league: "NBA",
+    team: "Phoenix Suns",
+    players: ["Bradley Beal"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/07/SLAM-245-BEAL-resized.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/653c24d8e629f55899f16856_SLAM-245-BEAL-resized-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/17-4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/17-4-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/8-5.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/8-5-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/13-4.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/13-4-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/2-6.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/2-6-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/16-2.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/16-2-600x750.jpg",
+        },
+      ],
+    },
+  },
+  TyreseHaliburton: {
+    title: "Tyrese Haliburton",
+    number: 245,
+    league: "NBA",
+    team: "Indiana Pacers",
+    players: ["Tyrese Haliburton"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/07/SLAM-245-HALIBURTON-scaled-1.jpg",
+        thumb:
+          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/653c24abd429f31f2ccfeb85_SLAM-245-HALIBURTON-scaled-p-500.avif",
+      },
+      gallery: [
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/Tyty-1.png",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/Tyty-1-600x338.png",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-10-1-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-10-1-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-29-1-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-29-1-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-50-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-50-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-51-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-51-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://sun9-70.userapi.com/s/v1/ig2/wJwwo23FqZ2s0XJ05ZCPTny2ky_DyeUTZ4mB78XJ9t9eLPHvQ_DywN9cBTJ2d2JtIB-OcHd-icTD3q8AdCE-LZsl.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350,1280x1600,1440x1800,2048x2560&from=bu&cs=2048x0",
+          thumb:
+            "https://sun9-70.userapi.com/s/v1/ig2/wJwwo23FqZ2s0XJ05ZCPTny2ky_DyeUTZ4mB78XJ9t9eLPHvQ_DywN9cBTJ2d2JtIB-OcHd-icTD3q8AdCE-LZsl.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350,1280x1600,1440x1800,2048x2560&from=bu&u=agYlKcRgIrKforL_vtkmDJRI4YkAWqU1ZmxJUALSRoo&cs=640x0",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-48-1-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-48-1-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-49-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-49-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-13-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-13-scaled-1-600x750.jpg",
+        },
+        {
+          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-30-scaled-1.jpg",
+          thumb:
+            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-30-scaled-1-600x750.jpg",
+        },
+      ],
+    },
+  },
+}; // Главная константа
 
+// Всё, что касается шапки с изображениями
+const randomImages = Object.keys(covers)
+  .map((key) => covers[key].photos.main)
+  .sort(() => 0.5 - Math.random())
+  .slice(0, 20); // 20 случайных обложек
+const header = document.querySelector(".header");
+const animationList = document.querySelector(".animation_list");
+const addRandomImages = () => {
+  randomImages.forEach((image, index) => {
+    const animationItem = document.createElement("div");
+    animationItem.classList.add("animation_item");
+    const rotationAngle = index * 18;
+    animationItem.style.transform = `rotate(${rotationAngle}deg) translateY(calc(-1 * 970px))`;
+    const cover = document.createElement("img");
+    cover.src = image.thumb || image.full;
+    cover.alt = "SLAM Cover";
+    cover.addEventListener("load", () => {
+      cover.style.opacity = "1";
+    });
+    animationItem.appendChild(cover);
+    animationList.appendChild(animationItem);
+  });
+}; // Добавление обложек в шапку в HTML и их анимация
+let startScroll = 0;
+let maxScroll = 0;
+let currentRotateZ = 0;
+function getCSSVariable(variableName) {
+  const value = getComputedStyle(document.documentElement).getPropertyValue(
+    variableName
+  );
+  return parseFloat(value);
+}
+function updateStyles(scroll) {
+  const windowWidth = window.innerWidth;
+  const baseScroll = windowWidth > 768 ? 100 : 0;
+  const currentScroll = scroll - baseScroll;
+
+  if (currentScroll >= 0) {
+    currentRotateZ = currentScroll * 0.1;
+    if (currentRotateZ > 180) {
+      currentRotateZ = 180;
+      maxScroll = scroll;
+    }
+  } else {
+    currentRotateZ = 0;
+  }
+  animationList.style.transform = `translate3d(0px, 1100px, 0px) scale3d(1.25, 1.25, 1) rotateX(0deg) rotateY(0deg) rotateZ(${currentRotateZ}deg) skew(0deg, 0deg)`;
+
+  const baseColor = getCSSVariable("--animation-back-color");
+  const colorProgress = (scroll / window.innerHeight) * 2;
+  const r = Math.round(baseColor * colorProgress);
+  const g = Math.round(baseColor * colorProgress);
+  const b = Math.round(baseColor * colorProgress);
+  header.style.backgroundColor = `rgb(${18 + r}, ${18 + g}, ${18 + b})`;
+  header.style.color = `rgb(${255 - r}, ${255 - g}, ${255 - b})`;
+}
+
+const stickyElement = document.querySelector(".navigation");
+function calculateThreshold() {
+  const headerHeight = header ? header.getBoundingClientRect().height : 0;
+  const offset = window.innerWidth > 768 ? 55 : 100;
+  return headerHeight - offset;
+}
+function checkStickyPosition() {
+  const scrollTop = window.scrollY;
+  const threshold = calculateThreshold();
+  if (scrollTop >= threshold) {
+    stickyElement.classList.add("has-border");
+  } else {
+    stickyElement.classList.remove("has-border");
+  }
+}
+
+// Всё, что касается логики открытия и закрытия попапов
+let openPopups = []; // Открытые попапы
+let currentSlide = 0;
+let isOpen = false;
+let keydownListenerAdded = false;
+let galleryListenersAdded = false;
+let currentPhotosArray = [];
+function openPopup(popup) {
+  popup.addEventListener("click", (event) => {
+    if (event.target === popup) {
+      closePopup(popup);
+    }
+  });
+  popup.style.display = "flex";
+  openPopups.push(popup);
+  if (popup.classList.contains("gallery-popup")) {
+    const body = document.body;
+    const scrollPosition = window.scrollY;
+    body.dataset.scrollPosition = scrollPosition;
+    body.style.top = `-${scrollPosition}px`;
+    body.classList.add("scroll-lock");
+  }
+  if (popup.classList.contains("slide-popup")) {
+    isOpen = true;
+    currentSlide = currentSlide || 0;
+  }
+} // Функция отркытия попапов
+function closePopup(popup) {
+  popup.style.display = "none";
+  openPopups.splice(openPopups.indexOf(popup), 1);
+  if (popup.classList.contains("gallery-popup")) {
+    const body = document.body;
+    const scrollPosition = body.dataset.scrollPosition;
+    body.style.top = "";
+    body.classList.remove("scroll-lock");
+    window.scrollTo(0, scrollPosition);
+    try {
+      if (galleryListenersAdded) {
+        gallery.removeEventListener("click", handleGalleryClick);
+        galleryListenersAdded = false;
+      }
+    } catch (error) {
+      // Если слушатель уже удален или не существует, просто игнорируем ошибку
+    }
+    currentIndex = currentSlide;
+    currentPhotosArray = [];
+  }
+  if (popup.classList.contains("slide-popup")) {
+    isOpen = false;
+    keydownListenerAdded = false;
+  }
+} // Функция закрытия попапов
+function closeAllPopupsOnEsc(event) {
+  if (event.key === "Escape" && openPopups.length > 0) {
+    const lastPopup = openPopups[openPopups.length - 1];
+    closePopup(lastPopup);
+  }
+} // Функция нажатия вне попапа
+document.querySelectorAll(".close").forEach((closeButton) => {
+  closeButton.addEventListener("click", () => {
+    const popup = closeButton.closest(".popup");
+    closePopup(popup);
+  });
+}); // Обработчики закрытия попапов на кнопки закрытия
+document.addEventListener("click", (event) => {
+  if (openPopups.length > 0 && event.target === document.body) {
+    const lastPopup = openPopups[openPopups.length - 1];
+    closePopup(lastPopup);
+  }
+}); // Действия при клике вне попапа
+document.addEventListener("keydown", closeAllPopupsOnEsc); // Нажатие на ESC
+
+// Всё, что касается попапа с чекбоксами
+const uniqueLeagues = Object.values(covers)
+  .map((cover) => cover.league)
+  .filter((value, index, self) => self.indexOf(value) === index); // Вывод лиг
+function getTopPlayers(covers, topCount = 5) {
+  const playerCount = Object.values(covers).reduce((acc, cover) => {
+    cover.players.forEach((player) => {
+      acc[player] = (acc[player] || 0) + 1;
+    });
+    return acc;
+  }, {});
+
+  const sortedPlayers = Object.entries(playerCount)
+    .sort((a, b) => b[1] - a[1])
+    .map(([player, count]) => ({ player, count }));
+
+  // sortedPlayers.forEach(({ player, count }, index) => {
+  //   console.log(`${index + 1}. ${player} - ${count} раз`);
+  // });
+
+  return sortedPlayers.slice(0, topCount).map(({ player }) => player);
+}
+const topPlayers = getTopPlayers(covers); // Вывод часто повторяющихся игроков
+const checkboxContainers = document.querySelector(".checkbox-containers");
+function createCheckbox(labelText, container, type) {
+  const label = document.createElement("label");
+  label.classList.add("checkbox-label");
+  const checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+  checkbox.name = type;
+  const textSpan = document.createElement("span");
+  textSpan.textContent = labelText;
+  label.appendChild(checkbox);
+  label.appendChild(textSpan);
+  container.appendChild(label);
+  return checkbox;
+} // Функция создания чекбокса
+const createContainer = (className) => {
+  const container = document.createElement("div");
+  container.classList.add("checkbox-container", className);
+  return container;
+}; // Контейнеры для разных типов чекбоксов
+const leaguesContainer = createContainer("leagues");
+const teamsContainer = createContainer("teams");
+const playersContainer = createContainer("players");
+uniqueLeagues.forEach((league) =>
+  createCheckbox(league, leaguesContainer, "league")
+);
+topPlayers.forEach((player) =>
+  createCheckbox(player, playersContainer, "player")
+);
+function createTeamCheckboxes(selectedLeagues = []) {
+  teamsContainer.innerHTML = "";
+  const filteredTeams = Object.values(covers)
+    .filter(
+      (cover) =>
+        !selectedLeagues.length || selectedLeagues.includes(cover.league)
+    )
+    .map((cover) => cover.team)
+    .filter((value, index, self) => self.indexOf(value) === index)
+    .sort();
+  filteredTeams.forEach((team) => createCheckbox(team, teamsContainer, "team"));
+} // Функция создания чекбоксов команд исходя из активных чекбоксов лиг
+const addTitleAndContainer = (titleText, container) => {
+  const title = document.createElement("h2");
+  title.textContent = titleText;
+  checkboxContainers.appendChild(title);
+  checkboxContainers.appendChild(container);
+}; // Заголовки и контейнеры в основной контейнер
+addTitleAndContainer("Athletes", playersContainer);
+addTitleAndContainer("Teams", leaguesContainer);
+checkboxContainers.appendChild(teamsContainer);
+leaguesContainer.addEventListener("change", (event) => {
+  if (event.target.type === "checkbox") {
+    const selectedLeagues = Array.from(
+      leaguesContainer.querySelectorAll("input:checked"),
+      (checkbox) => checkbox.nextElementSibling.textContent
+    );
+    createTeamCheckboxes(selectedLeagues);
+    closePopup(navigationPopup);
+  }
+}); // Обработчик чекбоксов лиг
+
+const navigationPopup = document.querySelector(".navigation-popup");
+const filterButton = document.querySelector(".filter");
+filterButton.addEventListener("click", () => {
+  openPopup(navigationPopup);
+}); // Открытие попапа с навигацией
+
+function filterCovers(
+  covers,
+  selectedLeagues,
+  selectedTeams,
+  selectedPlayers,
+  searchQuery
+) {
+  const lowerSearch = searchQuery.toLowerCase();
+
+  return Object.values(covers)
+    .filter((cover) => {
+      const leagueMatch =
+        !selectedLeagues.length || selectedLeagues.includes(cover.league);
+      const teamMatch =
+        !selectedTeams.length || selectedTeams.includes(cover.team);
+      const playerMatch =
+        !selectedPlayers.length ||
+        cover.players.some((player) => selectedPlayers.includes(player));
+      const searchMatch =
+        cover.title.toLowerCase().includes(lowerSearch) ||
+        cover.team.toLowerCase().includes(lowerSearch) ||
+        cover.players.some((player) =>
+          player.toLowerCase().includes(lowerSearch)
+        );
+
+      return leagueMatch && teamMatch && playerMatch && searchMatch;
+    })
+    .sort((a, b) => b.number - a.number);
+} // Фильтрация обложек
+const template = document.querySelector("#cover-template");
+const container = document.querySelector(".covers_list");
+const emptyMessage = document.querySelector(".empty-message");
+function renderCover(item) {
+  const clone = template.content.cloneNode(true);
+  const itemElement = clone.querySelector(".covers_item");
+  const img = clone.querySelector(".cover_img");
+  const number = clone.querySelector(".cover_number");
+  const title = clone.querySelector(".cover_title");
+
+  img.src = item.photos.main.thumb || item.photos.main.full;
+  img.alt =
+    item.players.length === 1
+      ? `На обложке представлен ${item.players[0]}`
+      : `На обложке представлены ${item.players.join(", ")}`;
+  img.addEventListener("load", () => {
+    img.style.opacity = "1";
+  });
+
+  number.textContent = item.number;
+  title.textContent = item.title;
+
+  itemElement.addEventListener("click", () => {
+    handlePopup(item);
+  });
+
+  return clone;
+} // Рендер обложки
+function updateFilters() {
+  const selectedLeagues = [
+    ...document.querySelectorAll(".leagues input:checked"),
+  ].map((checkbox) => checkbox.nextElementSibling.textContent);
+  const selectedTeams = [
+    ...document.querySelectorAll(".teams input:checked"),
+  ].map((checkbox) => checkbox.nextElementSibling.textContent);
+  const selectedPlayers = [
+    ...document.querySelectorAll(".players input:checked"),
+  ].map((checkbox) => checkbox.nextElementSibling.textContent);
+  const searchQuery = search.value;
+
+  const filteredCovers = filterCovers(
+    covers,
+    selectedLeagues,
+    selectedTeams,
+    selectedPlayers,
+    searchQuery
+  );
+
+  container.innerHTML = "";
+  emptyMessage.style.display = filteredCovers.length ? "none" : "block";
+  filteredCovers.forEach((cover) => {
+    container.appendChild(renderCover(cover));
+  });
+} // Обновление фильтров
+
+const search = document.querySelector(".search");
+const homeButton = document.querySelector(".home_button");
+search.addEventListener("input", () => {
+  updateFilters();
+}); // Обработчик поиска
+checkboxContainers.addEventListener("change", (event) => {
+  if (event.target.type === "checkbox") {
+    updateFilters();
+    closePopup(navigationPopup);
+  }
+}); // Обработчик чекбоксов
+homeButton.addEventListener("click", () => {
+  Array.from(
+    checkboxContainers.querySelectorAll('input[type="checkbox"]')
+  ).forEach((checkbox) => {
+    checkbox.checked = false;
+  });
+  search.value = "";
+  updateFilters();
+}); // Обработчик нажатия на главную кнопку
+
+document.addEventListener("scroll", () => {
+  const scroll = window.scrollY || window.pageYOffset;
+  updateStyles(scroll);
+  requestAnimationFrame(checkStickyPosition);
+}); // Действия при скролле
+document.addEventListener("wheel", () => {
+  const scroll = window.scrollY || window.pageYOffset;
+  updateStyles(scroll);
+}); // Действия при скролле колесиком
 document.addEventListener("DOMContentLoaded", () => {
   const storedTheme = localStorage.getItem("theme");
   if (storedTheme === "dark") {
     document.body.classList.add("dark-theme");
   }
 
-  setupAndHandleFilter(selectTeams, filterTeams);
-  setupAndHandleFilter(selectPositions, filterPositions);
+  addRandomImages();
+  createTeamCheckboxes();
+  updateFilters();
+  checkStickyPosition();
+  handlePopupScroll();
 
-  initializeTable();
-}); // Начальная загрузка
+  const scroll = window.scrollY || window.pageYOffset;
+  updateStyles(scroll);
 
-const selectTeams = document.querySelector(".select_teams");
-const selectPositions = document.querySelector(".select_positions");
-function createOptions(
-  selectElement,
-  dataSource,
-  mapFunction = (item) => item,
-  options = { sort: false, reverse: false }
-) {
-  Object.keys(dataSource)
-    .map(mapFunction)
-    .sort((a, b) => (options.sort ? a.localeCompare(b) : 0))
-    .reverse(options.reverse)
-    .forEach((item) => {
-      const option = document.createElement("option");
-      option.value = option.textContent = item;
-      selectElement.insertBefore(option, selectElement.firstElementChild);
-    });
-} // Добавление селектов позиций в HTML
-createOptions(selectTeams, clubAbbreviations, (team) => team.split(" ").pop(), {
-  sort: true,
-  reverse: true,
-});
-createOptions(selectPositions, players);
-
-const secondLine = document.querySelector(".second_line");
-const tableHeaderTemplate = document.querySelector("#table_header").content;
-function createTableHeaderRow(key, title) {
-  const row = tableHeaderTemplate
-    .querySelector(".table_header_row")
-    .cloneNode(true);
-  const button = row.querySelector(".table_header_button");
-
-  button.textContent = key;
-  row.title = title;
-
-  return row;
-}
-Object.entries(statisticTitles).forEach(([key, title]) => {
-  secondLine.append(createTableHeaderRow(key, title));
-}); // Создание кнопок в шапке таблицы
-
-const playerRowTemplate = document.querySelector("#player_row").content;
-const statsMap = (() => {
-  const tr = playerRowTemplate.querySelector("tr");
-  const cells = [...tr.querySelectorAll("td:not(:first-child)")];
-
-  return Object.fromEntries(
-    Object.entries(statisticTitles).map(([key, title], index) => [
-      key,
-      {
-        title,
-        className: cells[index]?.classList[0] || "",
-      },
-    ])
-  );
-})(); // Полные наименования аббревиатур статистики + его соответствующие классы из HTML
-
-const searchInput = document.querySelector(".search_input");
-const headerButtons = document.querySelectorAll(".table_header_button");
-Object.values(players).forEach((positionGroup) => {
-  playersCount += Object.entries(positionGroup).length;
-}); // Подсчет общего количества игроков
-function updatePlayersTable() {
-  const searchValue = normalizeString(searchInput.value);
-  const selectedTeam = selectTeams.value;
-  const defaultTeam = selectTeams.querySelector(
-    ".select_teams option[selected]"
-  ).value;
-  const selectedPosition = selectPositions.value;
-  const defaultPosition =
-    selectPositions.querySelector("option[selected]").value;
-
-  function normalizeString(str) {
-    return str
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase();
-  }
-
-  const flatArray = Object.values(players).flatMap((positionGroup) =>
-    Object.entries(positionGroup).map(([name, player]) => ({
-      name,
-      ...player,
-    }))
-  );
-
-  let filteredPlayers = flatArray;
-
-  if (searchValue) {
-    filteredPlayers = filteredPlayers.filter((player) =>
-      normalizeString(player.name).includes(searchValue)
+  const updatePlaceholder = () => {
+    search.setAttribute(
+      "placeholder",
+      window.innerWidth <= 767 ? "" : "Search by Keywords"
     );
-  }
+  };
+  updatePlaceholder();
+  window.addEventListener("resize", () => {
+    updatePlaceholder();
+    requestAnimationFrame(checkStickyPosition);
+  });
+}); // Инициализация функций при открытии сайта
 
-  function applyFilter(value, defaultValue, field, compareFn) {
-    if (value !== defaultValue) {
-      filteredPlayers = filteredPlayers.filter((player) => {
-        return compareFn(player[field], value);
+const popupGallery = document.querySelector(".gallery-popup");
+const popupGalleryContent = popupGallery.querySelector(".popup-content");
+const gallery = popupGallery.querySelector(".gallery");
+function handlePopup(item) {
+  gallery.innerHTML = "";
+
+  const header = document.createElement("div");
+  header.classList.add("popup-header");
+  const h2 = document.createElement("h2");
+  h2.textContent = item.team;
+  const h1 = document.createElement("h1");
+  h1.textContent = item.players.join(", ");
+
+  header.appendChild(h2);
+  header.appendChild(h1);
+  gallery.appendChild(header);
+
+  currentPhotosArray = [item.photos.main, ...item.photos.gallery];
+  const getPhotoUrl = (photo, type = "default") => {
+    const isMobile = window.innerWidth < 500;
+    return isMobile ? photo.thumb || photo.full : photo.full;
+  };
+
+  const photoElements = currentPhotosArray.map((photo, index) => {
+    const photoDiv = document.createElement("div");
+    photoDiv.classList.add("img_wrapper");
+    const photoImg = document.createElement("img");
+    const blurImg = document.createElement("img");
+
+    photoImg.src = getPhotoUrl(photo);
+    photoImg.alt = "Фотосессия SLAM";
+
+    if (index === 0) {
+      photoDiv.classList.add("main_cover");
+      blurImg.classList.add("blur_img");
+      blurImg.src = getPhotoUrl(photo);
+      blurImg.alt = "Фотосессия SLAM";
+      photoDiv.appendChild(blurImg);
+    }
+
+    photoDiv.appendChild(photoImg);
+    return photoDiv;
+  });
+
+  photoElements.forEach((element) => gallery.appendChild(element));
+
+  const checkAndAddClasses = () => {
+    let startIndex = 1;
+    while (startIndex < photoElements.length) {
+      let count = 0;
+      let currentGroup = [];
+      for (let i = startIndex; i < photoElements.length; i++) {
+        const element = photoElements[i];
+        const img = element.querySelector("img");
+        currentGroup.push(element);
+        count++;
+        if (img.naturalWidth > img.naturalHeight) {
+          element.classList.add("horizontal_photo");
+          if (currentGroup.length > 1 && (currentGroup.length - 1) % 2 !== 0) {
+            currentGroup[currentGroup.length - 2].classList.add("odd_photo");
+          }
+          startIndex = i + 1;
+          currentGroup = [];
+          break;
+        }
+        if (i === photoElements.length - 1) {
+          if (currentGroup.length % 2 !== 0) {
+            currentGroup[currentGroup.length - 1].classList.add("odd_photo");
+          }
+          startIndex = photoElements.length;
+        }
+      }
+    }
+  };
+
+  Promise.all(
+    photoElements.flatMap((element) => {
+      const photoImgs = element.querySelectorAll("img");
+      return Array.from(photoImgs).map((photoImg) => {
+        return new Promise((resolve) => {
+          photoImg.addEventListener("load", () => {
+            photoImg.style.opacity = "1";
+            resolve();
+          });
+        });
       });
-    }
-  }
-  applyFilter(selectedTeam, defaultTeam, "team", (playerValue, filterValue) =>
-    playerValue.toLowerCase().includes(filterValue.toLowerCase())
-  );
-  applyFilter(
-    selectedPosition,
-    defaultPosition,
-    "positions",
-    (playerValue, filterValue) => playerValue.includes(filterValue)
-  );
+    })
+  ).then(checkAndAddClasses);
 
-  filteredPlayers.sort((a, b) => {
-    let valA, valB;
-    const activeButton = Array.from(headerButtons).find((btn) =>
-      btn.classList.contains("active-button")
+  openPopup(popupGallery);
+  popupGalleryContent.scrollTop = 0;
+
+  // Всё, что касается открытия попапа с галереей и ее свайпы
+  const slidePopup = document.querySelector(".slide-popup");
+  const slideWrapper = slidePopup.querySelector(".slide_wrapper");
+  const prevButton = slidePopup.querySelector(".prev");
+  const nextButton = slidePopup.querySelector(".next");
+
+  let slides = [];
+  let isMobile = false;
+  let touchStartX = null;
+  let isSwiping = false;
+  let swipeThreshold = 25;
+  let controlsAdded = false;
+  let clickNavigation = true;
+
+  function handleGalleryClick(event) {
+    const target = event.target.closest("div");
+    const index = Array.from(gallery.children).findIndex(
+      (child) => child === target
     );
-    const sortBy = activeButton?.textContent || "Rank";
 
-    if (sortBy in a.lastSeasonStats) {
-      valA = a.lastSeasonStats[sortBy];
-      valB = b.lastSeasonStats[sortBy];
-      if (sortBy === "Min") {
-        const [minA, secA] = valA.split(":").map(Number);
-        const [minB, secB] = valB.split(":").map(Number);
-        valA = minA * 60 + secA;
-        valB = minB * 60 + secB;
-      }
-    } else if (sortBy in a) {
-      valA = a[sortBy];
-      valB = b[sortBy];
-    } else {
-      return 0;
+    if (index >= 0) {
+      showFullsizeGallery(index - 1);
+      window.addEventListener("resize", () => {
+        isMobile = window.innerWidth < 767;
+      });
+      openPopup(slidePopup);
     }
+  }
 
-    const isAscending = ["Rank", "TO"].includes(sortBy);
+  if (!galleryListenersAdded) {
+    gallery.addEventListener("click", handleGalleryClick);
+    galleryListenersAdded = true;
+  }
 
-    if (isAscending) {
-      return valA - valB;
-    } else {
-      return valB - valA;
-    }
-  });
-
-  playersCount = filteredPlayers.length;
-  return filteredPlayers;
-} // Обновление таблицы игроков
-
-const tableBody = document.querySelector(".table_body");
-function createTableRow(item) {
-  const player = playerRowTemplate.querySelector(".table_row").cloneNode(true);
-
-  const photo = player.querySelector(".player_photo");
-  photo.src = item.photo;
-  photo.alt = item.name;
-  photo.addEventListener("load", () => {
-    photo.style.opacity = "1";
-  });
-
-  player.querySelector(".player_name").textContent = item.name;
-  player.querySelector(".player_club").textContent =
-    clubAbbreviations[item.team];
-  player.querySelector(".player_club").title = item.team;
-  player.querySelector(".player_position").textContent = item.positions;
-
-  Object.entries(statsMap).forEach(([key, statData]) => {
-    const element = player.querySelector(`.${statData.className}`);
-
-    const value = key === "Rank" ? item.Rank : item.lastSeasonStats[key];
-
-    if (key.includes("%")) {
-      let numValue = parseFloat(value);
-      if (numValue >= 1) {
-        numValue /= 100;
-      }
-      element.textContent = "." + numValue.toFixed(3).replace(/^0\./, "");
-    } else if (typeof value === "number" || !isNaN(value)) {
-      element.textContent = parseInt(value, 10)
-        .toString()
-        .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    } else {
-      element.textContent = value;
-    }
-
-    if (element.textContent === "0" || element.textContent === ".000") {
-      element.classList.add("zero-value");
-    }
-  });
-
-  return player;
-} // Создание строки игрока
-function updateRowCounter() {
-  const count = playersCount;
-  document.querySelector(".counting_rows").textContent = `1-${count}`;
-} // Обновление счетчика строк
-
-async function updateTable() {
-  if (isUpdating) return;
-  isUpdating = true;
-
-  try {
-    tableBody.innerHTML = "";
-    document.querySelector(".counting_rows").style.display = "none";
-
-    for (let i = 0; i < playersCount; i++) {
-      const loaderRow = document.createElement("tr");
-      loaderRow.classList.add("loading-row");
-
-      const loaderCell = document.createElement("td");
-      loaderCell.setAttribute("colspan", "16");
-
-      const loaderDiv = document.createElement("div");
-      loaderCell.appendChild(loaderDiv);
-
-      if (i === playersCount - 1) {
-        loaderCell.classList.add("last-loader-td");
-      }
-
-      loaderRow.appendChild(loaderCell);
-      tableBody.appendChild(loaderRow);
-    }
-
-    await new Promise((resolve) => setTimeout(resolve, 300));
-
-    const sortedPlayers = updatePlayersTable();
-
-    tableBody.innerHTML = "";
-
-    sortedPlayers.forEach((player) => {
-      tableBody.append(createTableRow(player));
+  const showFullsizeGallery = (startIndex) => {
+    slideWrapper.innerHTML = "";
+    slides = [];
+    currentSlide = startIndex;
+    isMobile = window.innerWidth < 767;
+    currentPhotosArray.forEach((photo, i) => {
+      const slide = document.createElement("div");
+      slide.classList.add("slide");
+      const img = document.createElement("img");
+      img.classList.add("slide_img");
+      img.src = isMobile ? photo.thumb || photo.full : photo.full;
+      img.alt = "Фотосессия SLAM";
+      slide.appendChild(img);
+      slideWrapper.appendChild(slide);
+      slides.push(slide);
     });
 
-    document.querySelector(".counting_rows").style.display = "flex";
+    updateSlider();
+    if (!controlsAdded) {
+      addControls();
+      controlsAdded = true;
+    }
+    slideWrapper.addEventListener("click", handleSlideClick);
+    if (!keydownListenerAdded) {
+      document.addEventListener("keydown", handleKeyboard);
+      keydownListenerAdded = true;
+    }
+  };
 
-    updateRowCounter();
-  } catch (error) {
-    console.error("Произошла ошибка:", error);
-  } finally {
-    isUpdating = false;
+  const updateSlider = () => {
+    slideWrapper.style.transform = `translateX(-${currentSlide * 100}%)`;
+    updateButtonState();
+  };
+  const addControls = () => {
+    prevButton.addEventListener("click", () => navigate(-1));
+    nextButton.addEventListener("click", () => navigate(1));
+    if (isMobile) {
+      slideWrapper.addEventListener("touchstart", handleTouchStart);
+      slideWrapper.addEventListener("touchend", handleTouchEnd);
+      slideWrapper.addEventListener("touchmove", handleTouchMove);
+    }
+  };
+  const navigate = (direction) => {
+    if (!isOpen) return;
+    if (direction === -1 && currentSlide > 0) {
+      currentSlide--;
+    } else if (direction === 1 && currentSlide < slides.length - 1) {
+      currentSlide++;
+    }
+    updateSlider();
+  };
+  const handleKeyboard = (e) => {
+    if (!isOpen) return;
+    e.preventDefault();
+    switch (e.key) {
+      case "ArrowLeft":
+        navigate(-1);
+        break;
+      case "ArrowRight":
+        navigate(1);
+        break;
+      case "ArrowUp":
+      case "ArrowDown":
+      case " ":
+        return;
+    }
+  };
+  const handleTouchStart = (e) => {
+    if (!isOpen) return;
+    touchStartX = e.touches[0].clientX;
+    isSwiping = true;
+    clickNavigation = false;
+  };
+  const handleTouchEnd = () => {
+    isSwiping = false;
+    clickNavigation = true; // Включаем навигацию по клику после свайпа
+  };
+  const handleTouchMove = (e) => {
+    if (!isSwiping || !isOpen) return;
+    const currentX = e.touches[0].clientX;
+    const diff = Math.abs(touchStartX - currentX);
+    if (diff >= swipeThreshold) {
+      const direction = touchStartX > currentX ? 1 : -1;
+      navigate(direction);
+      isSwiping = false;
+      touchStartX = currentX;
+      clickNavigation = true;
+    }
+  };
+  const updateButtonState = () => {
+    prevButton.disabled = currentSlide === 0;
+    nextButton.disabled = currentSlide === slides.length - 1;
+    prevButton.classList.toggle("disabled", currentSlide === 0);
+    nextButton.classList.toggle("disabled", currentSlide === slides.length - 1);
+  };
+
+  const handleSlideClick = (event) => {
+    if (!isOpen) return;
+    const rect = slidePopup.getBoundingClientRect();
+    const clickX = event.clientX - rect.left;
+    const halfWidth = rect.width / 2;
+    if (clickNavigation) {
+      if (clickX < halfWidth) {
+        navigate(-1); // Кликаем в левую часть - переходим назад
+      } else {
+        navigate(1); // Кликаем в правую часть - переходим вперед
+      }
+    }
+  };
+} // Открытие попапа с галереей
+
+const returnButton = popupGalleryContent.querySelector(".close");
+function handlePopupScroll() {
+  const scrollTop = popupGalleryContent.scrollTop;
+  const threshold = 50; // порог в 50 пикселей
+  if (scrollTop >= threshold) {
+    returnButton.classList.add("return-visible");
+  } else {
+    returnButton.classList.remove("return-visible");
   }
-} // Обновление таблицы
-
-const clearButton = document.querySelector(".search_clear");
-searchInput.addEventListener("input", function () {
-  if (this.value.length > 0) {
-    clearButton.style.display = "block";
-  }
-  updateTable();
-}); // Поиск
-clearButton.addEventListener("click", function () {
-  searchInput.value = "";
-  updateTable();
-}); // Очистка поиска
-
-const filterTeams = document.querySelector(".filter_teams");
-const filterPositions = document.querySelector(".filter_positions");
-function updateFilterTitle(select, filterContainer) {
-  filterContainer.querySelector(".filter_title").textContent = select.value;
 }
-function setupAndHandleFilter(select, filterContainer) {
-  updateFilterTitle(select, filterContainer);
-  select.addEventListener("change", (event) => {
-    updateFilterTitle(select, filterContainer);
-    updateTable();
-  });
-} // Селекты
-
-headerButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    headerButtons.forEach((btn) => {
-      btn.classList.remove("active-button");
-      btn.disabled = false;
-    });
-
-    button.classList.add("active-button");
-    button.disabled = true;
-
-    updateTable();
-  });
-}); // Кнопки фильтров
-
-function initializeTable() {
-  const loaderRows = tableBody.querySelectorAll(".loading-row");
-
-  try {
-    const sortedPlayers = updatePlayersTable();
-
-    tableBody.innerHTML = "";
-
-    sortedPlayers.forEach((player) => {
-      tableBody.append(createTableRow(player));
-    });
-
-    document.querySelector(".counting_rows").style.display = "flex";
-
-    updateRowCounter();
-  } catch (error) {
-    console.error("Ошибка при инициализации таблицы:", error);
-  }
-} // Начальная отрисовка
+popupGalleryContent.addEventListener("scroll", () => {
+  handlePopupScroll();
+}); // Анимация кнопки закрытия в попапе
