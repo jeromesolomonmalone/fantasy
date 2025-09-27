@@ -149,53 +149,6 @@ const covers = {
       ],
     },
   },
-  TyranStokes: {
-    title: "Tyran Stokes",
-    number: 258,
-    league: "College",
-    team: "Notre Dame",
-    players: ["Tyran Stokes"],
-    photos: {
-      main: {
-        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b2e39c1dfc1ba0827964_SLAM%20HS-STOKES-scaled.avif",
-        thumb:
-          "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b2e39c1dfc1ba0827964_SLAM%20HS-STOKES-scaled-p-500.avif",
-      },
-      gallery: [
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b0552ce5211911a966c8_MUL_7573.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b52492aabedfae0174b3_ts%20digi%20cover10.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b52492aabedfae0174b3_ts%20digi%20cover10-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b52eb9efd80f80dece91_ts%20digi%20cover6.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b52eb9efd80f80dece91_ts%20digi%20cover6-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890bf8c24a7dba39715c630_ts%20digi%20cover11.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890bf8c24a7dba39715c630_ts%20digi%20cover11-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890bf1aec05e56f45273026_MUL_7744.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890bf546f0efc84d0176c14_ts%20digi%20cover18.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890bf546f0efc84d0176c14_ts%20digi%20cover18-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b56755b644223e84db52_ts%20digi%20cover17.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6890b56755b644223e84db52_ts%20digi%20cover17-p-500.avif",
-        },
-      ],
-    },
-  },
   AusarThompsonAmenThompson: {
     title: "Ausar Thompson & Amen Thompson",
     number: 257,
@@ -1937,20 +1890,27 @@ const randomImages = Object.keys(covers)
   .slice(0, 20); // 20 случайных обложек
 const header = document.querySelector(".header");
 const animationList = document.querySelector(".animation_list");
+const getImageUrl = (image) =>
+  window.innerWidth < 767 ? image.thumb || image.full : image.full;
 const addRandomImages = () => {
+  let loaded = 0;
+  const total = randomImages.length;
   randomImages.forEach((image, index) => {
-    const animationItem = document.createElement("div");
-    animationItem.classList.add("animation_item");
-    const rotationAngle = index * 18;
-    animationItem.style.transform = `rotate(${rotationAngle}deg) translateY(calc(-1 * 970px))`;
-    const cover = document.createElement("img");
-    cover.src = image.thumb || image.full;
-    cover.alt = "SLAM Cover";
-    cover.addEventListener("load", () => {
-      cover.style.opacity = "1";
+    const item = document.createElement("div");
+    item.classList.add("animation_item");
+    item.style.transform = `rotate(${
+      index * 18
+    }deg) translateY(calc(-1 * 970px))`;
+    const img = document.createElement("img");
+    img.src = getImageUrl(image);
+    img.alt = "SLAM Cover";
+    img.addEventListener("load", () => {
+      loaded++;
+      img.style.opacity = "1";
+      if (loaded === total) animationList.style.opacity = "1";
     });
-    animationItem.appendChild(cover);
-    animationList.appendChild(animationItem);
+    item.appendChild(img);
+    animationList.appendChild(item);
   });
 }; // Добавление обложек в шапку в HTML и их анимация
 let startScroll = 0;
@@ -2061,6 +2021,7 @@ function closePopup(popup) {
     }
     currentIndex = currentSlide;
     currentPhotosArray = [];
+    window.removeEventListener("resize", handleResize);
   }
   if (popup.classList.contains("slide-popup")) {
     isOpen = false;
@@ -2215,7 +2176,7 @@ function renderCover(item) {
   const number = clone.querySelector(".cover_number");
   const title = clone.querySelector(".cover_title");
 
-  img.src = item.photos.main.thumb || item.photos.main.full;
+  img.src = getImageUrl(item.photos.main);
   img.alt =
     item.players.length === 1
       ? `На обложке представлен ${item.players[0]}`
@@ -2271,13 +2232,11 @@ search.addEventListener("focus", (e) => {
 search.addEventListener("input", () => {
   updateFilters();
 }); // Обработчик поиска
-const resetScroll = () =>
-  document.querySelector(".main")?.scrollIntoView({ block: "start" });
 checkboxContainers.addEventListener("change", (event) => {
   if (event.target.type === "checkbox") {
     updateFilters();
     closePopup(navigationPopup);
-    setTimeout(resetScroll, 0);
+    document.querySelector(".main").scrollIntoView({ block: "start" });
   }
 }); // Обработчик чекбоксов
 homeButton.addEventListener("click", () => {
@@ -2288,7 +2247,7 @@ homeButton.addEventListener("click", () => {
   });
   search.value = "";
   updateFilters();
-  setTimeout(resetScroll, 0);
+  document.querySelector(".main").scrollIntoView({ block: "start" });
 }); // Обработчик нажатия на главную кнопку
 
 document.addEventListener("scroll", () => {
@@ -2361,10 +2320,6 @@ function handlePopup(item) {
   gallery.appendChild(header);
 
   currentPhotosArray = [item.photos.main, ...item.photos.gallery];
-  const getPhotoUrl = (photo, type = "default") => {
-    const isMobile = window.innerWidth < 500;
-    return isMobile ? photo.thumb || photo.full : photo.full;
-  };
 
   const photoElements = currentPhotosArray.map((photo, index) => {
     const photoDiv = document.createElement("div");
@@ -2372,13 +2327,13 @@ function handlePopup(item) {
     const photoImg = document.createElement("img");
     const blurImg = document.createElement("img");
 
-    photoImg.src = getPhotoUrl(photo);
+    photoImg.src = photo.full;
     photoImg.alt = "Фотосессия SLAM";
 
     if (index === 0) {
       photoDiv.classList.add("main_cover");
       blurImg.classList.add("blur_img");
-      blurImg.src = getPhotoUrl(photo);
+      blurImg.src = photo.full;
       blurImg.alt = "Фотосессия SLAM";
       photoDiv.appendChild(blurImg);
     }
@@ -2442,12 +2397,7 @@ function handlePopup(item) {
   const nextButton = slidePopup.querySelector(".next");
 
   let slides = [];
-  let isMobile = false;
-  let touchStartX = null;
-  let isSwiping = false;
-  let swipeThreshold = 25;
   let controlsAdded = false;
-  let clickNavigation = true;
 
   function handleGalleryClick(event) {
     const target = event.target.closest("div");
@@ -2457,9 +2407,6 @@ function handlePopup(item) {
 
     if (index >= 0) {
       showFullsizeGallery(index - 1);
-      window.addEventListener("resize", () => {
-        isMobile = window.innerWidth < 767;
-      });
       openPopup(slidePopup);
     }
   }
@@ -2473,14 +2420,16 @@ function handlePopup(item) {
     slideWrapper.innerHTML = "";
     slides = [];
     currentSlide = startIndex;
-    isMobile = window.innerWidth < 767;
     currentPhotosArray.forEach((photo, i) => {
       const slide = document.createElement("div");
       slide.classList.add("slide");
       const img = document.createElement("img");
       img.classList.add("slide_img");
-      img.src = isMobile ? photo.thumb || photo.full : photo.full;
+      img.src = photo.full;
       img.alt = "Фотосессия SLAM";
+      img.addEventListener("load", () => {
+        img.style.opacity = "1";
+      });
       slide.appendChild(img);
       slideWrapper.appendChild(slide);
       slides.push(slide);
@@ -2499,20 +2448,18 @@ function handlePopup(item) {
   };
 
   const updateSlider = () => {
-    slideWrapper.style.transform = `translateX(-${currentSlide * 100}%)`;
+    const offset = window.innerWidth < 767 ? currentSlide * 20 : 0;
+    const transformValue =
+      window.innerWidth < 767
+        ? `calc(-${currentSlide * 100}% - ${offset}px)`
+        : `-${currentSlide * 100}%`;
+
+    slideWrapper.style.transform = `translateX(${transformValue})`;
     updateButtonState();
   };
   const addControls = () => {
     prevButton.addEventListener("click", () => navigate(-1));
     nextButton.addEventListener("click", () => navigate(1));
-    if (isMobile) {
-      slideWrapper.addEventListener("touchstart", handleTouchStart);
-      slideWrapper.addEventListener("touchend", handleTouchEnd);
-      slideWrapper.addEventListener("touchmove", handleTouchMove);
-      slideWrapper.addEventListener("gesturestart", handleTouchStart);
-      slideWrapper.addEventListener("gesturechange", handleTouchMove);
-      slideWrapper.addEventListener("gestureend", handleTouchEnd);
-    }
   };
   const navigate = (direction) => {
     if (!isOpen) return;
@@ -2539,28 +2486,6 @@ function handlePopup(item) {
         return;
     }
   };
-  const handleTouchStart = (e) => {
-    if (!isOpen) return;
-    touchStartX = e.touches[0].clientX;
-    isSwiping = true;
-    clickNavigation = false;
-  };
-  const handleTouchEnd = () => {
-    isSwiping = false;
-    clickNavigation = true; // Включаем навигацию по клику после свайпа
-  };
-  const handleTouchMove = (e) => {
-    if (!isSwiping || !isOpen) return;
-    const currentX = e.touches[0].clientX;
-    const diff = Math.abs(touchStartX - currentX);
-    if (diff >= swipeThreshold) {
-      const direction = touchStartX > currentX ? 1 : -1;
-      navigate(direction);
-      isSwiping = false;
-      touchStartX = currentX;
-      clickNavigation = true;
-    }
-  };
   const updateButtonState = () => {
     prevButton.disabled = currentSlide === 0;
     nextButton.disabled = currentSlide === slides.length - 1;
@@ -2573,14 +2498,13 @@ function handlePopup(item) {
     const rect = slidePopup.getBoundingClientRect();
     const clickX = event.clientX - rect.left;
     const halfWidth = rect.width / 2;
-    if (clickNavigation) {
-      if (clickX < halfWidth) {
-        navigate(-1); // Кликаем в левую часть - переходим назад
-      } else {
-        navigate(1); // Кликаем в правую часть - переходим вперед
-      }
+    if (clickX < halfWidth) {
+      navigate(-1);
+    } else {
+      navigate(1);
     }
   };
+  window.addEventListener("resize", updateSlider);
 } // Открытие попапа с галереей
 
 const returnButton = popupGalleryContent.querySelector(".close");

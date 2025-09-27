@@ -101,6 +101,7 @@ body {
   top: 50%;
   left: 50%;
   display: flex;
+  opacity: 0;
   transform-style: preserve-3d;
   will-change: transform;
 }
@@ -197,17 +198,23 @@ body {
 
 .search_wrapper {
   position: relative;
+  touch-action: manipulation;
   max-inline-size: 600px;
   inline-size: 100%;
 }
 
 .search {
+  position: relative;
   border: 1px solid var(--orange);
   border-radius: 50px;
   padding: 1rem 2rem 1rem 4rem;
   outline: none;
   font: inherit;
   inline-size: 100%;
+  -webkit-touch-callout: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .search_img {
@@ -399,9 +406,10 @@ body {
 
 .gallery-popup .close {
   position: fixed;
-  top: 2rem;
-  left: 2rem;
+  top: 0;
+  left: 0;
   z-index: 3;
+  padding: 2rem;
   color: var(--black-white);
   font-family: europa, sans-serif;
   font-weight: 700;
@@ -434,6 +442,7 @@ body {
   align-items: center;
   height: 100vh;
   padding-inline: 1.5rem;
+  color: var(--black-white);
   font-family: span, serif;
   font-weight: 700;
   text-align: center;
@@ -447,15 +456,19 @@ body {
 
 .popup-header h1 {
   margin-block: 10px;
+  font-family: "Scheherazade New", serif;
   font-size: 60px;
   line-height: 1;
   text-transform: uppercase;
 }
 
+.gallery img {
+  opacity: 0;
+}
+
 .gallery div:nth-child(n + 3) img {
   object-fit: cover;
   object-position: center;
-  opacity: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -520,9 +533,7 @@ body {
 .slide_wrapper {
   display: flex;
   align-items: stretch;
-  -webkit-overflow-scrolling: touch;
   transition: transform 0.5s ease;
-  touch-action: pan-x;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -538,6 +549,7 @@ body {
   margin: 0 auto;
   object-fit: contain;
   object-position: center;
+  opacity: 0;
   inline-size: auto;
   max-inline-size: 100%;
   block-size: 100%;
@@ -596,12 +608,29 @@ body {
   position: relative;
 }
 
-.footer_img {
+.footer_fixed {
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: -1000;
   inline-size: 100%;
+}
+
+.footer_fixed::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background: url("https://slamonline.com/wp-content/uploads/2025/09/SLAM-covers.jpg")
+    center/contain repeat;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.footer_img {
+  object-fit: contain;
+  inline-size: 100%;
+  block-size: auto;
 }
 
 .footer_main {
@@ -622,8 +651,7 @@ body {
   }
 
   .gallery-popup .close {
-    top: 1.5rem;
-    left: 1.5rem;
+    padding: 1.5rem;
   }
 
   .footer_logo {
@@ -673,13 +701,13 @@ body {
   }
 
   .navigation-popup .popup-content {
-    padding: 6.5rem 1.5rem 0;
+    padding: 9rem 1.5rem 0;
     max-inline-size: 100%;
     inline-size: 100%;
   }
 
   .navigation-popup .close {
-    top: 3rem;
+    top: 5.5rem;
   }
 
   .main {
@@ -695,7 +723,7 @@ body {
   }
 
   .gallery-popup .close {
-    left: 0.75rem;
+    padding: 1.5rem 0.75rem;
   }
 
   .popup-header h2 {
@@ -736,6 +764,7 @@ body {
 
   .slide_wrapper {
     align-items: center;
+    gap: 20px;
     block-size: auto;
   }
 
@@ -765,6 +794,14 @@ body {
 }
 
 @media screen and (max-width: 479px) {
+  .animation_wrapper {
+    block-size: 920px;
+  }
+
+  .animation_title {
+    top: 500px;
+  }
+
   .animation_title h1 {
     font-size: 40px;
   }
