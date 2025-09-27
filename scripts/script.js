@@ -2021,7 +2021,6 @@ function closePopup(popup) {
     }
     currentIndex = currentSlide;
     currentPhotosArray = [];
-    window.removeEventListener("resize", handleResize);
   }
   if (popup.classList.contains("slide-popup")) {
     isOpen = false;
@@ -2332,6 +2331,7 @@ function handlePopup(item) {
 
     if (index === 0) {
       photoDiv.classList.add("main_cover");
+      photoImg.classList.add("main_cover_img");
       blurImg.classList.add("blur_img");
       blurImg.src = photo.full;
       blurImg.alt = "Фотосессия SLAM";

@@ -482,11 +482,13 @@ body {
   block-size: 100vh;
 }
 
-.main_cover img:last-child {
-  position: relative;
+.main_cover_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   z-index: 2;
-  margin: 0 auto;
   object-fit: cover;
+  transform: translate(-50%, -50%);
   inline-size: auto;
   block-size: 100%;
 }
@@ -735,16 +737,9 @@ body {
     padding-block-start: 8px;
   }
 
-  .main_cover {
-    block-size: auto;
-  }
-
-  .main_cover img:last-child {
-    inline-size: 100%;
-  }
-
-  .blur_img {
-    display: none;
+  .main_cover_img {
+  inline-size: 100%;
+  block-size: auto;
   }
 
   .odd_photo {
