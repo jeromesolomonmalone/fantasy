@@ -2268,7 +2268,6 @@ document.addEventListener("DOMContentLoaded", () => {
   createTeamCheckboxes();
   updateFilters();
   checkStickyPosition();
-  handlePopupScroll();
 
   const scroll = window.scrollY || window.pageYOffset;
   updateStyles(scroll);
@@ -2505,18 +2504,43 @@ function handlePopup(item) {
     }
   };
   window.addEventListener("resize", updateSlider);
-} // Открытие попапа с галереей
 
-const returnButton = popupGalleryContent.querySelector(".close");
-function handlePopupScroll() {
-  const scrollTop = popupGalleryContent.scrollTop;
-  const threshold = 50; // порог в 50 пикселей
-  if (scrollTop >= threshold) {
-    returnButton.classList.add("return-visible");
-  } else {
-    returnButton.classList.remove("return-visible");
+  const mainCoverImg = popupGalleryContent.querySelector(".main_cover_img");
+  const returnButton = popupGalleryContent.querySelector(".close");
+  let maxScroll = 0;
+  let currentPercent = 100;
+  const threshold = 50;
+  function updateDirection() {
+    if (window.innerWidth > 767) {
+      mainCoverImg.style.blockSize = "100%";
+      mainCoverImg.style.inlineSize = "auto";
+    } else {
+      mainCoverImg.style.blockSize = "auto";
+      mainCoverImg.style.inlineSize = "100%";
+    }
   }
-}
-popupGalleryContent.addEventListener("scroll", () => {
-  handlePopupScroll();
-}); // Анимация кнопки закрытия в попапе
+  function updateStyles(scroll) {
+    const direction = window.innerWidth > 767 ? "blockSize" : "inlineSize";
+    if (scroll >= 0) {
+      currentPercent = 100 + scroll * 0.1;
+      if (currentPercent > 175) {
+        currentPercent = 175;
+        maxScroll = scroll;
+      }
+    } else {
+      currentPercent = 100;
+    }
+    mainCoverImg.style[direction] = `${currentPercent}%`;
+    returnButton.classList.toggle("return-visible", scroll >= threshold);
+  }
+  popupGalleryContent.addEventListener("scroll", () => {
+    const scroll = popupGalleryContent.scrollTop;
+    updateStyles(scroll);
+  }); // Анимация кнопки закрытия в попапе
+
+  window.addEventListener("resize", () => {
+    updateSlider();
+    updateDirection();
+  });
+  updateDirection();
+} // Открытие попапа с галереей
