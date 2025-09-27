@@ -525,7 +525,6 @@ body {
   touch-action: pan-x;
   block-size: 100%;
   inline-size: 100%;
-  contain: strict;
 }
 
 .slide-popup .slide {
