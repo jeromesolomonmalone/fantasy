@@ -179,6 +179,7 @@ body {
 .home_button {
   border: none;
   background: transparent;
+  cursor: pointer;
 }
 
 .home_button img {
@@ -521,9 +522,10 @@ body {
   align-items: stretch;
   -webkit-overflow-scrolling: touch;
   transition: transform 0.5s ease;
-  touch-action: manipulation;
+  touch-action: pan-x;
   block-size: 100%;
   inline-size: 100%;
+  contain: strict;
 }
 
 .slide-popup .slide {
@@ -672,9 +674,13 @@ body {
   }
 
   .navigation-popup .popup-content {
-    padding: 5rem 1.5rem 0;
+    padding: 6.5rem 1.5rem 0;
     max-inline-size: 100%;
     inline-size: 100%;
+  }
+
+  .navigation-popup .close {
+    top: 3rem;
   }
 
   .main {

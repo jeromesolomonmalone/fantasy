@@ -2010,6 +2010,20 @@ let isOpen = false;
 let keydownListenerAdded = false;
 let galleryListenersAdded = false;
 let currentPhotosArray = [];
+function lockBody() {
+  const body = document.body;
+  const scrollPosition = window.scrollY;
+  body.dataset.scrollPosition = scrollPosition;
+  body.style.top = `-${scrollPosition}px`;
+  body.classList.add("scroll-lock");
+}
+function unlockBody() {
+  const body = document.body;
+  const scrollPosition = body.dataset.scrollPosition;
+  body.style.top = "";
+  body.classList.remove("scroll-lock");
+  window.scrollTo(0, scrollPosition);
+}
 function openPopup(popup) {
   popup.addEventListener("click", (event) => {
     if (event.target === popup) {
@@ -2018,12 +2032,11 @@ function openPopup(popup) {
   });
   popup.style.display = "flex";
   openPopups.push(popup);
-  if (popup.classList.contains("gallery-popup")) {
-    const body = document.body;
-    const scrollPosition = window.scrollY;
-    body.dataset.scrollPosition = scrollPosition;
-    body.style.top = `-${scrollPosition}px`;
-    body.classList.add("scroll-lock");
+  if (
+    popup.classList.contains("gallery-popup") ||
+    (popup.classList.contains("navigation-popup") && window.innerWidth < 767)
+  ) {
+    lockBody();
   }
   if (popup.classList.contains("slide-popup")) {
     isOpen = true;
@@ -2033,12 +2046,11 @@ function openPopup(popup) {
 function closePopup(popup) {
   popup.style.display = "none";
   openPopups.splice(openPopups.indexOf(popup), 1);
-  if (popup.classList.contains("gallery-popup")) {
-    const body = document.body;
-    const scrollPosition = body.dataset.scrollPosition;
-    body.style.top = "";
-    body.classList.remove("scroll-lock");
-    window.scrollTo(0, scrollPosition);
+  if (
+    popup.classList.contains("gallery-popup") ||
+    (popup.classList.contains("navigation-popup") && window.innerWidth < 767)
+  ) {
+    unlockBody();
     try {
       if (galleryListenersAdded) {
         gallery.removeEventListener("click", handleGalleryClick);
@@ -2250,13 +2262,22 @@ function updateFilters() {
 
 const search = document.querySelector(".search");
 const homeButton = document.querySelector(".home_button");
+search.addEventListener("focus", (e) => {
+  e.preventDefault();
+  requestAnimationFrame(() => {
+    updateFilters();
+  });
+});
 search.addEventListener("input", () => {
   updateFilters();
 }); // Обработчик поиска
+const resetScroll = () =>
+  document.querySelector(".main")?.scrollIntoView({ block: "start" });
 checkboxContainers.addEventListener("change", (event) => {
   if (event.target.type === "checkbox") {
     updateFilters();
     closePopup(navigationPopup);
+    setTimeout(resetScroll, 0);
   }
 }); // Обработчик чекбоксов
 homeButton.addEventListener("click", () => {
@@ -2267,6 +2288,7 @@ homeButton.addEventListener("click", () => {
   });
   search.value = "";
   updateFilters();
+  setTimeout(resetScroll, 0);
 }); // Обработчик нажатия на главную кнопку
 
 document.addEventListener("scroll", () => {
@@ -2303,6 +2325,21 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("resize", () => {
     updatePlaceholder();
     requestAnimationFrame(checkStickyPosition);
+    openPopups.forEach((popup) => {
+      if (popup.classList.contains("navigation-popup")) {
+        if (
+          window.innerWidth < 767 &&
+          !document.body.classList.contains("scroll-lock")
+        ) {
+          lockBody();
+        } else if (
+          window.innerWidth >= 767 &&
+          document.body.classList.contains("scroll-lock")
+        ) {
+          unlockBody();
+        }
+      }
+    });
   });
 }); // Инициализация функций при открытии сайта
 
@@ -2472,6 +2509,9 @@ function handlePopup(item) {
       slideWrapper.addEventListener("touchstart", handleTouchStart);
       slideWrapper.addEventListener("touchend", handleTouchEnd);
       slideWrapper.addEventListener("touchmove", handleTouchMove);
+      slideWrapper.addEventListener("gesturestart", handleTouchStart);
+      slideWrapper.addEventListener("gesturechange", handleTouchMove);
+      slideWrapper.addEventListener("gestureend", handleTouchEnd);
     }
   };
   const navigate = (direction) => {
