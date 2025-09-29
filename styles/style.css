@@ -204,12 +204,12 @@ body {
 }
 
 .search {
-  position: relative;
   border: 1px solid var(--orange);
   border-radius: 50px;
   padding: 1rem 2rem 1rem 4rem;
   outline: none;
-  font: inherit;
+  font-family: inherit;
+  font-size: 16px;
   inline-size: 100%;
   -webkit-touch-callout: none;
   -moz-appearance: none;
