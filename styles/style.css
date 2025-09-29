@@ -68,7 +68,6 @@ svg {
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   color: var(--text-color);
   font-family: "Univers LT Std 63 Bold Extended", sans-serif;
   background-color: var(--background);
@@ -170,6 +169,7 @@ body {
   gap: 2rem;
   padding: 24px;
   inline-size: 100%;
+  will-change: transform;
 }
 
 .has-border {
@@ -738,8 +738,8 @@ body {
   }
 
   .main_cover_img {
-  inline-size: 100%;
-  block-size: auto;
+    inline-size: 100%;
+    block-size: auto;
   }
 
   .odd_photo {

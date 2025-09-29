@@ -12,42 +12,14 @@ const covers = {
           "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca928e40397736b149c7b2_SLAM-258-JALEN-WILLIAMS-COVER-1-scaled-p-500.avif",
       },
       gallery: [
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca96bb8c6b5e4df8b1fd66_Slam_Jalen%20Williams_%20429.jpg",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca995d150c88395c483568_64.jpg",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca995d150c88395c483568_64-p-500.jpg",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99672155f1a5d04bff6f_97.jpg",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99672155f1a5d04bff6f_97-p-500.jpg",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99831c5fe3d29e640a6e_550.jpg",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99831c5fe3d29e640a6e_550-p-500.jpg",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a7d8c6b5e4df8b38fd3_376.jpg",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a7d8c6b5e4df8b38fd3_376-p-500.jpg",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a5c7c9198be34758121_364.jpg",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a5c7c9198be34758121_364-p-500.jpg",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9d5c3146a060d4c21701_198%20(1).jpg",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9d5c3146a060d4c21701_198%20(1)-p-500.jpg",
-        },
-        {
-          full: "https://sun9-20.userapi.com/s/v1/ig2/FbMQXXF-CqgnTuN2CTEEPAW2yW7kuuAqMDXHS9jEd-1tbWtIYO0QNjA7F_XXNeeO3QWG5hhyOooCCSgA9tFDaNE3.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350,1280x1600,1440x1800,2048x2560&from=bu&cs=2048x0",
-        },
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca96bb8c6b5e4df8b1fd66_Slam_Jalen%20Williams_%20429.jpg",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca995d150c88395c483568_64.jpg",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99672155f1a5d04bff6f_97.jpg",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99831c5fe3d29e640a6e_550.jpg",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a7d8c6b5e4df8b38fd3_376.jpg",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a5c7c9198be34758121_364.jpg",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9d5c3146a060d4c21701_198%20(1).jpg",
+        "https://sun9-20.userapi.com/s/v1/ig2/FbMQXXF-CqgnTuN2CTEEPAW2yW7kuuAqMDXHS9jEd-1tbWtIYO0QNjA7F_XXNeeO3QWG5hhyOooCCSgA9tFDaNE3.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350,1280x1600,1440x1800,2048x2560&from=bu&cs=2048x0",
       ],
     },
   },
@@ -64,39 +36,13 @@ const covers = {
           "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc462958d615bd50bea25_SLAM-258-COOPER-scaled-p-500.jpg",
       },
       gallery: [
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada32c1c3be164da5cc813_Flagg-BG2-scaled.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5d1cd1cce8916b4bbb2_slam%20258%20cooper%20flagg4.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5d1cd1cce8916b4bbb2_slam%20258%20cooper%20flagg4-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5da32c909752298954b_slam%20258%20cooper%20flagg3.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5da32c909752298954b_slam%20258%20cooper%20flagg3-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6af3aa37359d7bd6af7_slam%20258%20cooper%20flagg6.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6af3aa37359d7bd6af7_slam%20258%20cooper%20flagg6-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada1d9b5cbcd93e1ba9abe_Flagg-BG-scaled.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada1d9b5cbcd93e1ba9abe_Flagg-BG-scaled-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68adab18c2b51d5e48ffdadf_slam%20258%20cooper%20flagg8.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68adab18c2b51d5e48ffdadf_slam%20258%20cooper%20flagg8-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6fbca8e93c67da482d8_slam%20258%20cooper%20flagg10.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6fbca8e93c67da482d8_slam%20258%20cooper%20flagg10-p-500.avif",
-        },
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada32c1c3be164da5cc813_Flagg-BG2-scaled.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5d1cd1cce8916b4bbb2_slam%20258%20cooper%20flagg4.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5da32c909752298954b_slam%20258%20cooper%20flagg3.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6af3aa37359d7bd6af7_slam%20258%20cooper%20flagg6.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada1d9b5cbcd93e1ba9abe_Flagg-BG-scaled.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68adab18c2b51d5e48ffdadf_slam%20258%20cooper%20flagg8.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6fbca8e93c67da482d8_slam%20258%20cooper%20flagg10.avif",
       ],
     },
   },
@@ -113,39 +59,13 @@ const covers = {
           "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6896a03c36919faea4a8b4cf_WSLAM-Valkyries-1350-KP-p-500.avif",
       },
       gallery: [
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895e6469d1f96a983d7716b_SLAM_Valkyries_JULY10202528620-scaled.jpg",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f086554bf9dd34ccd52e_gsv%20wslam7.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f086554bf9dd34ccd52e_gsv%20wslam7-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f091e77db277b0fb33c9_gsv%20wslam3.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f091e77db277b0fb33c9_gsv%20wslam3-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f0e34874a63d6e55c381_gsv%20wslam9.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f0e34874a63d6e55c381_gsv%20wslam9-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895eb49e0cffd29d1791c43_SLAM_Valkyries_JULY10202528686-scaled.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895eb49e0cffd29d1791c43_SLAM_Valkyries_JULY10202528686-scaled-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f061d8f9fdc10b7c9fb4_gsv%20wslam6.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f061d8f9fdc10b7c9fb4_gsv%20wslam6-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f0fc9dbfb4fddeea8545_gsv%20wslam2.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f0fc9dbfb4fddeea8545_gsv%20wslam2-p-500.avif",
-        },
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895e6469d1f96a983d7716b_SLAM_Valkyries_JULY10202528620-scaled.jpg",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f086554bf9dd34ccd52e_gsv%20wslam7.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f091e77db277b0fb33c9_gsv%20wslam3.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f0e34874a63d6e55c381_gsv%20wslam9.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895eb49e0cffd29d1791c43_SLAM_Valkyries_JULY10202528686-scaled.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f061d8f9fdc10b7c9fb4_gsv%20wslam6.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6895f0fc9dbfb4fddeea8545_gsv%20wslam2.avif",
       ],
     },
   },
@@ -162,52 +82,16 @@ const covers = {
           "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc1c6e650d5fc1bfb1f03_SLAM-257-THOMPSON-TWINS-scaled-p-500.jpg",
       },
       gallery: [
-        {
-          full: "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc37754c1137305eb3032_SLAM-257-AMEN-THOMPSON-scaled.jpg",
-          thumb:
-            "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc37754c1137305eb3032_SLAM-257-AMEN-THOMPSON-scaled-p-500.jpg",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc327ecb89de7bfe9a263_SLAM-257-AUSAR-THOMPSON-scaled.jpg",
-          thumb:
-            "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc327ecb89de7bfe9a263_SLAM-257-AUSAR-THOMPSON-scaled-p-500.jpg",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687f903b44a4fb9e6ec23009_Slam_Thompson%20Twins_Gym_%2019-scaled.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5c2a43a6c3432d76417_thompson%20twins%20slam%20cover6.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5c2a43a6c3432d76417_thompson%20twins%20slam%20cover6-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5cb4112c38ac3a8d937_thompson%20twins%20slam%20cover.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5cb4112c38ac3a8d937_thompson%20twins%20slam%20cover-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687f86b11aebc3a1012610f6_thompson%20twins%20slam%20cover12.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687f86b11aebc3a1012610f6_thompson%20twins%20slam%20cover12-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5f717d9d7dccec1a915_thompson%20twins%20slam%20cover13%20(1).avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5f717d9d7dccec1a915_thompson%20twins%20slam%20cover13%20(1)-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb62ca0ce2e0465d0ba86_thompson%20twins%20slam%20cover16.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb62ca0ce2e0465d0ba86_thompson%20twins%20slam%20cover16-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb66e098bc5ee955993f8_thompson%20twins%20slam%20cover7.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb66e098bc5ee955993f8_thompson%20twins%20slam%20cover7-p-500.avif",
-        },
-        {
-          full: "https://sun9-79.userapi.com/s/v1/ig2/KvOf2D9gjMszDt24sZvqxSjAACNFvbudDk4BNNHWbbvPzZ3YCWpPFT3UHbX2CMsbBqcaG0NHV9YL49zovLU1lbod.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
-        },
+        "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc37754c1137305eb3032_SLAM-257-AMEN-THOMPSON-scaled.jpg",
+        "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc327ecb89de7bfe9a263_SLAM-257-AUSAR-THOMPSON-scaled.jpg",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687f903b44a4fb9e6ec23009_Slam_Thompson%20Twins_Gym_%2019-scaled.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5c2a43a6c3432d76417_thompson%20twins%20slam%20cover6.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5cb4112c38ac3a8d937_thompson%20twins%20slam%20cover.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687f86b11aebc3a1012610f6_thompson%20twins%20slam%20cover12.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb5f717d9d7dccec1a915_thompson%20twins%20slam%20cover13%20(1).avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb62ca0ce2e0465d0ba86_thompson%20twins%20slam%20cover16.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/687eb66e098bc5ee955993f8_thompson%20twins%20slam%20cover7.avif",
+        "https://sun9-79.userapi.com/s/v1/ig2/KvOf2D9gjMszDt24sZvqxSjAACNFvbudDk4BNNHWbbvPzZ3YCWpPFT3UHbX2CMsbBqcaG0NHV9YL49zovLU1lbod.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
       ],
     },
   },
@@ -224,36 +108,12 @@ const covers = {
           "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc0e6edaee360c919620a_SLAM-257-NAPHEESA-scaled-p-500.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/06/phee8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/06/phee8-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/06/phee15.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/06/phee15-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/06/phee9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/06/phee9-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/06/phee5.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/06/phee5-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/06/phee.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/06/phee-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/06/phee3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/06/phee3-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2025/06/phee8.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/06/phee15.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/06/phee9.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/06/phee5.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/06/phee.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/06/phee3.jpg",
       ],
     },
   },
@@ -270,41 +130,13 @@ const covers = {
           "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6849fa9b265d13a0170273d7_DUKE-BOOZER-DIGITAL%20COVER-FINAL-scaled-p-500.avif",
       },
       gallery: [
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6849dd0cfe52abeeff1b9182_20250513-SLAM-Boozer-1002%20copy.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6849dd0cfe52abeeff1b9182_20250513-SLAM-Boozer-1002%20copy-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0ae1baed6b2090b61d14_boozer%20twins%20slam%20u11.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0ae1baed6b2090b61d14_boozer%20twins%20slam%20u11-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0af6b1c48d2ac0854ca5_boozer%20twins%20slam%20u9.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0af6b1c48d2ac0854ca5_boozer%20twins%20slam%20u9-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0c215876cc9b4f02e1c6_boozer%20twins%20slam%20u5.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0c215876cc9b4f02e1c6_boozer%20twins%20slam%20u5-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0c94c95d72af5be85f8c_boozer%20twins%20slam%20u8.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0c94c95d72af5be85f8c_boozer%20twins%20slam%20u8-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0cbfe9432f8b903144cb_boozer%20twins%20slam%20u13.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0cbfe9432f8b903144cb_boozer%20twins%20slam%20u13-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0cdc10d307677ef52a37_boozer%20twins%20slam%20u7.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0cdc10d307677ef52a37_boozer%20twins%20slam%20u7-p-500.avif",
-        },
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/6849dd0cfe52abeeff1b9182_20250513-SLAM-Boozer-1002%20copy.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0ae1baed6b2090b61d14_boozer%20twins%20slam%20u11.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0af6b1c48d2ac0854ca5_boozer%20twins%20slam%20u9.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0c215876cc9b4f02e1c6_boozer%20twins%20slam%20u5.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0c94c95d72af5be85f8c_boozer%20twins%20slam%20u8.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0cbfe9432f8b903144cb_boozer%20twins%20slam%20u13.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/684a0cdc10d307677ef52a37_boozer%20twins%20slam%20u7.avif",
       ],
     },
   },
@@ -318,44 +150,16 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-NATASHA-CLOUD-scaled-1.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6840cc63c1a1dcdc782d7a31_SLAM-256-NATASHA-CLOUD-scaled-p-500.jpg",
+          "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-NATASHA-CLOUD-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud2-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud6.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud6-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud14.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud14-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud25.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud25-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud33.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud33-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud3-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud10.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud10-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud2.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud6.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud14.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud25.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud33.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud3.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-natasha-cloud10.jpg",
       ],
     },
   },
@@ -374,64 +178,20 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-SPARKS-scaled-1.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6840cc21b6b9c1c2352b5e13_SLAM-256-SPARKS-scaled-p-500.jpg",
+          "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-SPARKS-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks17.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks17-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks14.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks14-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks12.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks12-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks10-2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks10-2-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks27.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks27-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks4-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks29.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks29-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks20.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks20-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks15.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks15-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks31.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks31-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks17.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks14.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks12.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks10-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks27.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks4.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks29.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks20.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks15.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-los-angeles-sparks31.jpg",
       ],
     },
   },
@@ -445,24 +205,12 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-CAITLIN-scaled-1.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6840cb3f767eccb269655a36_SLAM-256-CAITLIN-scaled-p-500.jpg",
+          "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-CAITLIN-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark3-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark4-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark3.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark4.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-caitlin-clark.jpg",
       ],
     },
   },
@@ -476,64 +224,20 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-WINGS-scaled-1.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6840b57216bd50df109b4f98_SLAM-256-WINGS-scaled-p-500.jpg",
+          "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-WINGS-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings4-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings11.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings11-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings15.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings15-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings16.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings16-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings12.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings12-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings13.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings13-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings6-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings6-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings5.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings5-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings3-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings9-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings8-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings4.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings11.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings15.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings16.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings12.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings13.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings6-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings5.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings3.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings9.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-dallas-wings8.jpg",
       ],
     },
   },
@@ -547,44 +251,16 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-MERCURY-scaled-1.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6840b4e1cff1d004e357b74c_SLAM-256-MERCURY-scaled-p-500.jpg",
+          "https://slamonline.com/wp-content/uploads/2025/05/SLAM-256-MERCURY-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury18.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury18-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury23.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury23-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury10.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury10-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury8-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury4-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury3-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury2-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury18.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury23.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury10.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury8.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury4.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury3.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/05/slam-256-phoenix-mercury2.jpg",
       ],
     },
   },
@@ -601,29 +277,11 @@ const covers = {
           "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acb49fbb0d4ee9f959e373_SLAM-2025ASW-CURRY%20(1)-p-500.avif",
       },
       gallery: [
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaa5df7b405b2eab8f377_Artboard3.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaa8d1e44e5b3cf5c9127_SC%202025%20ASW3.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaa8d1e44e5b3cf5c9127_SC%202025%20ASW3-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaaa04a2b083a37a88625_SC%202025%20ASW14.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaa8d1e44e5b3cf5c9127_SC%202025%20ASW3-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaaf6ed90830ff1c60692_SC%202025%20ASW23.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaaf6ed90830ff1c60692_SC%202025%20ASW23-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acab18adc7c6ad8b03fcd1_SC%202025%20ASW25.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acab18adc7c6ad8b03fcd1_SC%202025%20ASW25-p-500.avif",
-        },
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaa5df7b405b2eab8f377_Artboard3.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaa8d1e44e5b3cf5c9127_SC%202025%20ASW3.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaaa04a2b083a37a88625_SC%202025%20ASW14.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acaaf6ed90830ff1c60692_SC%202025%20ASW23.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67acab18adc7c6ad8b03fcd1_SC%202025%20ASW25.avif",
       ],
     },
   },
@@ -637,39 +295,15 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2025/04/SLAM-255-CADE-scaled-1.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/683dce9d3a93d1eb9ee2bc59_SLAM-255-CADE-1-scaled-p-500.jpg",
+          "https://slamonline.com/wp-content/uploads/2025/04/SLAM-255-CADE-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits4-extended.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits4-extended-768x512.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits10.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits10-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits3-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits14.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits14-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits6.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits6-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/04/SLAM-255-CADE-1-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/04/SLAM-255-CADE-1-scaled-1-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits4-extended.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits10.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits3.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits14.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/04/slam-255-cade-portraits6.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/04/SLAM-255-CADE-1-scaled-1.jpg",
       ],
     },
   },
@@ -683,29 +317,13 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2025/03/SLAM-255-CAVS-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/67e2fe006d80384d00323228_SLAM-255-CAVS-scaled.avif",
+          "https://slamonline.com/wp-content/uploads/2025/03/SLAM-255-CAVS-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/IMG_5037.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/IMG_5037-768x512.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs3-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs9-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2025/03/IMG_5037.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs3.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/03/slam-255-cavs9.jpg",
       ],
     },
   },
@@ -719,49 +337,17 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2025/03/SLAM-255-JAREN-JACKSON-JR-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/67e2fdbfbc64231a183d4446_SLAM-255-JAREN-JACKSON-JR-scaled-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2025/03/SLAM-255-JAREN-JACKSON-JR-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/SLAM_JAREN_JACKSON_0469-2-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/SLAM_JAREN_JACKSON_0469-2-scaled-1-768x512.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip17.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip17-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip8-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip9-600x750.jpg",
-        },
-        {
-          full: "https://sun9-11.userapi.com/s/v1/ig2/sgt9FIKiCpHDLmTnym7ScBkZKcRsaZk5JaYgsDUyqmXl9UwPV-ZR0_z-n26EjF4ldNu9Gd7DzHSKr9JvR85iNiOO.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
-          thumb:
-            "https://sun9-11.userapi.com/s/v1/ig2/sgt9FIKiCpHDLmTnym7ScBkZKcRsaZk5JaYgsDUyqmXl9UwPV-ZR0_z-n26EjF4ldNu9Gd7DzHSKr9JvR85iNiOO.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&u=BlT2SW_sZ8t0D7_l0b-F8nnjptaeASQe796U7wWycfA&cs=640x0",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip5.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip5-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip11.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip11-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip19.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip19-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2025/03/SLAM_JAREN_JACKSON_0469-2-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip17.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip8.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip9.jpg",
+        "https://sun9-11.userapi.com/s/v1/ig2/sgt9FIKiCpHDLmTnym7ScBkZKcRsaZk5JaYgsDUyqmXl9UwPV-ZR0_z-n26EjF4ldNu9Gd7DzHSKr9JvR85iNiOO.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
+        "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip5.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip11.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/03/slam-255-trip19.jpg",
       ],
     },
   },
@@ -775,34 +361,14 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2025/01/SLAM-254-KAT-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/67ffbc2ce84f001fd8553c70_SLAM-254-KAT-scaled-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2025/01/SLAM-254-KAT-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-10.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-10-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-4-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-2-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-5.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-5-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-9-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-10.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-4.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-5.jpg",
+        "https://slamonline.com/wp-content/uploads/2025/01/karl-anthony-towns-january-2025-9.jpg",
       ],
     },
   },
@@ -819,24 +385,10 @@ const covers = {
           "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/67e2fb7c1527df9b89d1aeec_67ae750825e9902a431aa898_SLAM-254-SHAI%20(1)-p-1600-p-500.avif",
       },
       gallery: [
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae7a374b3300dee8148f7d_shai%20254%20(1).avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67af5e333bf63953bed95c9e_DSC00347-2%20final-WM.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67af5e333bf63953bed95c9e_DSC00347-2%20final-WM-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae74425aa408cbf36f5f1d_shai%20254%203.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae74425aa408cbf36f5f1d_shai%20254%203-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae742d41878a8f73219304_shai%20254%204.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae742d41878a8f73219304_shai%20254%204-p-500.avif",
-        },
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae7a374b3300dee8148f7d_shai%20254%20(1).avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67af5e333bf63953bed95c9e_DSC00347-2%20final-WM.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae74425aa408cbf36f5f1d_shai%20254%203.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67ae742d41878a8f73219304_shai%20254%204.avif",
       ],
     },
   },
@@ -858,29 +410,11 @@ const covers = {
           "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/67ffbcdcaef0c8f094e3de33_SLAM-254-ROCKETS-scaled-p-500.avif",
       },
       gallery: [
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a2593b72f9783534d4461d_Artboard%201.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a38d6ef9c36079b4008f17_slam%20254%20rockets16.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a38d6ef9c36079b4008f17_slam%20254%20rockets16-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a2714b74fccd366424150a_slam%20254%20rockets2.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a2714b74fccd366424150a_slam%20254%20rockets2-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a25abf9307f776c5316967_slam%20254%20rockets11.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a25abf9307f776c5316967_slam%20254%20rockets11-p-500.avif",
-        },
-        {
-          full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a25b42e02d4df777a0d242_slam%20254%20rockets4.avif",
-          thumb:
-            "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a25b42e02d4df777a0d242_slam%20254%20rockets4-p-500.avif",
-        },
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a2593b72f9783534d4461d_Artboard%201.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a38d6ef9c36079b4008f17_slam%20254%20rockets16.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a2714b74fccd366424150a_slam%20254%20rockets2.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a25abf9307f776c5316967_slam%20254%20rockets11.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/67a25b42e02d4df777a0d242_slam%20254%20rockets4.avif",
       ],
     },
   },
@@ -894,39 +428,15 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/10/SLAM-253-RUTGERS-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/679ac776d844b5ffb22b08c5_Screenshot%202025-01-29%20at%207.26.25%E2%80%AFPM.avif",
+          "https://slamonline.com/wp-content/uploads/2024/10/SLAM-253-RUTGERS-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_0643.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/10/MS1_0643-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_1091.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/10/MS1_1091-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_0575.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/10/MS1_0575-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_1174.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/10/MS1_1174-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_1241.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/10/MS1_1241-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/10/MS1_1269.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/10/MS1_1269-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/10/MS1_0643.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/10/MS1_1091.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/10/MS1_0575.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/10/MS1_1174.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/10/MS1_1241.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/10/MS1_1269.jpg",
       ],
     },
   },
@@ -940,29 +450,13 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/09/SLAM-252-DAME-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/670863d7e3a7a31d4dcddcfc_SLAM-252-DAME%20(1)-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2024/09/SLAM-252-DAME-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-4-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-6.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-6-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-10.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-10-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/09/DAME-252.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-4.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-6.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/09/DAME-252-10.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/09/DAME-252.jpg",
       ],
     },
   },
@@ -970,40 +464,20 @@ const covers = {
     title: "Derrick White & Jrue Holiday",
     number: 252,
     league: "NBA",
-    team: "Boston Celtic",
+    team: "Boston Celtics",
     players: ["Derrick White", "Jrue Holiday"],
     photos: {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/09/SLAM-252-WHITE-HOLIDAY-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/6708638f9f30ed350815706c_SLAM-252-WHITE-HOLIDAY%20(1)-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2024/09/SLAM-252-WHITE-HOLIDAY-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick7.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick7-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick10.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick10-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick11.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick11-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick6.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick6-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick7.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick10.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick11.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick6.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/09/jrue-and-derrick.jpg",
       ],
     },
   },
@@ -1017,29 +491,13 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/07/SLAM-251-CONNECTICUT-SUN-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/66e30febf8563392c6853001_SLAM-251-CONNECTICUT-SUN_optimized_300-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2024/07/SLAM-251-CONNECTICUT-SUN-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-2-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-9-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-14.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-14-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-3-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-9.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-14.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/07/AT-x-DB-SLAM-251-3.jpg",
       ],
     },
   },
@@ -1053,29 +511,13 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/08/SLAM-251-NAZ-1-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/66e30f6b71354e1b7a0c09d9_SLAM-251-NAZ_2_optimized_300-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2024/08/SLAM-251-NAZ-1-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-13.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-13-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-11.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-11-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-10.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-10-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-8-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-13.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-11.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-10.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/08/Naz-x-SLAM-251-8.jpg",
       ],
     },
   },
@@ -1089,29 +531,13 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/05/SLAM-250-DAWN-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/66981f8409d0cf5797a7d7d9_imresizer-1721245383222-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2024/05/SLAM-250-DAWN-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/05/Dawn-1920x1280-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/05/Dawn-1920x1280-1-768x512.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/05/dawn6.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/05/dawn6-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/05/dawn24.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/05/dawn24-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/05/dawn3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/05/dawn3-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/05/Dawn-1920x1280-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/05/dawn6.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/05/dawn24.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/05/dawn3.jpg",
       ],
     },
   },
@@ -1125,39 +551,15 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/06/SLAM-250-UCONN-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/66981f01b29e36bb907ecc29_imresizer-1721245359833-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2024/06/SLAM-250-UCONN-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/06/uconn3-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn14.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/06/uconn14-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn15.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/06/uconn15-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn11.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/06/uconn11-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn9-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/06/uconn9-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/06/uconn4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/06/uconn4-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/06/uconn3.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/06/uconn14.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/06/uconn15.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/06/uconn11.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/06/uconn9-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/06/uconn4.jpg",
       ],
     },
   },
@@ -1171,40 +573,16 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/04/SLAM-249-JIMMY-BUTLER-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/664cdad57cc794c9db33ceda_SLAM-249-JIMMY%20BUTLER%20cover%20gallery%20-p-500.avif",
-        gallery: [
-          {
-            full: "https://slamonline.com/wp-content/uploads/2024/04/butler21-1.jpg",
-            thumb:
-              "https://slamonline.com/wp-content/uploads/2024/04/butler21-1-600x750.jpg",
-          },
-          {
-            full: "https://slamonline.com/wp-content/uploads/2024/04/butler17.jpg",
-            thumb:
-              "https://slamonline.com/wp-content/uploads/2024/04/butler17-600x750.jpg",
-          },
-          {
-            full: "https://slamonline.com/wp-content/uploads/2024/04/butler24.jpg",
-            thumb:
-              "https://slamonline.com/wp-content/uploads/2024/04/butler24-600x750.jpg",
-          },
-          {
-            full: "https://slamonline.com/wp-content/uploads/2024/04/butler26.jpg",
-            thumb:
-              "https://slamonline.com/wp-content/uploads/2024/04/butler26-600x750.jpg",
-          },
-          {
-            full: "https://slamonline.com/wp-content/uploads/2024/04/butler10.jpg",
-            thumb:
-              "https://slamonline.com/wp-content/uploads/2024/04/butler10-600x750.jpg",
-          },
-          {
-            full: "https://slamonline.com/wp-content/uploads/2024/04/butler12.jpg",
-            thumb:
-              "https://slamonline.com/wp-content/uploads/2024/04/butler12-600x750.jpg",
-          },
-        ],
+          "https://slamonline.com/wp-content/uploads/2024/04/SLAM-249-JIMMY-BUTLER-scaled-1-600x750.jpg",
       },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2024/04/butler21-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/butler17.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/butler24.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/butler26.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/butler10.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/butler12.jpg",
+      ],
     },
   },
   NewYorkKnicks: {
@@ -1217,39 +595,15 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/04/SLAM-249-KNICKS-1-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/664cd9a9c7256eb55d067947_SLAM-249-KNICKS-1-cover-gallery-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2024/04/SLAM-249-KNICKS-1-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/04/KNICKS-WEB-2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/04/KNICKS-WEB-2-768x512.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/04/jh4-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/04/jh4-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/04/jh2-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/04/jh2-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/04/dd1-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/04/dd1-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/04/nyk6-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/04/nyk6-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/04/jb3-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/04/jb3-1-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/04/KNICKS-WEB-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/jh4-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/jh2-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/dd1-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/nyk6-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/jb3-1.jpg",
       ],
     },
   },
@@ -1263,49 +617,17 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/03/SLAM-249-CAITLIN-CLARK-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/660c657c1e588809a62b79d6_SLAM-249-CAITLIN-CLARK-web.avif",
+          "https://slamonline.com/wp-content/uploads/2024/03/SLAM-249-CAITLIN-CLARK-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/03/CC1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/03/CC1-768x512.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/03/trio.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/03/trio-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/03/17.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/03/17-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/03/14.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/03/14-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/03/11.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/03/11-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/03/10.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/03/10-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/03/1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/03/1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/03/6.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/03/6-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/03/CC1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/03/trio.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/03/17.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/03/14.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/03/11.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/03/10.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/03/1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/03/6.jpg",
       ],
     },
   },
@@ -1319,34 +641,14 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/02/SLAM-248-CHET-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/660c653455a9214965ad52ef_SLAM-248-CHET%20web-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2024/02/SLAM-248-CHET-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/Chat-5.png",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/Chat-5-768x512.png",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/chet12.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/chet12-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/chet4-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/chet4-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/chet8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/chet8-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/chet17.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/chet17-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/02/Chat-5.png",
+        "https://slamonline.com/wp-content/uploads/2024/02/chet12.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/chet4-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/chet8.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/chet17.jpg",
       ],
     },
   },
@@ -1360,54 +662,18 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/02/SLAM-248-JUJU-resized.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/660c64db000fe829b7aee595_SLAM-248-JUJU-resized%20web.avif",
+          "https://slamonline.com/wp-content/uploads/2024/02/SLAM-248-JUJU-resized-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/JUJU-WEB-2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/JUJU-WEB-2-768x512.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-3-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-2-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-7.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-7-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-11.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-11-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-14.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-14-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-15.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-15-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-16.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-16-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-18.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-18-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/02/JUJU-WEB-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-7.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-11.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-14.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-15.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-16.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-18.jpg",
       ],
     },
   },
@@ -1421,50 +687,17 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2024/01/SLAM-248-MAXEY-scaled.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/660c64792cd531f37c81c141_SLAM-248-MAXEY%20web-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2024/01/SLAM-248-MAXEY-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/01/WEB-3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/01/WEB-3-768x512.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/01/WATERMARK-2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/01/WATERMARK-2-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-2.jpg",
-
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-2-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-8-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-8-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-9-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-19.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-19-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2024/01/tyrese-22.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2024/01/tyrese-22-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2024/01/WEB-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/01/WATERMARK-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-8-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-9.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-19.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-22.jpg",
       ],
     },
   },
@@ -1478,34 +711,14 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2023/10/SLAM-247-COOPER-FLAGG-V2-scaled-1.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/654684b8cc3e0304f971be40_SLAM-247-COOPER-FLAGG-V2-resized-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2023/10/SLAM-247-COOPER-FLAGG-V2-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-7.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-7-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-8-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-3-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-3-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-4-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-7.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-8.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-3-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-4.jpg",
       ],
     },
   },
@@ -1525,84 +738,24 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2023/10/SLM-247-OKC-resized.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/653c25ccf0630a0479875d46_SLM-247-OKC-resized-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2023/10/SLM-247-OKC-resized-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/19-3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/19-3-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/7-7.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/7-7-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/6-8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/6-8-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/7-8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/7-8-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/2-8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/2-8-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/1-9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/1-9-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/3-8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/3-8-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/12-6.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/12-6-600x750.jpg",
-        },
-        {
-          full: "https://sun9-33.userapi.com/s/v1/ig2/kya0QudIfmLDufVub5SQlEYUWmi0zIFJ9rHkYz1zq4SdcVRuFR_7HaR2uXzq78n6pyz-rX3MyPyLHzx-6L-gZ-W7.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
-          thumb:
-            "https://sun9-33.userapi.com/s/v1/ig2/kya0QudIfmLDufVub5SQlEYUWmi0zIFJ9rHkYz1zq4SdcVRuFR_7HaR2uXzq78n6pyz-rX3MyPyLHzx-6L-gZ-W7.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&u=QycNJ5ixVstI0iRGl2qWlAs5Uua4cGucscPiTLm44uo&cs=640x0",
-        },
-        {
-          full: "https://sun9-30.userapi.com/s/v1/ig2/dWjZR5Sy95dbX8IWQ2y6scXljWLYItZTXYlrA_9n29lngJ1gbhC4_nm9a4xENTvIsuMolHPip9ZICFfT4eaWjnPA.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
-          thumb:
-            "https://sun9-30.userapi.com/s/v1/ig2/dWjZR5Sy95dbX8IWQ2y6scXljWLYItZTXYlrA_9n29lngJ1gbhC4_nm9a4xENTvIsuMolHPip9ZICFfT4eaWjnPA.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&u=Krng3bisi_NRwA4jX1O4AJb-W2zS83w4QkDSwOhmc74&cs=640x0",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/3-9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/3-9-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/3-7.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/3-7-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/5-9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/5-9-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/2-9.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/2-9-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/10/2-7.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/10/2-7-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2023/10/19-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/7-7.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/6-8.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/7-8.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/2-8.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/1-9.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/3-8.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/12-6.jpg",
+        "https://sun9-33.userapi.com/s/v1/ig2/kya0QudIfmLDufVub5SQlEYUWmi0zIFJ9rHkYz1zq4SdcVRuFR_7HaR2uXzq78n6pyz-rX3MyPyLHzx-6L-gZ-W7.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
+        "https://sun9-30.userapi.com/s/v1/ig2/dWjZR5Sy95dbX8IWQ2y6scXljWLYItZTXYlrA_9n29lngJ1gbhC4_nm9a4xENTvIsuMolHPip9ZICFfT4eaWjnPA.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
+        "https://slamonline.com/wp-content/uploads/2023/10/3-9.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/3-7.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/5-9.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/2-9.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/10/2-7.jpg",
       ],
     },
   },
@@ -1616,44 +769,16 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2023/09/SLAM-246-PAUL-GEORGE-scaled-1.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/653c2582b96cbc80c8ebd248_SLAM-246-PAUL-GEORGE-scaled-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2023/09/SLAM-246-PAUL-GEORGE-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/6-6.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/6-6-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/14-5.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/14-5-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/21-2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/21-2-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/9-5.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/9-5-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/4-9-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/4-9-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/1-7-2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/1-7-2-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/12-5.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/12-5-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2023/09/6-6.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/14-5.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/21-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/9-5.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/4-9-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/1-7-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/12-5.jpg",
       ],
     },
   },
@@ -1673,104 +798,28 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2023/09/SLAM-246-LIBERTY.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/653c250bcf684417a4e2644b_SLAM-246-LIBERTY-2-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2023/09/SLAM-246-LIBERTY-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/WEB-STORY.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/WEB-STORY-768x432.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-37-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-37-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-26-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-26-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-40-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-40-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photos_8.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/film_photos_8-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-94-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-94-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photos_10.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/film_photos_10-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-82-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-82-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photo_7.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/film_photo_7-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photo_4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/film_photo_4-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-62-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-62-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-57-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-57-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-64-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-64-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photo_3.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/film_photo_3-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-69-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-69-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/film_photo_1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/film_photo_1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-45-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-45-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-29-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-29-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-73-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-73-scaled-1-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2023/09/WEB-STORY.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-37-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-26-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-40-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/film_photos_8.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-94-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/film_photos_10.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-82-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/film_photo_7.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/film_photo_4.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-62-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-57-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-64-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/film_photo_3.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-69-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/film_photo_1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-45-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-29-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-73-scaled-1.jpg",
       ],
     },
   },
@@ -1784,34 +833,14 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2023/07/SLAM-245-BEAL-resized.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/653c24d8e629f55899f16856_SLAM-245-BEAL-resized-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2023/07/SLAM-245-BEAL-resized-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/17-4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/17-4-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/8-5.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/8-5-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/13-4.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/13-4-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/2-6.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/2-6-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/16-2.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/16-2-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2023/07/17-4.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/07/8-5.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/07/13-4.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/07/2-6.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/07/16-2.jpg",
       ],
     },
   },
@@ -1825,59 +854,627 @@ const covers = {
       main: {
         full: "https://slamonline.com/wp-content/uploads/2023/07/SLAM-245-HALIBURTON-scaled-1.jpg",
         thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/653c24abd429f31f2ccfeb85_SLAM-245-HALIBURTON-scaled-p-500.avif",
+          "https://slamonline.com/wp-content/uploads/2023/07/SLAM-245-HALIBURTON-scaled-1-600x750.jpg",
       },
       gallery: [
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/Tyty-1.png",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/Tyty-1-600x338.png",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-10-1-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-10-1-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-29-1-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-29-1-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-50-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-50-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-51-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-51-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://sun9-70.userapi.com/s/v1/ig2/wJwwo23FqZ2s0XJ05ZCPTny2ky_DyeUTZ4mB78XJ9t9eLPHvQ_DywN9cBTJ2d2JtIB-OcHd-icTD3q8AdCE-LZsl.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350,1280x1600,1440x1800,2048x2560&from=bu&cs=2048x0",
-          thumb:
-            "https://sun9-70.userapi.com/s/v1/ig2/wJwwo23FqZ2s0XJ05ZCPTny2ky_DyeUTZ4mB78XJ9t9eLPHvQ_DywN9cBTJ2d2JtIB-OcHd-icTD3q8AdCE-LZsl.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350,1280x1600,1440x1800,2048x2560&from=bu&u=agYlKcRgIrKforL_vtkmDJRI4YkAWqU1ZmxJUALSRoo&cs=640x0",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-48-1-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-48-1-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-49-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-49-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-13-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-13-scaled-1-600x750.jpg",
-        },
-        {
-          full: "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-30-scaled-1.jpg",
-          thumb:
-            "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-30-scaled-1-600x750.jpg",
-        },
+        "https://slamonline.com/wp-content/uploads/2023/07/Tyty-1.png",
+        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-10-1-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-29-1-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-50-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-51-scaled-1.jpg",
+        "https://sun9-70.userapi.com/s/v1/ig2/wJwwo23FqZ2s0XJ05ZCPTny2ky_DyeUTZ4mB78XJ9t9eLPHvQ_DywN9cBTJ2d2JtIB-OcHd-icTD3q8AdCE-LZsl.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350,1280x1600,1440x1800,2048x2560&from=bu&cs=2048x0",
+        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-48-1-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-49-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-13-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-30-scaled-1.jpg",
+      ],
+    },
+  },
+  PaoloBanchero: {
+    title: "Paolo Banchero",
+    number: 244,
+    league: "NBA",
+    team: "Orlando Magic",
+    players: ["Paolo Banchero"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-PAOLO-scaled.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-PAOLO-scaled-1-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2023/05/14-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/5-8.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/40-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/24-2-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/28-3-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/30.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/48-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/49.jpg",
+      ],
+    },
+  },
+  RhyneHoward: {
+    title: "Rhyne Howard",
+    number: 244,
+    league: "WNBA",
+    team: "Atlanta Dream",
+    players: ["Rhyne Howard"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-RHYNE-HOWARD-scaled.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-RHYNE-HOWARD-scaled-1-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2023/05/36.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/4-5.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/26-4.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/40.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/43-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/6-4.jpg",
+      ],
+    },
+  },
+  ScootHenderson: {
+    title: "Scoot Henderson",
+    number: 244,
+    league: "NBA",
+    team: "Portland Trail Blazers",
+    players: ["Scoot Henderson"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-SCOOT-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-SCOOT-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2023/05/4.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/5.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/12.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/13-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/22.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/21.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/19.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/15.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/7.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/10.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/05/3-6.jpg",
+      ],
+    },
+  },
+  AngelReeseFlaujaeJohnson: {
+    title: "Angel Reese & Flau'jae Johnson",
+    number: 243,
+    league: "College",
+    team: "LSU",
+    players: ["Angel Reese", "Flau'jae Johnson"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/03/SLM-243-LSU-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2023/03/SLM-243-LSU-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2023/03/LSU-4-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/LSU-17-2-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/LSU-9-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/0AB9FBAD-47F1-47E6-A6FF-36A6EEF6626B.jpeg",
+        "https://slamonline.com/wp-content/uploads/2023/03/LSU-11-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/LSU-23.jpg",
+        "https://slamonline.com/wp-content/uploads/2024/04/LSU-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/LSU-3-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/70FF87A0-B66D-4B18-A012-D9E0E103E47C.jpeg",
+        "https://slamonline.com/wp-content/uploads/2023/03/LSU-15.jpg",
+      ],
+    },
+  },
+  JamesHarden: {
+    title: "James Hardenn",
+    number: 243,
+    league: "NBA",
+    team: "Philadelphia 76ers",
+    players: ["James Harden"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/04/SLAM-243-HARDEN-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2023/04/SLAM-243-HARDEN-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2023/04/28-2-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/04/23.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/04/3-5.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/04/26-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/04/5-5-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/04/4-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/04/29.jpg",
+      ],
+    },
+  },
+  LauriMarkkanenJordanClarkson: {
+    title: "Lauri Markkanen & Jordan Clarkson",
+    number: 243,
+    league: "NBA",
+    team: "Utah Jazz",
+    players: ["Lauri Markkanen", "Jordan Clarkson"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/03/SLAM-243-JAZZ-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2023/03/SLAM-243-JAZZ-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2023/03/8-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/24-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/26-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/3-4.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/17-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/12-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/20-1.jpg",
+      ],
+    },
+  },
+  JalenBrunson: {
+    title: "Jalen Brunson",
+    number: 243,
+    league: "NBA",
+    team: "New York Knicks",
+    players: ["Jalen Brunson"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/03/SLAM-243-BRUNSON-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2023/03/SLAM-243-BRUNSON-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2023/03/15-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/9-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/7-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/03/12-2.jpg",
+      ],
+    },
+  },
+  NewOrleansPelicans: {
+    title: "New Orleans Pelicans",
+    number: 242,
+    league: "NBA",
+    team: "New Orleans Pelicans",
+    players: ["Zion Williamson", "CJ McCollum", "Brandon Ingram"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/02/SLAM-242-PELICANS-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2023/02/SLAM-242-PELICANS-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2023/02/1-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/02/18.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/02/5-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/02/16.jpg",
+      ],
+    },
+  },
+  JaylenBrown: {
+    title: "Jaylen Brown",
+    number: 242,
+    league: "NBA",
+    team: "Boston Celtics",
+    players: ["Jaylen Brown"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/01/SLAM-242-JAYLEN-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2023/01/SLAM-242-JAYLEN-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2023/01/2-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/01/7-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/01/4-2-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/01/5-2.jpg",
+      ],
+    },
+  },
+  DeAaronFoxDomantasSabonis: {
+    title: "De'Aaron Fox & Domantas Sabonis",
+    number: 242,
+    league: "NBA",
+    team: "Sacramento Kings",
+    players: ["De'Aaron Fox", "Domantas Sabonis"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2023/01/SLAM-242-KINGS-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2023/01/SLAM-242-KINGS-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2023/01/13.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/01/5.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/01/7.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/01/8.jpg",
+        "https://slamonline.com/wp-content/uploads/2023/01/17.jpg",
+      ],
+    },
+  },
+  TraeYoungDejounteMurray: {
+    title: "Trae Young & Dejounte Murray",
+    number: 242,
+    league: "NBA",
+    team: "Atlanta Hawks",
+    players: ["Trae Young", "Dejounte Murray"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2022/12/SLM-241-HAWKS-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2022/12/SLM-241-HAWKS-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2022/12/1920x1280_HAWKS.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/12/12.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/12/3.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/12/1.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/12/2.jpg",
+      ],
+    },
+  },
+  JaysonTatum: {
+    title: "Jayson Tatum",
+    number: 241,
+    league: "NBA",
+    team: "Boston Celtics",
+    players: ["Jayson Tatum"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2022/12/SLAM-241-TATUM-1-scaled-1.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2022/12/SLAM-241-TATUM-1-scaled-1-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2022/12/tatum_3.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/12/tatum_1.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/12/tatum_2.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/12/Tatum-7.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/12/Tatum-4.jpg",
+      ],
+    },
+  },
+  KawhiLeonardPaulGeorge: {
+    title: "Kawhi Leonard & Paul George",
+    number: 240,
+    league: "NBA",
+    team: "Los Angeles Clippers",
+    players: ["Kawhi Leonard", "Paul George"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2022/10/SLM-240-CLIPPERS-scaled-1.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2022/10/SLM-240-CLIPPERS-scaled-1-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2022/10/Clippers_1280px_02.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/10/240_Clippers_05.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/10/240_Clippers_01.jpg",
+      ],
+    },
+  },
+  VictorWembanyama: {
+    title: "Victor Wembanyama",
+    number: 240,
+    league: "Europe",
+    team: "Metropolitans 92",
+    players: ["Victor Wembanyama"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2022/10/SLM-240-VICTOR-resized-2.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2022/10/SLM-240-VICTOR-resized-2-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_SideShot_02-1.png",
+        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_Watermarked_17.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_Watermarked_05.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_Watermarked_02.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_Watermarked_04.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_Watermarked_01.jpg",
+      ],
+    },
+  },
+  ScottieBarnes: {
+    title: "Scottie Barnes",
+    number: 239,
+    league: "NBA",
+    team: "Toronto Raptors",
+    players: ["Scottie Barnes"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2022/07/SLAM-239-BARNES-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2022/07/SLAM-239-BARNES-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2022/07/scottie_watermarked_final_4.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/07/scottie_watermarked_final_3.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/07/scottie_watermarked_final_2.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/07/scottie_watermarked_final_1.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/07/SCOTTIE_LIFESTYLE_3-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/07/SCOTTIE_LIFESTYLE_2.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/07/SCOTTIE_LIFESTYLE_1.jpg",
+      ],
+    },
+  },
+  CadeCunningham2: {
+    title: "Cade Cunningham",
+    number: 238,
+    league: "NBA",
+    team: "Detroit Pistons",
+    players: ["Cade Cunningham"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2022/05/SLM-238-CADE-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2022/05/SLM-238-CADE-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2022/05/cade-clear.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/05/Untitled-Capture0137-scaled-1-1638x2048.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/05/Untitled-Capture0150-scaled-1-1638x2048.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/05/Untitled-Capture0125-scaled-1-1638x2048.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/05/Untitled-Capture0293-4-1-scaled-1-1638x2048.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/05/Cade_Watermarked_LF_07.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/05/Cade_Watermarked_LF_02-1.jpg",
+      ],
+    },
+  },
+  MemphisGrizzlies: {
+    title: "Memphis Grizzlies",
+    number: 238,
+    league: "NBA",
+    team: "Memphis Grizzlies",
+    players: [
+      "Ja Morant",
+      "Desmond Bane",
+      "Jaren Jackson Jr.",
+      "Dillon Brooks",
+    ],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2022/04/SLAM-238-GRIZZLIES-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2022/04/SLAM-238-GRIZZLIES-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2022/04/Team_SLAM238.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/04/JJJ2_SLAM238.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/04/Morant_SLAM238.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/04/Bane2_SLAM238.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/04/Brooks2_SLAM238.jpg",
+      ],
+    },
+  },
+  SouthCarolinaGamecocks: {
+    title: "South Carolina Gamecocks",
+    number: 238,
+    league: "College",
+    team: "South Carolina",
+    players: [
+      "Dawn Staley",
+      "Zia Cooke",
+      "Destanni Henderson",
+      "Aliyah Boston",
+    ],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2022/03/SLM-237-SOUTH-CAROLINA-scaled-1.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2022/03/SLM-237-SOUTH-CAROLINA-scaled-1-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2022/03/2022-SOUTH-CAROLINA-X-SLAM-COVER-SHOOT1733-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/03/20220208-SLAM-STALEY-JL-19-WATERMARKED-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/03/2022-SOUTH-CAROLINA-X-SLAM-COVER-SHOOT1739-WATERMARKED-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/03/2022-SOUTH-CAROLINA-X-SLAM-COVER-SHOOT1747-WATERMARKED-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/03/20220208-SLAM-STALEY-JL-62-WATERMARKED-scaled-1.jpg",
+      ],
+    },
+  },
+  LaMeloBall: {
+    title: "LaMelo Ball",
+    number: 237,
+    league: "NBA",
+    team: "Charlotte Hornets",
+    players: ["LaMelo Ball"],
+    photos: {
+      main: {
+        full: "https://jeromesolomonmalone.github.io/slam-gallery/images/SLM-237-LAMELO-resized.png",
+        thumb:
+          "https://jeromesolomonmalone.github.io/slam-gallery/images/SLM-237-LAMELO-resized-600x750.png",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2022/03/Lamelo_1080x1350_03.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/03/Lamelo_1080x1350_06.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/03/Lamelo_1080x1350_01-1-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/03/Lamelo_1080x1350_05.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/03/Lamelo_1080x1350_04.jpg",
+      ],
+    },
+  },
+  DeMarDeRozanZachLaVine: {
+    title: "DeMar DeRozan & Zach LaVine",
+    number: 237,
+    league: "NBA",
+    team: "Chicago Bulls",
+    players: ["DeMar DeRozan", "Zach LaVine"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2022/02/SLM-236-BULLS-scaled-1.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2022/02/SLM-236-BULLS-scaled-1-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2022/02/1080x1350-Watermark-Social-09.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/02/1080x1350-Watermark-Social-04.jpg",
+        "https://slamonline.com/wp-content/uploads/2022/02/1080x1350-Watermark-Social-03.jpg",
+      ],
+    },
+  },
+  DonovanMitchell: {
+    title: "Donovan Mitchell",
+    number: 235,
+    league: "NBA",
+    team: "Utah Jazz",
+    players: ["Donovan Mitchell"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2021/12/SLM-235-DONOVAN-resized.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2021/12/SLM-235-DONOVAN-resized-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2021/12/Spida-01.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/12/Spida-02.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/12/Spida-04.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/12/Spida-05.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/12/SLM-235-DONOVAN-NFT-resized.jpg",
+      ],
+    },
+  },
+  AzziFuddPaigeBueckers: {
+    title: "Azzi Fudd & Paige Bueckers",
+    number: 235,
+    league: "College",
+    team: "UConn",
+    players: ["Azzi Fudd", "Paige Bueckers"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2021/11/SLMP-220100-UCONN-COVER-SOCIAL-scaled-1.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2021/11/SLMP-220100-UCONN-COVER-SOCIAL-scaled-1-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2021/11/paigeazziwebsite.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/11/05.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/11/19.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/11/10.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/11/02.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/11/01.jpg",
+      ],
+    },
+  },
+  ZionWilliamson: {
+    title: "Zion Williamson",
+    number: 228,
+    league: "College",
+    team: "Duke",
+    players: ["Zion Williamson"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2020/07/zionweb2.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2020/07/zionweb2-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2020/07/6-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/08/4-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/07/2-6.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/07/5-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/07/1-8.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/07/3-5.jpg",
+      ],
+    },
+  },
+  JaMorant: {
+    title: "Ja Morant",
+    number: 227,
+    league: "NBA",
+    team: "Memphis Grizzlies",
+    players: ["Ja Morant"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2020/03/jawebcover.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2020/03/jawebcover-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2020/03/6-4.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/03/3-8.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/03/morant.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/03/9-3.jpg",
+      ],
+    },
+  },
+  LosAngelesClippers: {
+    title: "Los Angeles Clippers",
+    number: 226,
+    league: "NBA",
+    team: "Los Angeles Clippers",
+    players: ["Lou Williams", "Montrezl Harrell", "Pat Beverley"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2020/01/SLM-226-CLIPPERS.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2020/01/SLM-226-CLIPPERS-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2020/01/6-Horizontal.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/2.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/3.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/4.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/5.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/7.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/9.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/10.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/13.jpg",
+      ],
+    },
+  },
+  BostonCeltics: {
+    title: "Boston Celtics",
+    number: 226,
+    league: "NBA",
+    team: "Boston Celtics",
+    players: [
+      "Marcus Smart",
+      "Jayson Tatum",
+      "Jaylen Brown",
+      "Kemba Walker",
+      "Gordon Hayward",
+    ],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2020/01/coverforweb.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2020/01/coverforweb-600x750.jpg",
+      },
+      gallery: [
+        "https://images.squarespace-cdn.com/content/v1/5f42768f94ae0c38dd19e11f/1631219783685-O8JXQGWGH9I7GH8YWCN2/20200102-SLAM-Celtics-0401-crop.jpg?format=2500w",
+        "https://slamonline.com/wp-content/uploads/2020/01/16.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/17.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/18.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/6.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/7-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/10-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2020/01/12-1.jpg",
+      ],
+    },
+  },
+  MiamiHeat: {
+    title: "Miami Heat",
+    number: 225,
+    league: "NBA",
+    team: "Miami Heat",
+    players: ["Jimmy Butler", "Bam Adebayo", "Tyler Herro"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2019/12/SLM-225-MIAMI-HEAT.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2019/12/SLM-225-MIAMI-HEAT-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2019/12/Trio.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/12/Jimmy.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/12/Herro.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/12/Bam.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/12/Trio2.jpg",
       ],
     },
   },
@@ -2053,21 +1650,29 @@ const uniqueLeagues = Object.values(covers)
   .filter((value, index, self) => self.indexOf(value) === index); // Вывод лиг
 function getTopPlayers(covers, topCount = 5) {
   const playerCount = Object.values(covers).reduce((acc, cover) => {
-    cover.players.forEach((player) => {
-      acc[player] = (acc[player] || 0) + 1;
-    });
+    cover.players.forEach((player) => (acc[player] = (acc[player] || 0) + 1));
     return acc;
   }, {});
 
-  const sortedPlayers = Object.entries(playerCount)
-    .sort((a, b) => b[1] - a[1])
-    .map(([player, count]) => ({ player, count }));
+  const teamFrequency = Object.values(covers).reduce((acc, cover) => {
+    acc[cover.team] = (acc[cover.team] || 0) + 1;
+    return acc;
+  }, {});
 
-  // sortedPlayers.forEach(({ player, count }, index) => {
-  //   console.log(`${index + 1}. ${player} - ${count} раз`);
-  // });
-
-  return sortedPlayers.slice(0, topCount).map(({ player }) => player);
+  return Object.entries(playerCount)
+    .map(([player, count]) => {
+      const team = Object.values(covers).find((c) =>
+        c.players.includes(player)
+      ).team;
+      return { player, count, team, teamCount: teamFrequency[team] };
+    })
+    .sort((a, b) => {
+      if (a.count !== b.count) return b.count - a.count;
+      if (a.teamCount !== b.teamCount) return b.teamCount - a.teamCount;
+      return a.player.localeCompare(b.player);
+    })
+    .slice(0, topCount)
+    .map(({ player }) => player);
 }
 const topPlayers = getTopPlayers(covers); // Вывод часто повторяющихся игроков
 const checkboxContainers = document.querySelector(".checkbox-containers");
@@ -2317,7 +1922,7 @@ function handlePopup(item) {
   header.appendChild(h1);
   gallery.appendChild(header);
 
-  currentPhotosArray = [item.photos.main, ...item.photos.gallery];
+  currentPhotosArray = [item.photos.main.full, ...item.photos.gallery];
 
   const photoElements = currentPhotosArray.map((photo, index) => {
     const photoDiv = document.createElement("div");
@@ -2325,14 +1930,14 @@ function handlePopup(item) {
     const photoImg = document.createElement("img");
     const blurImg = document.createElement("img");
 
-    photoImg.src = photo.full;
+    photoImg.src = photo;
     photoImg.alt = "Фотосессия SLAM";
 
     if (index === 0) {
       photoDiv.classList.add("main_cover");
       photoImg.classList.add("main_cover_img");
       blurImg.classList.add("blur_img");
-      blurImg.src = photo.full;
+      blurImg.src = photo;
       blurImg.alt = "Фотосессия SLAM";
       photoDiv.appendChild(blurImg);
     }
@@ -2424,7 +2029,7 @@ function handlePopup(item) {
       slide.classList.add("slide");
       const img = document.createElement("img");
       img.classList.add("slide_img");
-      img.src = photo.full;
+      img.src = photo;
       img.alt = "Фотосессия SLAM";
       img.addEventListener("load", () => {
         img.style.opacity = "1";
@@ -2522,7 +2127,7 @@ function handlePopup(item) {
   function updateStyles(scroll) {
     const direction = window.innerWidth > 767 ? "blockSize" : "inlineSize";
     if (scroll >= 0) {
-      currentPercent = 100 + scroll * 0.1;
+      currentPercent = 100 + scroll * 0.075;
       if (currentPercent > 175) {
         currentPercent = 175;
         maxScroll = scroll;
