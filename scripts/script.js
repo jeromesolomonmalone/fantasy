@@ -3,7 +3,7 @@ const covers = {
     title: "Jalen Williams",
     number: 258,
     league: "NBA",
-    team: "Oklahoma City Thunder",
+    team: ["Oklahoma City Thunder"],
     players: ["Jalen Williams"],
     photos: {
       main: {
@@ -27,7 +27,7 @@ const covers = {
     title: "Cooper Flagg",
     number: 258,
     league: "NBA",
-    team: "Dallas Mavericks",
+    team: ["Dallas Mavericks"],
     players: ["Cooper Flagg"],
     photos: {
       main: {
@@ -50,7 +50,7 @@ const covers = {
     title: "Kayla Thornton & Tiffany Hayes",
     number: 258,
     league: "WNBA",
-    team: "Golden State Valkyries",
+    team: ["Golden State Valkyries"],
     players: ["Kayla Thornton", "Tiffany Hayes"],
     photos: {
       main: {
@@ -73,7 +73,7 @@ const covers = {
     title: "Ausar Thompson & Amen Thompson",
     number: 257,
     league: "NBA",
-    team: "Houston Rockets",
+    team: ["Houston Rockets"],
     players: ["Amen Thompson", "Ausar Thompson"],
     photos: {
       main: {
@@ -99,7 +99,7 @@ const covers = {
     title: "Napheesa Collier",
     number: 257,
     league: "WNBA",
-    team: "Minnesota Lynx",
+    team: ["Minnesota Lynx"],
     players: ["Napheesa Collier"],
     photos: {
       main: {
@@ -121,7 +121,7 @@ const covers = {
     title: "Cameron & Cayden Boozer",
     number: 257,
     league: "College",
-    team: "Duke",
+    team: ["Duke"],
     players: ["Cameron Boozer", "Cayden Boozer"],
     photos: {
       main: {
@@ -144,7 +144,7 @@ const covers = {
     title: "Natasha Cloud",
     number: 256,
     league: "WNBA",
-    team: "New York Liberty",
+    team: ["New York Liberty"],
     players: ["Natasha Cloud"],
     photos: {
       main: {
@@ -167,7 +167,7 @@ const covers = {
     title: "Los Angeles Sparks",
     number: 256,
     league: "WNBA",
-    team: "Los Angeles Sparks",
+    team: ["Los Angeles Sparks"],
     players: [
       "Kelsey Plum",
       "Dearica Hamby",
@@ -199,7 +199,7 @@ const covers = {
     title: "Caitlin Clark",
     number: 256,
     league: "WNBA",
-    team: "Indiana Fever",
+    team: ["Indiana Fever"],
     players: ["Caitlin Clark"],
     photos: {
       main: {
@@ -218,7 +218,7 @@ const covers = {
     title: "Dallas Wings",
     number: 256,
     league: "WNBA",
-    team: "Dallas Wings",
+    team: ["Dallas Wings"],
     players: ["Paige Bueckers", "DiJonai Carrington", "Arike Ogunbowale"],
     photos: {
       main: {
@@ -245,7 +245,7 @@ const covers = {
     title: "Phoenix Mercury",
     number: 256,
     league: "WNBA",
-    team: "Phoenix Mercury",
+    team: ["Phoenix Mercury"],
     players: ["Kahleah Copper", "Satou Sabally", "Alyssa Thomas"],
     photos: {
       main: {
@@ -268,7 +268,7 @@ const covers = {
     title: "Stephen Curry",
     number: 256,
     league: "NBA",
-    team: "Golden State Warriors",
+    team: ["Golden State Warriors"],
     players: ["Stephen Curry"],
     photos: {
       main: {
@@ -289,7 +289,7 @@ const covers = {
     title: "Cade Cunningham",
     number: 255,
     league: "NBA",
-    team: "Detroit Pistons",
+    team: ["Detroit Pistons"],
     players: ["Cade Cunningham"],
     photos: {
       main: {
@@ -311,7 +311,7 @@ const covers = {
     title: "Darius Garland & Donovan Mitchell",
     number: 255,
     league: "NBA",
-    team: "Cleveland Cavaliers",
+    team: ["Cleveland Cavaliers"],
     players: ["Darius Garland", "Donovan Mitchell"],
     photos: {
       main: {
@@ -331,7 +331,7 @@ const covers = {
     title: "Jaren Jackson Jr.",
     number: 255,
     league: "NBA",
-    team: "Memphis Grizzlies",
+    team: ["Memphis Grizzlies"],
     players: ["Jaren Jackson Jr."],
     photos: {
       main: {
@@ -355,7 +355,7 @@ const covers = {
     title: "Karl-Anthony Towns",
     number: 254,
     league: "NBA",
-    team: "New York Knicks",
+    team: ["New York Knicks"],
     players: ["Karl-Anthony Towns"],
     photos: {
       main: {
@@ -376,7 +376,7 @@ const covers = {
     title: "Shai Gilgeous-Alexander",
     number: 254,
     league: "NBA",
-    team: "Oklahoma City Thunder",
+    team: ["Oklahoma City Thunder"],
     players: ["Shai Gilgeous-Alexander"],
     photos: {
       main: {
@@ -396,7 +396,7 @@ const covers = {
     title: "Houston Rockets",
     number: 254,
     league: "NBA",
-    team: "Houston Rockets",
+    team: ["Houston Rockets"],
     players: [
       "Alperen Sengun",
       "Dillon Brooks",
@@ -422,7 +422,7 @@ const covers = {
     title: "Ace Bailey & Dylan Harper",
     number: 253,
     league: "College",
-    team: "Rutgers",
+    team: ["Rutgers"],
     players: ["Dylan Harper", "Ace Bailey"],
     photos: {
       main: {
@@ -444,7 +444,7 @@ const covers = {
     title: "Damian Lillard",
     number: 252,
     league: "NBA",
-    team: "Milwaukee Bucks",
+    team: ["Milwaukee Bucks"],
     players: ["Damian Lillard"],
     photos: {
       main: {
@@ -464,7 +464,7 @@ const covers = {
     title: "Derrick White & Jrue Holiday",
     number: 252,
     league: "NBA",
-    team: "Boston Celtics",
+    team: ["Boston Celtics"],
     players: ["Derrick White", "Jrue Holiday"],
     photos: {
       main: {
@@ -485,7 +485,7 @@ const covers = {
     title: "Alyssa Thomas & DeWanna Bonner",
     number: 251,
     league: "WNBA",
-    team: "Connecticut Sun",
+    team: ["Connecticut Sun"],
     players: ["Alyssa Thomas", "DeWanna Bonner"],
     photos: {
       main: {
@@ -505,7 +505,7 @@ const covers = {
     title: "Naz Reid",
     number: 251,
     league: "NBA",
-    team: "Minnesota Timberwolves",
+    team: ["Minnesota Timberwolves"],
     players: ["Naz Reid"],
     photos: {
       main: {
@@ -525,7 +525,7 @@ const covers = {
     title: "Dawn Staley",
     number: 250,
     league: "College",
-    team: "South Carolina",
+    team: ["South Carolina"],
     players: ["Dawn Staley"],
     photos: {
       main: {
@@ -545,7 +545,7 @@ const covers = {
     title: "Stephon Castle & Donovan Clingan",
     number: 250,
     league: "College",
-    team: "UConn",
+    team: ["UConn"],
     players: ["Stephon Castle", "Donovan Clingan"],
     photos: {
       main: {
@@ -567,7 +567,7 @@ const covers = {
     title: "Jimmy Butler",
     number: 249,
     league: "NBA",
-    team: "Miami Heat",
+    team: ["Miami Heat"],
     players: ["Jimmy Butler"],
     photos: {
       main: {
@@ -589,7 +589,7 @@ const covers = {
     title: "New York Knicks",
     number: 249,
     league: "NBA",
-    team: "New York Knicks",
+    team: ["New York Knicks"],
     players: ["Jalen Brunson", "Josh Hart", "Donte DiVincenzo"],
     photos: {
       main: {
@@ -611,7 +611,7 @@ const covers = {
     title: "Caitlin Clark",
     number: 249,
     league: "College",
-    team: "Iowa",
+    team: ["Iowa"],
     players: ["Caitlin Clark"],
     photos: {
       main: {
@@ -635,7 +635,7 @@ const covers = {
     title: "Chet Holmgren",
     number: 248,
     league: "NBA",
-    team: "Oklahoma City Thunder",
+    team: ["Oklahoma City Thunder"],
     players: ["Chet Holmgren"],
     photos: {
       main: {
@@ -656,7 +656,7 @@ const covers = {
     title: "Juju Watkins",
     number: 248,
     league: "College",
-    team: "USC",
+    team: ["USC"],
     players: ["Juju Watkins"],
     photos: {
       main: {
@@ -681,7 +681,7 @@ const covers = {
     title: "Tyrese Maxey",
     number: 248,
     league: "NBA",
-    team: "Philadelphia 76ers",
+    team: ["Philadelphia 76ers"],
     players: ["Tyrese Maxey"],
     photos: {
       main: {
@@ -705,7 +705,7 @@ const covers = {
     title: "Cooper Flagg",
     number: 247,
     league: "College",
-    team: "Duke",
+    team: ["Duke"],
     players: ["Cooper Flagg"],
     photos: {
       main: {
@@ -726,7 +726,7 @@ const covers = {
     title: "Oklahoma City Thunder",
     number: 247,
     league: "NBA",
-    team: "Oklahoma City Thunder",
+    team: ["Oklahoma City Thunder"],
     players: [
       "Shai Gilgeous-Alexander",
       "Lu Dort",
@@ -763,7 +763,7 @@ const covers = {
     title: "Paul George",
     number: 246,
     league: "NBA",
-    team: "Los Angeles Clippers",
+    team: ["Los Angeles Clippers"],
     players: ["Paul George"],
     photos: {
       main: {
@@ -786,7 +786,7 @@ const covers = {
     title: "New York Liberty",
     number: 246,
     league: "WNBA",
-    team: "New York Liberty",
+    team: ["New York Liberty"],
     players: [
       "Breanna Stewart",
       "Jonquel Jones",
@@ -827,7 +827,7 @@ const covers = {
     title: "Bradley Beal",
     number: 245,
     league: "NBA",
-    team: "Phoenix Suns",
+    team: ["Phoenix Suns"],
     players: ["Bradley Beal"],
     photos: {
       main: {
@@ -848,7 +848,7 @@ const covers = {
     title: "Tyrese Haliburton",
     number: 245,
     league: "NBA",
-    team: "Indiana Pacers",
+    team: ["Indiana Pacers"],
     players: ["Tyrese Haliburton"],
     photos: {
       main: {
@@ -874,7 +874,7 @@ const covers = {
     title: "Paolo Banchero",
     number: 244,
     league: "NBA",
-    team: "Orlando Magic",
+    team: ["Orlando Magic"],
     players: ["Paolo Banchero"],
     photos: {
       main: {
@@ -898,7 +898,7 @@ const covers = {
     title: "Rhyne Howard",
     number: 244,
     league: "WNBA",
-    team: "Atlanta Dream",
+    team: ["Atlanta Dream"],
     players: ["Rhyne Howard"],
     photos: {
       main: {
@@ -920,7 +920,7 @@ const covers = {
     title: "Scoot Henderson",
     number: 244,
     league: "NBA",
-    team: "Portland Trail Blazers",
+    team: ["Portland Trail Blazers"],
     players: ["Scoot Henderson"],
     photos: {
       main: {
@@ -947,7 +947,7 @@ const covers = {
     title: "Angel Reese & Flau'jae Johnson",
     number: 243,
     league: "College",
-    team: "LSU",
+    team: ["LSU"],
     players: ["Angel Reese", "Flau'jae Johnson"],
     photos: {
       main: {
@@ -973,7 +973,7 @@ const covers = {
     title: "James Hardenn",
     number: 243,
     league: "NBA",
-    team: "Philadelphia 76ers",
+    team: ["Philadelphia 76ers"],
     players: ["James Harden"],
     photos: {
       main: {
@@ -996,7 +996,7 @@ const covers = {
     title: "Lauri Markkanen & Jordan Clarkson",
     number: 243,
     league: "NBA",
-    team: "Utah Jazz",
+    team: ["Utah Jazz"],
     players: ["Lauri Markkanen", "Jordan Clarkson"],
     photos: {
       main: {
@@ -1019,7 +1019,7 @@ const covers = {
     title: "Jalen Brunson",
     number: 243,
     league: "NBA",
-    team: "New York Knicks",
+    team: ["New York Knicks"],
     players: ["Jalen Brunson"],
     photos: {
       main: {
@@ -1039,7 +1039,7 @@ const covers = {
     title: "New Orleans Pelicans",
     number: 242,
     league: "NBA",
-    team: "New Orleans Pelicans",
+    team: ["New Orleans Pelicans"],
     players: ["Zion Williamson", "CJ McCollum", "Brandon Ingram"],
     photos: {
       main: {
@@ -1059,7 +1059,7 @@ const covers = {
     title: "Jaylen Brown",
     number: 242,
     league: "NBA",
-    team: "Boston Celtics",
+    team: ["Boston Celtics"],
     players: ["Jaylen Brown"],
     photos: {
       main: {
@@ -1079,7 +1079,7 @@ const covers = {
     title: "De'Aaron Fox & Domantas Sabonis",
     number: 242,
     league: "NBA",
-    team: "Sacramento Kings",
+    team: ["Sacramento Kings"],
     players: ["De'Aaron Fox", "Domantas Sabonis"],
     photos: {
       main: {
@@ -1100,7 +1100,7 @@ const covers = {
     title: "Trae Young & Dejounte Murray",
     number: 242,
     league: "NBA",
-    team: "Atlanta Hawks",
+    team: ["Atlanta Hawks"],
     players: ["Trae Young", "Dejounte Murray"],
     photos: {
       main: {
@@ -1121,7 +1121,7 @@ const covers = {
     title: "Jayson Tatum",
     number: 241,
     league: "NBA",
-    team: "Boston Celtics",
+    team: ["Boston Celtics"],
     players: ["Jayson Tatum"],
     photos: {
       main: {
@@ -1142,7 +1142,7 @@ const covers = {
     title: "Kawhi Leonard & Paul George",
     number: 240,
     league: "NBA",
-    team: "Los Angeles Clippers",
+    team: ["Los Angeles Clippers"],
     players: ["Kawhi Leonard", "Paul George"],
     photos: {
       main: {
@@ -1161,7 +1161,7 @@ const covers = {
     title: "Victor Wembanyama",
     number: 240,
     league: "Europe",
-    team: "Metropolitans 92",
+    team: ["Metropolitans 92"],
     players: ["Victor Wembanyama"],
     photos: {
       main: {
@@ -1183,7 +1183,7 @@ const covers = {
     title: "Scottie Barnes",
     number: 239,
     league: "NBA",
-    team: "Toronto Raptors",
+    team: ["Toronto Raptors"],
     players: ["Scottie Barnes"],
     photos: {
       main: {
@@ -1206,7 +1206,7 @@ const covers = {
     title: "Cade Cunningham",
     number: 238,
     league: "NBA",
-    team: "Detroit Pistons",
+    team: ["Detroit Pistons"],
     players: ["Cade Cunningham"],
     photos: {
       main: {
@@ -1229,7 +1229,7 @@ const covers = {
     title: "Memphis Grizzlies",
     number: 238,
     league: "NBA",
-    team: "Memphis Grizzlies",
+    team: ["Memphis Grizzlies"],
     players: [
       "Ja Morant",
       "Desmond Bane",
@@ -1255,7 +1255,7 @@ const covers = {
     title: "South Carolina Gamecocks",
     number: 238,
     league: "College",
-    team: "South Carolina",
+    team: ["South Carolina"],
     players: [
       "Dawn Staley",
       "Zia Cooke",
@@ -1281,7 +1281,7 @@ const covers = {
     title: "LaMelo Ball",
     number: 237,
     league: "NBA",
-    team: "Charlotte Hornets",
+    team: ["Charlotte Hornets"],
     players: ["LaMelo Ball"],
     photos: {
       main: {
@@ -1302,7 +1302,7 @@ const covers = {
     title: "DeMar DeRozan & Zach LaVine",
     number: 237,
     league: "NBA",
-    team: "Chicago Bulls",
+    team: ["Chicago Bulls"],
     players: ["DeMar DeRozan", "Zach LaVine"],
     photos: {
       main: {
@@ -1321,7 +1321,7 @@ const covers = {
     title: "Donovan Mitchell",
     number: 235,
     league: "NBA",
-    team: "Utah Jazz",
+    team: ["Utah Jazz"],
     players: ["Donovan Mitchell"],
     photos: {
       main: {
@@ -1342,7 +1342,7 @@ const covers = {
     title: "Azzi Fudd & Paige Bueckers",
     number: 235,
     league: "College",
-    team: "UConn",
+    team: ["UConn"],
     players: ["Azzi Fudd", "Paige Bueckers"],
     photos: {
       main: {
@@ -1360,11 +1360,57 @@ const covers = {
       ],
     },
   },
+  CandaceParker: {
+    title: "Candace Parker",
+    number: 233,
+    league: "WNBA",
+    team: ["Chicago Sky"],
+    players: ["Candace Parker"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2021/07/SLM-233-CANDACE-resized-1.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2021/07/SLM-233-CANDACE-resized-1-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2024/04/wslam-2021-CANDACE-PARKER-SHOOT-x-SLAM1174-scaled.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/07/2021-CANDACE-PARKER-SHOOT-x-SLAM1255-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/07/2021-CANDACE-PARKER-SHOOT-x-SLAM1099-scaled-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/07/2021-CANDACE-PARKER-SHOOT-x-SLAM1217-scaled-1.jpg",
+      ],
+    },
+  },
+  WNBARevolution: {
+    title: "WNBA Revolution",
+    number: 232,
+    league: "WNBA",
+    team: ["Phoenix Mercury", "Los Angeles Sparks", "Seattle Storm"],
+    players: [
+      "Skylar Diggins-Smith",
+      "Nneka Ogwumike",
+      "Sue Bird",
+      "Diana Taurasi",
+    ],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2021/05/SLM-232-W-scaled-1.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2021/05/SLM-232-W-scaled-1-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2021/05/GROUP-03.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/05/NNEKA-03.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/05/DIANA-02.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/05/SKYLAR-01.jpg",
+        "https://slamonline.com/wp-content/uploads/2021/05/SUE-04.jpg",
+      ],
+    },
+  },
   ZionWilliamson: {
     title: "Zion Williamson",
     number: 228,
     league: "College",
-    team: "Duke",
+    team: ["Duke"],
     players: ["Zion Williamson"],
     photos: {
       main: {
@@ -1386,7 +1432,7 @@ const covers = {
     title: "Ja Morant",
     number: 227,
     league: "NBA",
-    team: "Memphis Grizzlies",
+    team: ["Memphis Grizzlies"],
     players: ["Ja Morant"],
     photos: {
       main: {
@@ -1402,36 +1448,11 @@ const covers = {
       ],
     },
   },
-  LosAngelesClippers: {
-    title: "Los Angeles Clippers",
-    number: 226,
-    league: "NBA",
-    team: "Los Angeles Clippers",
-    players: ["Lou Williams", "Montrezl Harrell", "Pat Beverley"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2020/01/SLM-226-CLIPPERS.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2020/01/SLM-226-CLIPPERS-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2020/01/6-Horizontal.jpg",
-        "https://slamonline.com/wp-content/uploads/2020/01/2.jpg",
-        "https://slamonline.com/wp-content/uploads/2020/01/3.jpg",
-        "https://slamonline.com/wp-content/uploads/2020/01/4.jpg",
-        "https://slamonline.com/wp-content/uploads/2020/01/5.jpg",
-        "https://slamonline.com/wp-content/uploads/2020/01/7.jpg",
-        "https://slamonline.com/wp-content/uploads/2020/01/9.jpg",
-        "https://slamonline.com/wp-content/uploads/2020/01/10.jpg",
-        "https://slamonline.com/wp-content/uploads/2020/01/13.jpg",
-      ],
-    },
-  },
   BostonCeltics: {
     title: "Boston Celtics",
     number: 226,
     league: "NBA",
-    team: "Boston Celtics",
+    team: ["Boston Celtics"],
     players: [
       "Marcus Smart",
       "Jayson Tatum",
@@ -1461,7 +1482,7 @@ const covers = {
     title: "Miami Heat",
     number: 225,
     league: "NBA",
-    team: "Miami Heat",
+    team: ["Miami Heat"],
     players: ["Jimmy Butler", "Bam Adebayo", "Tyler Herro"],
     photos: {
       main: {
@@ -1475,6 +1496,50 @@ const covers = {
         "https://slamonline.com/wp-content/uploads/2019/12/Herro.jpg",
         "https://slamonline.com/wp-content/uploads/2019/12/Bam.jpg",
         "https://slamonline.com/wp-content/uploads/2019/12/Trio2.jpg",
+      ],
+    },
+  },
+  TraeYoung: {
+    title: "Trae Young",
+    number: 225,
+    league: "NBA",
+    team: ["Atlanta Hawks"],
+    players: ["Trae Young"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2019/11/SLM-225-TRAE-YOUNG.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2019/11/SLM-225-TRAE-YOUNG-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2019/11/Trae-9-wide.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/11/Trae-4.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/11/Trae-8.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/11/Trae-3.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/11/Trae-5.jpg",
+      ],
+    },
+  },
+  Goodfellas: {
+    title: "Goodfellas",
+    number: 224,
+    league: "NBA",
+    team: ["Minnesota Timberwolves", "Phoenix Suns", "Golden State Warriors"],
+    players: ["Karl-Anthony Towns", "Devin Booker", "D’Angelo Russell"],
+    photos: {
+      main: {
+        full: "https://slamonline.com/wp-content/uploads/2019/10/SLM-224-KAT-DBOOK-DLO.jpg",
+        thumb:
+          "https://slamonline.com/wp-content/uploads/2019/10/SLM-224-KAT-DBOOK-DLO-600x750.jpg",
+      },
+      gallery: [
+        "https://slamonline.com/wp-content/uploads/2019/10/SLM-224-Trio-1040x700-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/10/SLM-224-Trio-1080x1350-4-1.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/10/SLM-224-Trio-1080x1350-6.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/10/SLM-224-Trio-1080x1350-2.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/10/Image-from-iOS-26.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/10/Image-from-iOS-27.jpg",
+        "https://slamonline.com/wp-content/uploads/2019/10/SLM-224-Trio-1080x1350-7-1.jpg",
       ],
     },
   },
@@ -1650,27 +1715,35 @@ const uniqueLeagues = Object.values(covers)
   .filter((value, index, self) => self.indexOf(value) === index); // Вывод лиг
 function getTopPlayers(covers, topCount = 5) {
   const playerCount = Object.values(covers).reduce((acc, cover) => {
-    cover.players.forEach((player) => (acc[player] = (acc[player] || 0) + 1));
+    cover.players.forEach((p) => (acc[p] = (acc[p] || 0) + 1));
     return acc;
   }, {});
 
   const teamFrequency = Object.values(covers).reduce((acc, cover) => {
-    acc[cover.team] = (acc[cover.team] || 0) + 1;
+    cover.team.forEach((t) => (acc[t] = (acc[t] || 0) + 1));
     return acc;
   }, {});
 
   return Object.entries(playerCount)
     .map(([player, count]) => {
-      const team = Object.values(covers).find((c) =>
-        c.players.includes(player)
-      ).team;
-      return { player, count, team, teamCount: teamFrequency[team] };
+      const teams = Object.values(covers)
+        .filter((c) => c.players.includes(player))
+        .flatMap((c) => c.team.filter(Boolean));
+
+      const mainTeam = teams[0] || "Unknown";
+      return {
+        player,
+        count,
+        team: mainTeam,
+        teamCount: teamFrequency[mainTeam] || 0,
+      };
     })
-    .sort((a, b) => {
-      if (a.count !== b.count) return b.count - a.count;
-      if (a.teamCount !== b.teamCount) return b.teamCount - a.teamCount;
-      return a.player.localeCompare(b.player);
-    })
+    .sort(
+      (a, b) =>
+        b.count - a.count ||
+        b.teamCount - a.teamCount ||
+        a.player.localeCompare(b.player)
+    )
     .slice(0, topCount)
     .map(({ player }) => player);
 }
@@ -1705,15 +1778,14 @@ topPlayers.forEach((player) =>
 );
 function createTeamCheckboxes(selectedLeagues = []) {
   teamsContainer.innerHTML = "";
-  const filteredTeams = Object.values(covers)
+  Object.values(covers)
     .filter(
-      (cover) =>
-        !selectedLeagues.length || selectedLeagues.includes(cover.league)
+      (c) => !selectedLeagues.length || selectedLeagues.includes(c.league)
     )
-    .map((cover) => cover.team)
-    .filter((value, index, self) => self.indexOf(value) === index)
-    .sort();
-  filteredTeams.forEach((team) => createCheckbox(team, teamsContainer, "team"));
+    .flatMap((c) => c.team)
+    .filter(Boolean)
+    .reduce((set, t) => set.add(t), new Set())
+    .forEach((team) => createCheckbox(team, teamsContainer, "team"));
 } // Функция создания чекбоксов команд исходя из активных чекбоксов лиг
 const addTitleAndContainer = (titleText, container) => {
   const title = document.createElement("h2");
@@ -1752,21 +1824,20 @@ function filterCovers(
 
   return Object.values(covers)
     .filter((cover) => {
-      const leagueMatch =
+      const lMatch =
         !selectedLeagues.length || selectedLeagues.includes(cover.league);
-      const teamMatch =
-        !selectedTeams.length || selectedTeams.includes(cover.team);
-      const playerMatch =
+      const tMatch =
+        !selectedTeams.length ||
+        cover.team.some((t) => selectedTeams.includes(t));
+      const pMatch =
         !selectedPlayers.length ||
-        cover.players.some((player) => selectedPlayers.includes(player));
-      const searchMatch =
+        cover.players.some((p) => selectedPlayers.includes(p));
+      const sMatch =
         cover.title.toLowerCase().includes(lowerSearch) ||
-        cover.team.toLowerCase().includes(lowerSearch) ||
-        cover.players.some((player) =>
-          player.toLowerCase().includes(lowerSearch)
-        );
+        cover.team.some((t) => t.toLowerCase().includes(lowerSearch)) ||
+        cover.players.some((p) => p.toLowerCase().includes(lowerSearch));
 
-      return leagueMatch && teamMatch && playerMatch && searchMatch;
+      return lMatch && tMatch && pMatch && sMatch;
     })
     .sort((a, b) => b.number - a.number);
 } // Фильтрация обложек
@@ -1827,12 +1898,6 @@ function updateFilters() {
 
 const search = document.querySelector(".search");
 const homeButton = document.querySelector(".home_button");
-search.addEventListener("focus", (e) => {
-  e.preventDefault();
-  requestAnimationFrame(() => {
-    updateFilters();
-  });
-});
 search.addEventListener("input", () => {
   updateFilters();
 }); // Обработчик поиска
@@ -1914,7 +1979,7 @@ function handlePopup(item) {
   const header = document.createElement("div");
   header.classList.add("popup-header");
   const h2 = document.createElement("h2");
-  h2.textContent = item.team;
+  h2.textContent = item.team.join(", ");
   const h1 = document.createElement("h1");
   h1.textContent = item.players.join(", ");
 
