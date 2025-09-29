@@ -1778,13 +1778,16 @@ topPlayers.forEach((player) =>
 );
 function createTeamCheckboxes(selectedLeagues = []) {
   teamsContainer.innerHTML = "";
-  Object.values(covers)
+  const teams = Object.values(covers)
     .filter(
       (c) => !selectedLeagues.length || selectedLeagues.includes(c.league)
     )
     .flatMap((c) => c.team)
     .filter(Boolean)
-    .reduce((set, t) => set.add(t), new Set())
+    .reduce((set, t) => set.add(t), new Set());
+
+  Array.from(teams)
+    .sort((a, b) => a.localeCompare(b))
     .forEach((team) => createCheckbox(team, teamsContainer, "team"));
 } // Функция создания чекбоксов команд исходя из активных чекбоксов лиг
 const addTitleAndContainer = (titleText, container) => {
