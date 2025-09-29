@@ -444,7 +444,6 @@ body {
   padding-inline: 1.5rem;
   color: var(--black-white);
   font-family: span, serif;
-  font-weight: 700;
   text-align: center;
   pointer-events: none;
 }
@@ -452,6 +451,7 @@ body {
 .popup-header h2 {
   font-size: 36px;
   line-height: 1.25;
+  font-weight: 400;
 }
 
 .popup-header h1 {
