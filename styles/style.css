@@ -173,6 +173,8 @@ body {
   will-change: transform;
   contain: layout paint;
   transform-style: preserve-3d;
+  padding-bottom: constant(safe-area-inset-bottom); /* Для Safari */
+    padding-bottom: env(safe-area-inset-bottom); /* Для других браузеров */
 }
 
 .has-border {

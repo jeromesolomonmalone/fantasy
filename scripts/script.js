@@ -1900,6 +1900,19 @@ function updateFilters() {
 } // Обновление фильтров
 
 const search = document.querySelector(".search");
+const visualViewport = window.visualViewport;
+
+// Функция для отслеживания изменений
+function handleViewportChange() {
+    const navigation = document.querySelector('.navigation');
+    navigation.style.top = `${visualViewport.offsetTop}px`;
+}
+
+// Добавляем обработчик
+if (visualViewport) {
+    visualViewport.addEventListener('resize', handleViewportChange);
+    handleViewportChange();
+}
 const homeButton = document.querySelector(".home_button");
 search.addEventListener("input", () => {
   updateFilters();
