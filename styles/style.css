@@ -71,6 +71,7 @@ body {
   color: var(--text-color);
   font-family: "Univers LT Std 63 Bold Extended", sans-serif;
   background-color: var(--background);
+  overflow-x: hidden;
 }
 
 .scroll-lock {
@@ -170,6 +171,8 @@ body {
   padding: 24px;
   inline-size: 100%;
   will-change: transform;
+  contain: layout paint;
+  transform-style: preserve-3d;
 }
 
 .has-border {
