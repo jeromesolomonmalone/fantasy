@@ -1904,6 +1904,19 @@ const homeButton = document.querySelector(".home_button");
 search.addEventListener("input", () => {
   updateFilters();
 }); // Обработчик поиска
+if (window.innerWidth < 767) {
+  search.addEventListener("focus", function (e) {
+    const navigation = document.querySelector(".navigation");
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    navigation.style.position = "fixed";
+    window.scrollTo(0, scrollTop);
+
+    this.addEventListener("blur", function () {
+      navigation.style.position = "sticky";
+    });
+  });
+}
 checkboxContainers.addEventListener("change", (event) => {
   if (event.target.type === "checkbox") {
     updateFilters();
