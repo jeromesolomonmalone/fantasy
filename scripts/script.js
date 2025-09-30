@@ -1904,18 +1904,26 @@ const homeButton = document.querySelector(".home_button");
 search.addEventListener("input", () => {
   updateFilters();
 }); // Обработчик поиска
-if (window.innerWidth < 767) {
-  search.addEventListener("focus", function (e) {
-    const navigation = document.querySelector(".navigation");
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-    navigation.style.position = "fixed";
-    window.scrollTo(0, scrollTop);
-
-    this.addEventListener("blur", function () {
-      navigation.style.position = "sticky";
-    });
-  });
+function manageHeaderBehavior() {
+    const isMobile = window.innerWidth < 767;
+    
+    // Очищаем все существующие обработчики
+    search.removeEventListener('focus', handleFocus);
+    search.removeEventListener('blur', handleBlur);
+    
+    // Если мобильная версия - добавляем обработчики
+    if (isMobile) {
+        search.addEventListener('focus', handleFocus);
+    }
+    
+    function handleFocus(e) {
+      document.body.style.paddingTop = "78.5px"
+        search.addEventListener('blur', handleBlur);
+    }
+    
+    function handleBlur() {
+        document.body.style.paddingTop = "0"
+    }
 }
 checkboxContainers.addEventListener("change", (event) => {
   if (event.target.type === "checkbox") {
@@ -1954,6 +1962,7 @@ document.addEventListener("DOMContentLoaded", () => {
   createTeamCheckboxes();
   updateFilters();
   checkStickyPosition();
+  manageHeaderBehavior();
 
   const scroll = window.scrollY || window.pageYOffset;
   updateStyles(scroll);
@@ -1983,6 +1992,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
     });
+    manageHeaderBehavior();
   });
 }); // Инициализация функций при открытии сайта
 
