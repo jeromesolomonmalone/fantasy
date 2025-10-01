@@ -68,10 +68,10 @@ svg {
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   color: var(--text-color);
   font-family: "Univers LT Std 63 Bold Extended", sans-serif;
   background-color: var(--background);
-  overflow-x: hidden;
 }
 
 .scroll-lock {
@@ -116,9 +116,11 @@ body {
 }
 
 .animation_item img {
+  object-fit: contain;
+  object-position: center;
   opacity: 0;
   inline-size: 100%;
-  block-size: auto;
+  aspect-ratio: 0.8/1;
 }
 
 .animation_title {
@@ -171,10 +173,6 @@ body {
   padding: 24px;
   inline-size: 100%;
   will-change: transform;
-  contain: layout paint;
-  transform-style: preserve-3d;
-  padding-bottom: constant(safe-area-inset-bottom); /* Для Safari */
-    padding-bottom: env(safe-area-inset-bottom); /* Для других браузеров */
 }
 
 .has-border {
@@ -368,7 +366,10 @@ body {
 
 .cover_img {
   width: 100%;
+  object-fit: contain;
+  object-position: center;
   opacity: 0;
+  aspect-ratio: 0.8/1;
 }
 
 .cover_information {
@@ -454,9 +455,9 @@ body {
 }
 
 .popup-header h2 {
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.25;
-  font-weight: 500;
 }
 
 .popup-header h1 {
@@ -689,6 +690,10 @@ body {
     min-inline-size: 82px;
   }
 
+  .search-filter {
+    gap: 0;
+  }
+
   .search_wrapper {
     max-inline-size: 250px;
   }
@@ -705,6 +710,10 @@ body {
 
   .filter p {
     display: none;
+  }
+
+  .filter_img {
+    padding: 1rem;
   }
 
   .navigation-popup .popup-content {
