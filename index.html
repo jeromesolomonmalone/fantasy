@@ -1,168 +1,134 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
-    />
-    <meta name="color-scheme" content="light dark" />
-    <title>SLAM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fantasy</title>
     <meta
       name="description"
-      content="SLAM's has been the Holy Grail for basketball players since '94. Scroll through here for everyone of covers, or use the search bar or filter tool to find specific."
+      content="Яннис Адетокунбо, водка, греческий салат"
     />
     <meta
       property="og:url"
-      content="https://jeromesolomonmalone.github.io/slam-gallery/"
+      content="https://jeromesolomonmalone.github.io/fantasy/"
     />
-    <meta property="og:title" content="SLAM" />
+    <meta property="og:title" content="Fantasy" />
     <meta
       property="og:description"
-      content="SLAM's has been the Holy Grail for basketball players since '94. Scroll through here for everyone of covers, or use the search bar or filter tool to find specific."
+      content="Яннис Адетокунбо, водка, греческий салат"
     />
     <meta
       property="og:image"
-      content="https://jeromesolomonmalone.github.io/slam-gallery/images/twitter-image.jpg"
+      content="https://jeromesolomonmalone.github.io/fantasy/images/twitter-image.jpg"
     />
     <meta
       property="og:image:secure_url"
-      content="https://jeromesolomonmalone.github.io/slam-gallery/images/twitter-image.jpg"
+      content="https://jeromesolomonmalone.github.io/fantasy/images/twitter-image.jpg"
     />
-    <meta property="og:site_name" content="SLAM" />
+    <meta property="og:site_name" content="Fantasy" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="SLAM" />
+    <meta name="twitter:title" content="Fantasy" />
     <meta
       name="twitter:description"
-      content="SLAM's has been the Holy Grail for basketball players since '94. Scroll through here for everyone of covers, or use the search bar or filter tool to find specific."
+      content="Яннис Адетокунбо, водка, греческий салат"
     />
     <meta
       name="twitter:image"
-      content="https://jeromesolomonmalone.github.io/slam-gallery/images/twitter-image.jpg"
+      content="https://jeromesolomonmalone.github.io/fantasy/images/twitter-image.jpg"
     />
     <link rel="icon" href="./images/favicon.png" sizes="any" />
     <link rel="apple-touch-icon" href="./images/favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-    />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
     <header class="header">
-      <div class="animation_wrapper">
-        <div class="animation_list"></div>
-        <div class="animation_title">
-          <h1><span class="">Slam</span>Gallery</h1>
-          <p>
-            SLAM's has been the Holy Grail for basketball players since '94.
-            Scroll through here for everyone of covers, or use the search bar or
-            filter tool to find specific.
-          </p>
-          <img
-            src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60e41260242bc454c9d86589_arrow-down.svg"
-            alt
-          />
+      <div class="header_top">
+        <div class="header_top_main">
+          <div class="header_logo_wrapper">
+            <img class="header_logo" src="" alt="" />
+          </div>
+          <div class="header_top_right">
+            <h1 class="header_title"></h1>
+            <h2 class="header_subtitle">
+              <span class="header_points"></span>оч.
+            </h2>
+            <img class="header_logo_transparent" src="" alt="" />
+          </div>
         </div>
+        <div class="header_running_line"></div>
+      </div>
+      <div class="header_buttons_wrapper">
+        <div class="header_buttons"></div>
       </div>
     </header>
     <main class="main">
-      <div class="navigation">
-        <button class="home_button">
-          <img
-            class=""
-            src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60c7fd29ddb4c2ef6a9b2f97_slam.svg"
-            alt="Логотип SLAM"
-          />
-        </button>
-        <div class="search-filter">
-          <div class="search_wrapper">
-            <input class="search" id="input" type="text" />
-            <img
-              class="search_img"
-              src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60c7fd29ddb4c284ae9b2f98_search.svg"
-              alt
-            />
-          </div>
-          <div class="filter">
-            <p>Show Filter</p>
-            <img
-              class="filter_img"
-              src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60cbf535baeefb2431aec1c6_filter.svg"
-              alt
-            />
-          </div>
-        </div>
-      </div>
-      <div class="main_container">
-        <div class="main_wrapper">
-          <div class="covers_list"></div>
-          <div class="empty-message">
-            <img
-              src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60cd1223a37da5db12d94460_unhappy-emoji.svg"
-              alt
-            />
-            <p>Oops! Nothing matched your query<br />Please try again.</p>
-          </div>
-        </div>
-      </div>
+      <div class="players_list"></div>
     </main>
-    <footer class="footer">
-      <div class="footer_fixed">
-        <img
-          class="footer_img"
-          src="https://slamonline.com/wp-content/uploads/2025/09/SLAM-covers.jpg"
-          alt="Footer Background Image"
-        />
-      </div>
-      <div class="footer_main">
-        <img
-          class="footer_logo"
-          src="https://slamonline.com/wp-content/uploads/2023/03/SLAM_Logo_White_RGB-scaled.png"
-          alt="Footer Logo"
-        />
-      </div>
-    </footer>
-    <div class="popup navigation-popup">
+    <div class="popup">
       <div class="popup-content">
         <div class="close">
-          <img
-            src="https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/60d0e346f3c868c00e0fc6b4_lb-close.svg"
-            alt
-          />
+          <svg
+            style="outline-style: none; z-index: 1"
+            tabindex="-1"
+            viewBox="0 0 320 512"
+          >
+            <path
+              d="M305 239c9.4 9.4 9.4 24.6 0 33.9L113 465c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l175-175L79 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L305 239z"
+            />
+          </svg>
         </div>
-        <div class="checkbox-containers"></div>
-      </div>
-    </div>
-    <div class="popup gallery-popup">
-      <div class="popup-content">
-        <div class="close">
-          <p>← Back</p>
+        <div class="popup_header">
+          <div class="popup_header_right">
+            <img class="popup_player_team_big" src="" alt="" />
+            <div class="popup_player_photo_wrapper">
+              <img class="popup_player_photo" src="" alt="" />
+            </div>
+            <h2 class="popup_player_points_title">
+              <span class="popup_player_points"></span> оч.
+            </h2>
+          </div>
+          <div class="popup_running_line"></div>
+          <div class="popup_footer">
+            <div class="popup_player_team_wrapper">
+              <img class="popup_player_team" src="" alt="" />
+            </div>
+            <div class="popup_player_name">
+              <h2 class="popup_player_firstName"></h2>
+              <h1 class="popup_player_lastName"></h1>
+            </div>
+          </div>
         </div>
-        <div class="gallery"></div>
+        <div class="popup_buttons"></div>
+        <div class="tour_result_wrapper">
+          <div class="tour_result">
+            <p class="home_team"></p>
+            <img class="home_team_logo" src="" alt="" />
+            <p class="match_score"></p>
+            <img class="guess_team_logo" src="" alt="" />
+            <p class="guess_team"></p>
+          </div>
+        </div>
+        <div class="tour_statistics"></div>
+        <h3 class="general_statistics_title">Этот сезон</h3>
+        <div class="general_statistics"></div>
       </div>
     </div>
-    <div class="popup slide-popup">
-      <div class="controls_button close"></div>
-      <div class="controls_button prev"></div>
-      <div class="controls_button next"></div>
-      <div class="popup-content">
-        <div class="slide_wrapper"></div>
-      </div>
-    </div>
-    <template id="cover-template">
-      <div class="covers_item">
-        <img class="cover_img" src="" alt="" />
-        <div class="cover_information">
-          <p class="cover_number"></p>
-          <p class="cover_title"></p>
+    <template id="player-template">
+      <div class="player_item">
+        <div class="player_photo_wrapper">
+          <img class="player_photo" src="" alt="" />
+          <div class="player_totalPoints_wrapper"></div>
+        </div>
+        <div class="player_running_line"></div>
+        <div class="player_name">
+          <p class="player_firstName"></p>
+          <p class="player_lastName"></p>
         </div>
       </div>
     </template>
 
-    <script src="./scripts/database.js"></script>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
