@@ -2026,14 +2026,14 @@ function createPlayerElement(playerData, leagueKey, parentKey, playerKey) {
       homeTeamElement.textContent = homeTeam;
 
       const homeLogo = document.createElement("img");
-      homeLogo.src = teams[homeTeam];
+      homeLogo.src = `${locationOfTheImages}logos/teams/${teams[homeTeam]}.png`;
       homeLogo.alt = `Логотип ${homeTeam}`;
 
       const awayTeamElement = document.createElement("p");
       awayTeamElement.textContent = awayTeam;
 
       const awayLogo = document.createElement("img");
-      awayLogo.src = teams[awayTeam];
+      awayLogo.src = `${locationOfTheImages}logos/teams/${teams[awayTeam]}.png`;
       awayLogo.alt = `Логотип ${awayTeam}`;
 
       [homeLogo, awayLogo].forEach((logo) =>
