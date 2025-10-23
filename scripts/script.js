@@ -75,6 +75,13 @@ const players = {
             cleanSheet: [true, 4],
             saves: [3, 1],
           },
+          3: {
+            teams: ["Арсенал", "Атлетико"],
+            result: "4-0",
+            minutesOnField: [90, 2],
+            cleanSheet: [true, 4],
+            saves: [1, 0],
+          },
         },
       },
     },
@@ -147,6 +154,15 @@ const players = {
             goals: [1, 6],
             tackles: [2, 0],
           },
+          3: {
+            teams: ["Юнион", "Интер"],
+            result: "0-4",
+            minutesOnField: [77, 2],
+            cleanSheet: [true, 4],
+            goals: [1, 6],
+            tackles: [10, 3],
+            playerOfTheMatch: [true, 3],
+          },
         },
         seriaA: {
           6: {
@@ -199,6 +215,22 @@ const players = {
             missedGoals: [3, -1],
             tackles: [undefined, 1],
             shotAfterGoal: [1, 3],
+          },
+        },
+      },
+    },
+    gvardiol: {
+      firstName: "Йошко",
+      lastName: "Гвардиол",
+      team: "Манчестер Сити",
+      stats: {
+        ucl: {
+          3: {
+            teams: ["Вильярреал", "Манчестер Сити"],
+            result: "0-2",
+            minutesOnField: [90, 2],
+            cleanSheet: [true, 4],
+            tackles: [7, 2],
           },
         },
       },
@@ -402,6 +434,13 @@ const players = {
             yellowCard: [1, -1],
             tackles: [4, 1],
           },
+          3: {
+            teams: ["Монако", "Тоттенхэм"],
+            result: "0-0",
+            minutesOnField: [90, 2],
+            cleanSheet: [true, 4],
+            tackles: [8, 2],
+          },
         },
       },
     },
@@ -415,6 +454,13 @@ const players = {
             teams: ["Аталанта", "Комо"],
             result: "1-1",
             minutesOnField: [90, 2],
+            tackles: [undefined, 1],
+          },
+          7: {
+            teams: ["Аталанта", "Лацио"],
+            result: "0-0",
+            minutesOnField: [90, 2],
+            cleanSheet: [true, 4],
             tackles: [undefined, 1],
           },
         },
@@ -435,6 +481,14 @@ const players = {
             cleanSheet: [true, 1],
             assists: [1, 3],
             tackles: [2, 0],
+          },
+          3: {
+            teams: ["Реал Мадрид", "Ювентус"],
+            result: "1-0",
+            minutesOnField: [74, 2],
+            cleanSheet: [true, 1],
+            tackles: [2, 0],
+            playerOfTheMatch: [true, 3],
           },
         },
         laLiga: {
@@ -507,6 +561,13 @@ const players = {
             minutesOnField: [90, 2],
             cleanSheet: [true, 1],
             tackles: [4, 1],
+          },
+          3: {
+            teams: ["Юнион", "Интер"],
+            result: "0-4",
+            minutesOnField: [59, 1],
+            goals: [1, 5],
+            tackles: [2, 0],
           },
         },
         seriaA: {
@@ -615,6 +676,13 @@ const players = {
             minutesOnField: [90, 2],
             cleanSheet: [true, 1],
           },
+          3: {
+            teams: ["Монако", "Тоттенхэм"],
+            result: "0-0",
+            minutesOnField: [79, 2],
+            cleanSheet: [true, 1],
+            tackles: [2, 0],
+          },
         },
       },
     },
@@ -665,6 +733,13 @@ const players = {
             assists: [2, 6],
             goals: [1, 5],
             tackles: [3, 1],
+          },
+          3: {
+            teams: ["Бавария", "Брюгге"],
+            result: "4-0",
+            minutesOnField: [90, 2],
+            cleanSheet: [true, 1],
+            tackles: [2, 0],
           },
         },
       },
@@ -809,7 +884,13 @@ const players = {
       lastName: "Дэвис",
       team: "Удинезе",
       stats: {
-        seriaA: {},
+        seriaA: {
+          7: {
+            teams: ["Кремонезе", "Удинезе"],
+            result: "1-1",
+            minutesOnField: [15, 1],
+          },
+        },
       },
     },
     ettaEyong: {
@@ -838,6 +919,14 @@ const players = {
       lastName: "Холанд",
       team: "Манчестер Сити",
       stats: {
+        ucl: {
+          3: {
+            teams: ["Вильярреал", "Манчестер Сити"],
+            result: "0-2",
+            minutesOnField: [86, 2],
+            goals: [1, 4],
+          },
+        },
         pl: {
           7: {
             teams: ["Брентфорд", "Манчестер Сити"],
@@ -879,6 +968,14 @@ const players = {
             minutesOnField: [64, 2],
             goals: [2, 8],
             playerOfTheMatch: [true, 3],
+            captain: true,
+          },
+          3: {
+            teams: ["Бавария", "Брюгге"],
+            result: "4-0",
+            minutesOnField: [69, 2],
+            goals: [1, 4],
+            tackles: [1, 0],
             captain: true,
           },
         },
@@ -926,6 +1023,12 @@ const players = {
             goals: [3, 12],
             outsideTheBox: [1, 1],
             playerOfTheMatch: [true, 3],
+          },
+          3: {
+            teams: ["Реал Мадрид", "Ювентус"],
+            result: "1-0",
+            minutesOnField: [90, 2],
+            tackles: [1, 0],
           },
         },
         laLiga: {
@@ -1481,6 +1584,16 @@ const activeTeams = {
   },
   "Манчестер Сити": {
     color: ["fff", "6caddf"],
+    opponents_ucl: [
+      "Наполи",
+      "Монако",
+      "Вильярреал",
+      "Боруссия Дортмунд",
+      "Байер",
+      "Реал Мадрид",
+      "Буде-Глимт",
+      "Галатасарай",
+    ],
     opponents_pl: [
       "Брентфорд",
       "Эвертон",
