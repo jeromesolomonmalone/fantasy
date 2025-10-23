@@ -1951,6 +1951,7 @@ const teams = {
   "Вест Хэм": "West_Ham",
   Вильярреал: "Villarreal",
   Вулверхэмптон: "Wolverhampton",
+  Галатасарай: "Galatasaray",
   "Депортиво Алавес": "Deportivo_Alaves",
   Дженоа: "Genoa",
   Жирона: "Girona",
