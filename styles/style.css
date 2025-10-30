@@ -826,7 +826,8 @@ body::-webkit-scrollbar,
   position: absolute;
   right: 0;
   object-fit: contain;
-  transform: translateX(50%);
+  opacity: 0;
+  transform: translateX(30%);
   inline-size: auto;
   block-size: 100px;
 }
@@ -1076,5 +1077,9 @@ body::-webkit-scrollbar,
   .general_statistics_title {
     font-size: 24px;
     line-height: 24px;
+  }
+
+  .main_stats_img {
+    transform: translateX(35%);
   }
 }

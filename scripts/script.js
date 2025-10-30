@@ -3270,9 +3270,12 @@ function createPlayerElement(playerData, leagueKey, parentKey, playerKey) {
       container.querySelector(".main_stats_value").textContent = value;
       container.querySelector(".main_stats_description").textContent =
         translate(term, value);
-      container.querySelector(
-        ".main_stats_img"
-      ).src = `${locationOfTheImages}icons/${icon}.png`;
+      const img = container.querySelector(".main_stats_img");
+      img.style.opacity = "0";
+      img.src = `${locationOfTheImages}icons/${icon}.png`;
+      img.addEventListener("load", () => {
+        img.style.opacity = "1";
+      });
     };
     const matchesCount = Object.keys(stats).filter(
       (k) => !["teams", "result"].includes(k)
