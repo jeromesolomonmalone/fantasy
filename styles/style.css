@@ -1,6 +1,7 @@
 :root {
   --background-body: #161616;
   --background-header: #262624;
+  --background-active: #444441;
   --color-light: white;
   --color-primary: #f7f7f6;
   --color-secondary: #a7a6a1;
@@ -10,6 +11,7 @@
   --font-family-primary: "Sofia Sans Extra Condensed Variable",
     "Sofia Sans Extra Condensed", sans-serif;
   --font-family-secondary: "Source Sans 3 Variable", "Source Sans 3", sans-serif;
+  --font-family-table-header: "Inter Tight Variable", "Inter Tight", sans-serif;
   --font-weight-bold: 850;
   --font-weight-medium: 650;
   --font-weight-normal: 600;
@@ -194,9 +196,15 @@ body::-webkit-scrollbar,
 }
 
 .main {
+  display: flex;
+  justify-content: space-between;
   margin-block-start: 24px;
   font-family: var(--font-family-primary);
+}
+
+.players_list {
   text-transform: uppercase;
+  inline-size: 66%;
 }
 
 .position_title {
@@ -306,6 +314,59 @@ body::-webkit-scrollbar,
   line-height: 20px;
   background-color: var(--blue-accent);
   block-size: 56px;
+}
+
+.main_standings {
+  font-family: var(--font-family-table-header);
+  inline-size: 32%;
+}
+
+.main_standings div {
+  display: grid;
+  grid-template-columns: 16px 1fr 62px;
+  padding: 0 16px 0 8px;
+}
+
+.standings_header {
+  color: var(--color-secondary);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.standings_team {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-normal);
+  font-size: 16px;
+  background: var(--background-header);
+}
+
+.standings_team:not(:last-child) {
+  margin-block-end: 2px;
+}
+
+.standings_team_is-active {
+  background: var(--background-active);
+}
+
+.standings_header p,
+.standings_team p {
+  margin: 0 4px;
+  padding: 12px 0;
+}
+
+.main_standings div p:first-child {
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+.main_standings div p:last-child {
+  text-align: center;
+}
+
+.standings_team p:first-child {
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-bold);
 }
 
 .popup {
@@ -477,6 +538,15 @@ body::-webkit-scrollbar,
   font-size: 96px;
   line-height: 96px;
   white-space: nowrap;
+}
+
+.popup_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup_left {
+  inline-size: 66%;
 }
 
 .popup_buttons {
@@ -698,7 +768,7 @@ body::-webkit-scrollbar,
 }
 
 .general_statistics_title {
-  margin: 24px 0 16px;
+  margin-block-end: 16px;
   padding: 4px 16px;
   color: var(--color-tertiary);
   font-family: var(--font-family-primary);
@@ -706,6 +776,59 @@ body::-webkit-scrollbar,
   font-size: 34px;
   line-height: 34px;
   text-transform: uppercase;
+}
+
+.general_statistics_title:not(:first-child) {
+  margin-block-start: 24px;
+}
+
+.general_statistics_title:first-child {
+  display: none;
+}
+
+.popup_right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: start;
+  gap: 16px;
+  inline-size: 32%;
+}
+
+.main_stats {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 109px;
+  border-radius: 2px;
+  padding: 0 24px;
+  overflow: hidden;
+  background: var(--background-header);
+}
+
+.main_stats_value {
+  color: var(--color-primary);
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-bold);
+  font-size: 56px;
+  line-height: 60px;
+}
+
+.main_stats_description {
+  color: var(--color-secondary);
+  font-size: 12px;
+  line-height: 16.8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.main_stats_img {
+  position: absolute;
+  right: 0;
+  object-fit: contain;
+  transform: translateX(50%);
+  inline-size: auto;
+  block-size: 100px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -741,6 +864,27 @@ body::-webkit-scrollbar,
     gap: 4px;
   }
 
+  .main {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+
+  .players_list {
+    inline-size: 100%;
+  }
+
+  .main_standings {
+    inline-size: 100%;
+  }
+
+  .standings_header p {
+    padding: 7.5px 0;
+  }
+
+  .main_standings .standings_team_is-inactive {
+    display: none;
+  }
+
   .popup-content {
     padding: 32px 16px;
   }
@@ -764,6 +908,7 @@ body::-webkit-scrollbar,
     margin: 0;
     padding: 0 8px;
     block-size: 236px;
+    min-block-size: 236px;
   }
 
   .popup_player_photo_wrapper {
@@ -828,6 +973,23 @@ body::-webkit-scrollbar,
     font-size: 40px;
     line-height: 40px;
   }
+
+  .general_statistics_title:first-child {
+    display: inline-block;
+  }
+
+  .popup_main {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+
+  .popup_left {
+    inline-size: 100%;
+  }
+
+  .popup_right {
+    inline-size: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -867,6 +1029,10 @@ body::-webkit-scrollbar,
 
   .player_totalPoints_wrapper div {
     gap: 1.5%;
+  }
+
+  .main_standings div {
+    padding: 0 4px;
   }
 
   .popup-content {

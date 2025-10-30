@@ -13,6 +13,13 @@
 }
 
 @font-face {
+  font-family: "Inter Tight Variable";
+  src: url(./InterTight-VariableFont_wght.ttf) format("truetype");
+  font-weight: 400 900;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Sofia Sans Extra Condensed";
   src: url(./SofiaSansExtraCondensed-Regular.ttf) format("truetype");
   font-weight: 400;
@@ -92,6 +99,34 @@
 @font-face {
   font-family: "Source Sans 3";
   src: url(./SourceSans3-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url(./InterTight-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url(./InterTight-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url(./InterTight-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url(./InterTight-Black.ttf) format("truetype");
   font-weight: 900;
   font-display: swap;
 }
