@@ -1,1 +1,1 @@
-https://jeromesolomonmalone.github.io/fantasy/
+https://shoneal.github.io/fantasy/

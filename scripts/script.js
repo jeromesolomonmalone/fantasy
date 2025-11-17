@@ -2812,7 +2812,7 @@ const leagues = {
   seriaA: {
     name: "Seria A",
     background:
-      "url(https://jeromesolomonmalone.github.io/fantasy/images/other/seriA_cover.webp) no-repeat center center / cover",
+      "url(https://shoneal.github.io/fantasy/images/other/seriA_cover.webp) no-repeat center center / cover",
     button: "#2047e3",
     players: {
       Камиль: 229,
@@ -2902,7 +2902,7 @@ function translate(term, value) {
     : data[2];
 }
 const locationOfTheImages =
-  "https://jeromesolomonmalone.github.io/fantasy/images/";
+  "https://shoneal.github.io/fantasy/images/";
 
 const headerButtons = document.querySelector(".header_buttons");
 function createButton(league, key, isActive) {
