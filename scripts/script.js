@@ -1,5 +1,21 @@
 const players = {
   goalkeepers: {
+    chevalier: {
+      firstName: "Люка",
+      lastName: "Шевалье",
+      team: "ПСЖ",
+      price: {
+        ucl: 4.5,
+      },
+      stats: {
+        ucl: {
+          5: {
+            teams: ["ПСЖ", "Тоттенхэм"],
+            result: "0-0",
+          },
+        },
+      },
+    },
     maignan: {
       firstName: "Майк",
       lastName: "Меньян",
@@ -50,6 +66,14 @@ const players = {
             minutesOnField: [90, 2],
             missedGoals: [2, -1],
             saves: [3, 1],
+          },
+          12: {
+            teams: ["Интер", "Милан"],
+            result: "0-1",
+            minutesOnField: [90, 2],
+            cleanSheet: [true, 4],
+            saves: [6, 2],
+            savingPenalty: [1, 5],
           },
         },
       },
@@ -212,6 +236,27 @@ const players = {
         },
       },
     },
+    verbruggen: {
+      firstName: "Барт",
+      lastName: "Вербрюгген",
+      team: "Брайтон",
+      price: {
+        pl: 5,
+      },
+      stats: {
+        pl: {
+          12: {
+            teams: ["Брайтон", "Брентфорд"],
+            result: "2-1",
+            minutesOnField: [90, 2],
+            missedGoals: [1, 0],
+            saves: [3, 1],
+            savingPenalty: [1, 5],
+            yellowCard: [1, -1],
+          },
+        },
+      },
+    },
   },
   defenders: {
     berchiche: {
@@ -228,6 +273,12 @@ const players = {
             result: "3-1",
             minutesOnField: [90, 2],
             cleanSheet: [true, 4],
+          },
+          13: {
+            teams: ["Барселона", "Атлетик Бильбао"],
+            result: "4-0",
+            minutesOnField: [90, 2],
+            missedGoals: [4, -2],
           },
         },
       },
@@ -386,6 +437,14 @@ const players = {
             cleanSheet: [true, 4],
             tackles: [undefined, 1],
           },
+          12: {
+            teams: ["Кремонезе", "Рома"],
+            result: "1-3",
+            minutesOnField: [80, 2],
+            goals: [1, 6],
+            cleanSheet: [true, 4],
+            tackles: [undefined, 1],
+          },
         },
       },
     },
@@ -459,6 +518,14 @@ const players = {
             cleanSheet: [true, 4],
             tackles: [undefined, 1],
           },
+          12: {
+            teams: ["Вулверхэмптон", "Кристал Пэлас"],
+            result: "0-2",
+            minutesOnField: [90, 2],
+            cleanSheet: [true, 4],
+            yellowCard: [1, -1],
+            tackles: [undefined, 1],
+          },
         },
       },
     },
@@ -521,6 +588,14 @@ const players = {
             missedGoals: [1, 0],
             tackles: [undefined, 1],
           },
+          13: {
+            teams: ["Эльче", "Реал Мадрид"],
+            result: "2-2",
+            minutesOnField: [90, 2],
+            goals: [1, 6],
+            missedGoals: [2, -1],
+            tackles: [undefined, 1],
+          },
         },
       },
     },
@@ -529,9 +604,20 @@ const players = {
       lastName: "Кунде",
       team: "Барселона",
       price: {
+        ucl: 5.5,
         laLiga: 6,
       },
       stats: {
+        ucl: {
+          5: {
+            teams: ["Челси", "Барселона"],
+            result: "3-0",
+            minutesOnField: [90, 2],
+            missedGoals: [3, -1],
+            ownGoal: [1, -2],
+            tackles: [9, 3],
+          },
+        },
         laLiga: {
           8: {
             teams: ["Севилья", "Барселона"],
@@ -559,6 +645,12 @@ const players = {
             minutesOnField: [90, 2],
             missedGoals: [1, 0],
             tackles: [undefined, 1],
+          },
+          13: {
+            teams: ["Барселона", "Атлетик Бильбао"],
+            result: "4-0",
+            minutesOnField: [90, 2],
+            cleanSheet: [true, 4],
           },
         },
       },
@@ -640,6 +732,30 @@ const players = {
             tackles: [undefined, 2],
             assists: [1, 3],
           },
+          13: {
+            teams: ["Хетафе", "Атлетико"],
+            result: "0-1",
+            minutesOnField: [14, 1],
+          },
+        },
+      },
+    },
+    mitchell: {
+      firstName: "Тайрик",
+      lastName: "Митчелл",
+      team: "Кристал Пэлас",
+      price: {
+        pl: 5,
+      },
+      stats: {
+        pl: {
+          12: {
+            teams: ["Вулверхэмптон", "Кристал Пэлас"],
+            result: "0-2",
+            minutesOnField: [90, 2],
+            cleanSheet: [true, 4],
+            tackles: [undefined, 2],
+          },
         },
       },
     },
@@ -693,6 +809,45 @@ const players = {
             cleanSheet: [true, 4],
             tackles: [undefined, 2],
           },
+          12: {
+            teams: ["Кремонезе", "Рома"],
+            result: "1-3",
+            minutesOnField: [80, 2],
+            missedGoals: [1, 0],
+            tackles: [undefined, 1],
+          },
+        },
+      },
+    },
+    nunoMendes: {
+      firstName: "Нуну",
+      lastName: "Мендеш",
+      team: "ПСЖ",
+      price: {
+        ucl: 6.3,
+      },
+      stats: {
+        ucl: {
+          5: {
+            teams: ["ПСЖ", "Тоттенхэм"],
+            result: "0-0",
+          },
+        },
+      },
+    },
+    pacho: {
+      firstName: "Виллиан",
+      lastName: "Пачо",
+      team: "ПСЖ",
+      price: {
+        ucl: 5,
+      },
+      stats: {
+        ucl: {
+          5: {
+            teams: ["ПСЖ", "Тоттенхэм"],
+            result: "0-0",
+          },
         },
       },
     },
@@ -736,6 +891,13 @@ const players = {
             result: "2-2",
             minutesOnField: [90, 2],
             missedGoals: [2, -1],
+          },
+          12: {
+            teams: ["Арсенал", "Тоттенхэм"],
+            result: "4-1",
+            minutesOnField: [90, 2],
+            missedGoals: [1, 0],
+            tackles: [undefined, 1],
           },
         },
       },
@@ -789,6 +951,7 @@ const players = {
       team: "Арсенал",
       price: {
         ucl: 5,
+        pl: 6,
       },
       stats: {
         ucl: {
@@ -798,6 +961,16 @@ const players = {
             minutesOnField: [73, 2],
             cleanSheet: [true, 4],
             tackles: [2, 0],
+          },
+        },
+        pl: {
+          12: {
+            teams: ["Арсенал", "Тоттенхэм"],
+            result: "4-1",
+            minutesOnField: [90, 2],
+            missedGoals: [1, 0],
+            tackles: [undefined, 1],
+            assists: [1, 3],
           },
         },
       },
@@ -1002,6 +1175,12 @@ const players = {
             fullMatch: [true, 1],
             cleanSheet: [true, 1],
           },
+          13: {
+            teams: ["Эльче", "Реал Мадрид"],
+            result: "2-2",
+            minutesOnField: [64, 2],
+            tackles: [undefined, 1],
+          },
         },
       },
     },
@@ -1010,9 +1189,16 @@ const players = {
       lastName: "Беллингем",
       team: "Реал Мадрид",
       price: {
+        ucl: 8.4,
         laLiga: 9.5,
       },
       stats: {
+        ucl: {
+          5: {
+            teams: ["Олимпиакос", "Реал Мадрид"],
+            result: "0-0",
+          },
+        },
         laLiga: {
           11: {
             teams: ["Реал Мадрид", "Валенсия"],
@@ -1175,6 +1361,14 @@ const players = {
             tackles: [undefined, 1],
             captain: true,
           },
+          12: {
+            teams: ["Интер", "Милан"],
+            result: "0-1",
+            minutesOnField: [78, 2],
+            missingPenalty: [1, -2],
+            yellowCard: [1, -1],
+            captain: true,
+          },
         },
       },
     },
@@ -1212,6 +1406,13 @@ const players = {
             minutesOnField: [90, 2],
             fullMatch: [true, 1],
             tackles: [undefined, 2],
+          },
+          13: {
+            teams: ["Валенсия", "Леванте"],
+            result: "1-0",
+            minutesOnField: [73, 2],
+            cleanSheet: [true, 1],
+            tackles: [undefined, 1],
           },
         },
       },
@@ -1258,6 +1459,23 @@ const players = {
         },
       },
     },
+    fermin: {
+      firstName: "Фермин",
+      lastName: "Лопес",
+      team: "Барселона",
+      price: {
+        ucl: 6.7,
+      },
+      stats: {
+        ucl: {
+          5: {
+            teams: ["Челси", "Барселона"],
+            result: "3-0",
+            minutesOnField: [62, 2],
+          },
+        },
+      },
+    },
     gravenberch: {
       firstName: "Райан",
       lastName: "Гравенберх",
@@ -1272,6 +1490,14 @@ const players = {
             result: "2-1",
             minutesOnField: [90, 2],
             fullMatch: [true, 1],
+            tackles: [undefined, 1],
+          },
+          12: {
+            teams: ["Ливерпуль", "Ноттингем Форест"],
+            result: "0-3",
+            minutesOnField: [90, 2],
+            fullMatch: [true, 1],
+            yellowCard: [1, -1],
             tackles: [undefined, 1],
           },
         },
@@ -1364,6 +1590,11 @@ const players = {
             minutesOnField: [90, 2],
             fullMatch: [true, 1],
           },
+          12: {
+            teams: ["Фиорентина", "Ювентус"],
+            result: "1-1",
+            minutesOnField: [66, 2],
+          },
         },
       },
     },
@@ -1424,6 +1655,14 @@ const players = {
             goals: [1, 5],
             tackles: [undefined, 1],
           },
+          12: {
+            teams: ["Манчестер Юнайтед", "Эвертон"],
+            result: "0-1",
+            minutesOnField: [90, 2],
+            fullMatch: [true, 1],
+            yellowCard: [1, -1],
+            tackles: [undefined, 1],
+          },
         },
       },
     },
@@ -1432,9 +1671,22 @@ const players = {
       lastName: "Мактоминей",
       team: "Наполи",
       price: {
+        ucl: 7,
         seriaA: 11,
       },
       stats: {
+        ucl: {
+          5: {
+            teams: ["Наполи", "Карабах"],
+            result: "2-0",
+            minutesOnField: [90, 2],
+            assists: [1, 3],
+            goals: [1, 5],
+            cleanSheet: [true, 1],
+            tackles: [5, 1],
+            playerOfTheMatch: [true, 3],
+          },
+        },
         seriaA: {
           9: {
             teams: ["Лечче", "Наполи"],
@@ -1480,6 +1732,14 @@ const players = {
             fullMatch: [true, 1],
             cleanSheet: [true, 1],
             tackles: [undefined, 1],
+          },
+          12: {
+            teams: ["Кремонезе", "Рома"],
+            result: "1-3",
+            minutesOnField: [90, 2],
+            fullMatch: [true, 1],
+            tackles: [undefined, 1],
+            assists: [1, 3],
           },
         },
       },
@@ -1541,6 +1801,14 @@ const players = {
             minutesOnField: [90, 2],
             fullMatch: [true, 1],
             yellowCard: [1, -1],
+            tackles: [undefined, 2],
+          },
+          12: {
+            teams: ["Интер", "Милан"],
+            result: "0-1",
+            minutesOnField: [90, 2],
+            fullMatch: [true, 1],
+            cleanSheet: [true, 1],
             tackles: [undefined, 2],
           },
         },
@@ -1632,6 +1900,13 @@ const players = {
             yellowCard: [1, -1],
             tackles: [undefined, 2],
           },
+          12: {
+            teams: ["Торино", "Комо"],
+            result: "1-5",
+            minutesOnField: [84, 2],
+            goals: [1, 5],
+            tackles: [undefined, 2],
+          },
         },
       },
     },
@@ -1713,6 +1988,24 @@ const players = {
         },
       },
     },
+    vargas: {
+      firstName: "Рубен",
+      lastName: "Варгас",
+      team: "Севилья",
+      price: {
+        laLiga: 6.5,
+      },
+      stats: {
+        laLiga: {
+          13: {
+            teams: ["Эспаньол", "Севилья"],
+            result: "2-1",
+            minutesOnField: [54, 1],
+            tackles: [undefined, 1],
+          },
+        },
+      },
+    },
     xhaka: {
       firstName: "Гранит",
       lastName: "Джака",
@@ -1727,6 +2020,31 @@ const players = {
             result: "1-2",
             minutesOnField: [90, 2],
             fullMatch: [true, 1],
+          },
+          12: {
+            teams: ["Фулхэм", "Сандерленд"],
+            result: "1-0",
+            minutesOnField: [90, 2],
+            fullMatch: [true, 1],
+            tackles: [undefined, 1],
+          },
+        },
+      },
+    },
+    yamal: {
+      firstName: "Ламин",
+      lastName: "Ямаль",
+      team: "Барселона",
+      price: {
+        ucl: 9.9,
+      },
+      stats: {
+        ucl: {
+          5: {
+            teams: ["Челси", "Барселона"],
+            result: "3-0",
+            minutesOnField: [80, 2],
+            tackles: [4, 1],
           },
         },
       },
@@ -1916,6 +2234,13 @@ const players = {
             assists: [1, 3],
             captain: true,
           },
+          13: {
+            teams: ["Хетафе", "Атлетико"],
+            result: "0-1",
+            minutesOnField: [59, 1],
+            yellowCard: [1, -1],
+            captain: true,
+          },
         },
       },
     },
@@ -2044,6 +2369,11 @@ const players = {
             fullMatch: [true, 1],
             tackles: [undefined, 1],
           },
+          13: {
+            teams: ["Валенсия", "Леванте"],
+            result: "1-0",
+            minutesOnField: [70, 2],
+          },
         },
       },
     },
@@ -2069,6 +2399,12 @@ const players = {
             minutesOnField: [86, 2],
             goals: [1, 4],
             captain: true,
+          },
+          5: {
+            teams: ["Манчестер Сити", "Байер"],
+            result: "0-2",
+            minutesOnField: [25, 1],
+            tackles: [1, 0],
           },
         },
         pl: {
@@ -2109,6 +2445,13 @@ const players = {
             fullMatch: [true, 1],
             goals: [1, 4],
             missingPenalty: [1, -2],
+          },
+          12: {
+            teams: ["Ньюкасл", "Манчестер Сити"],
+            result: "2-1",
+            minutesOnField: [90, 2],
+            fullMatch: [true, 1],
+            captain: true,
           },
         },
       },
@@ -2172,6 +2515,14 @@ const players = {
             fullMatch: [true, 1],
             yellowCard: [1, -1],
           },
+          12: {
+            teams: ["Фиорентина", "Ювентус"],
+            result: "1-1",
+            minutesOnField: [90, 2],
+            fullMatch: [true, 1],
+            tackles: [undefined, 2],
+            assists: [1, 3],
+          },
         },
       },
     },
@@ -2207,6 +2558,11 @@ const players = {
             result: "0-0",
             minutesOnField: [90, 2],
             fullMatch: [true, 1],
+          },
+          12: {
+            teams: ["Вулверхэмптон", "Кристал Пэлас"],
+            result: "0-2",
+            minutesOnField: [60, 2],
           },
         },
       },
@@ -2248,6 +2604,10 @@ const players = {
             result: "1-0",
             minutesOnField: [90, 2],
           },
+          5: {
+            teams: ["Олимпиакос", "Реал Мадрид"],
+            result: "0-0",
+          },
         },
         laLiga: {
           8: {
@@ -2284,6 +2644,14 @@ const players = {
             minutesOnField: [90, 2],
             fullMatch: [true, 1],
           },
+          13: {
+            teams: ["Эльче", "Реал Мадрид"],
+            result: "2-2",
+            minutesOnField: [90, 2],
+            fullMatch: [true, 1],
+            yellowCard: [1, -1],
+            assists: [1, 3],
+          },
         },
       },
     },
@@ -2293,6 +2661,7 @@ const players = {
       team: "Интер",
       price: {
         ucl: 8.3,
+        seriaA: 9.5,
       },
       stats: {
         ucl: {
@@ -2303,6 +2672,14 @@ const players = {
             assists: [1, 3],
             tackles: [1, 0],
             playerOfTheMatch: [true, 3],
+          },
+        },
+        seriaA: {
+          12: {
+            teams: ["Интер", "Милан"],
+            result: "0-1",
+            minutesOnField: [90, 2],
+            fullMatch: [true, 1],
           },
         },
       },
@@ -2322,6 +2699,11 @@ const players = {
             minutesOnField: [79, 2],
             goals: [1, 4],
             tackles: [3, 1],
+          },
+          5: {
+            teams: ["Аякс", "Бенфика"],
+            result: "0-2",
+            minutesOnField: [89, 2],
           },
         },
       },
@@ -2370,6 +2752,13 @@ const players = {
             teams: ["Кристал Пэлас", "Брайтон"],
             result: "0-0",
             minutesOnField: [85, 2],
+          },
+          12: {
+            teams: ["Брайтон", "Брентфорд"],
+            result: "2-1",
+            minutesOnField: [90, 2],
+            fullMatch: [true, 1],
+            goals: [1, 4],
           },
         },
       },
@@ -2574,6 +2963,16 @@ const activeTeams = {
   },
   Барселона: {
     color: ["004d98", "a50044"],
+    opponents_ucl: [
+      "Ньюкасл",
+      "ПСЖ",
+      "Олимпиакос",
+      "Брюгге",
+      "Челси",
+      "Айнтрахт Франкфурт",
+      "Славия",
+      "Копенгаген",
+    ],
     opponents_laLiga: [
       "Севилья",
       "Жирона",
@@ -3330,6 +3729,42 @@ const activeTeams = {
       "Челси",
     ],
   },
+  Севилья: {
+    color: ["fff", "d70f21"],
+    opponents_laLiga: [
+      "Барселона",
+      "Мальорка",
+      "Реал Сосьедад",
+      "Атлетико",
+      "Осасуна",
+      "Эспаньол",
+      "Бетис",
+      "Валенсия",
+      "Реал Овьедо",
+      "Реал Мадрид",
+      "Леванте",
+      "Сельта",
+      "Эльче",
+      "Атлетик Бильбао",
+      "Мальорка",
+      "Жирона",
+      "Депортиво Алавес",
+      "Хетафе",
+      "Бетис",
+      "Райо Вальекано",
+      "Барселона",
+      "Валенсия",
+      "Реал Овьедо",
+      "Атлетико",
+      "Осасуна",
+      "Леванте",
+      "Реал Сосьедад",
+      "Эспаньол",
+      "Вильярреал",
+      "Реал Мадрид",
+      "Сельта",
+    ],
+  },
   Торино: {
     color: ["fff", "881f19"],
     opponents_seriaA: [
@@ -3644,7 +4079,7 @@ const leagues = {
     background: "linear-gradient(90deg,#37003c,#953bff)",
     button: "#37003c",
     players: {
-      Камиль: 311,
+      Камиль: 364,
     },
   },
   laLiga: {
@@ -3652,7 +4087,7 @@ const leagues = {
     background: "#ff4b44",
     button: "#ff4b44",
     players: {
-      Камиль: 298,
+      Камиль: 354,
     },
   },
   seriaA: {
@@ -3661,7 +4096,7 @@ const leagues = {
       "url(https://shoneal.github.io/fantasy/images/other/seriA_cover.webp) no-repeat center center / cover",
     button: "#2047e3",
     players: {
-      Камиль: 339,
+      Камиль: 387,
     },
   },
 }; // Данные лиг
@@ -4144,7 +4579,7 @@ function createPlayerElement(playerData, leagueKey, parentKey, playerKey) {
         0
       );
       diff1.querySelector(".main_stats_value").textContent = goals + assists;
-      diff1.querySelector(".main_stats_description").textContent = "Гол+пас";
+      diff1.querySelector(".main_stats_description").textContent = "гол+пас";
       diff1.querySelector(
         ".main_stats_img"
       ).src = `${locationOfTheImages}icons/shoes.png`;
