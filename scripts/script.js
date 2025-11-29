@@ -11,7 +11,10 @@ const players = {
         ucl: {
           5: {
             teams: ["ПСЖ", "Тоттенхэм"],
-            result: "0-0",
+            result: "5-3",
+            minutesOnField: [90, 2],
+            saves: [2, 0],
+            missedGoals: [3, -1],
           },
         },
       },
@@ -830,7 +833,10 @@ const players = {
         ucl: {
           5: {
             teams: ["ПСЖ", "Тоттенхэм"],
-            result: "0-0",
+            result: "5-3",
+            minutesOnField: [45, 1],
+            missedGoals: [1, 0],
+            tackles: [2, 0],
           },
         },
       },
@@ -846,7 +852,11 @@ const players = {
         ucl: {
           5: {
             teams: ["ПСЖ", "Тоттенхэм"],
-            result: "0-0",
+            result: "5-3",
+            minutesOnField: [90, 2],
+            goals: [1, 6],
+            missedGoals: [3, -1],
+            tackles: [4, 1],
           },
         },
       },
@@ -1196,7 +1206,9 @@ const players = {
         ucl: {
           5: {
             teams: ["Олимпиакос", "Реал Мадрид"],
-            result: "0-0",
+            result: "3-4",
+            minutesOnField: [29, 1],
+            tackles: [2, 0],
           },
         },
         laLiga: {
@@ -2606,7 +2618,12 @@ const players = {
           },
           5: {
             teams: ["Олимпиакос", "Реал Мадрид"],
-            result: "0-0",
+            result: "3-4",
+            minutesOnField: [90, 2],
+            goals: [4, 16],
+            outsideTheBox: [1, 1],
+            playerOfTheMatch: [true, 3],
+            captain: true,
           },
         },
         laLiga: {
@@ -4067,11 +4084,11 @@ const leagues = {
     background: "linear-gradient(93.5deg,#0232ff 0.59%,#010056 94.82%)",
     button: "#040a63",
     players: {
-      Камиль: 379,
-      Хидир: 325,
-      Эрик: 275,
-      Карузо: 308,
-      Аскольд: 218,
+      Камиль: 454,
+      Хидир: 382,
+      Эрик: 359,
+      Карузо: 415,
+      Аскольд: 272,
     },
   },
   pl: {
